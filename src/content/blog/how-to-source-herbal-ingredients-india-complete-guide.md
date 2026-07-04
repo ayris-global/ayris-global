@@ -1,4 +1,4 @@
----
+﻿---
 title: "How to Source Herbal Ingredients from India: The Complete Buyer's Guide"
 description: "A step-by-step guide for international supplement brands, food manufacturers, and ingredient buyers on how to source herbal ingredients from India - covering supplier qualification, documentation, quality testing, regulatory compliance, certifications, pricing, and shipping."
 pubDate: 2026-07-18
@@ -114,7 +114,7 @@ A COA lacking any of these elements, referencing an unaccredited laboratory, or 
 
 **Independent verification.** For high-value or high-volume sourcing, send your sample to an independent third-party laboratory in your destination country for identity confirmation and key parameter verification before placing a commercial order. This adds cost but provides objective assurance independent of the supplier's own testing.
 
-For a detailed breakdown of testing standards by destination market, see our forthcoming guide: Quality Testing Standards for Indian Herbal Ingredients: USP, EP, Heavy Metals, Microbial, and Pesticide Requirements.
+For a detailed breakdown of testing standards by destination market, see our [quality testing guide for Indian herbal ingredients](/blog/quality-testing-indian-herbal-ingredients-supplier/).
 
 ---
 
