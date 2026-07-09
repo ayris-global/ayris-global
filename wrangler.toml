@@ -1,0 +1,7 @@
+name = "ayris-global"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "ayris_ewi_db"
+database_name = "ayris-ewi-db"
+database_id = "21cc3dd2-3e03-4917-8cef-c9c4d72012f5"
