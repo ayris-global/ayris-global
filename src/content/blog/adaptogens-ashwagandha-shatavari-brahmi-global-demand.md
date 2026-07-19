@@ -1,6 +1,6 @@
 ---
-title: "Adaptogens from India: Ashwagandha, Shatavari and Brahmi in Global Demand"
-description: "Why ashwagandha, shatavari and brahmi have become the three most commercially significant Indian adaptogens for global wellness brands, and what buyers need to know about specification, certification and sourcing each one."
+title: "Ashwagandha, Shatavari and Brahmi: Indian Adaptogen Sourcing Guide"
+description: "Source ashwagandha, shatavari and brahmi from GMP-certified Indian suppliers. Specifications, organic certification, MOQs and supplier qualification guide for global wellness buyers."
 pubDate: 2026-06-20
 category: "ingredients"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz"]
