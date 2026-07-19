@@ -1,6 +1,6 @@
 ---
-title: "South Korea and Indian Botanical Extracts: A Market Opportunity for Serious Suppliers"
-description: "South Korea is one of the world's most sophisticated wellness markets. Here is what Indian botanical extract suppliers need to understand about Korean buyer requirements, regulatory pathways, and the opportunity in 2025."
+title: "South Korea Botanical Extracts Market: Indian Supplier Guide"
+description: "Korean buyers sourcing Indian botanical extracts: MFDS regulatory pathway, documentation checklist, CEPA duty rates, MOQs, and sample process from verified Indian suppliers."
 pubDate: 2026-06-14
 category: "market-intelligence"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
