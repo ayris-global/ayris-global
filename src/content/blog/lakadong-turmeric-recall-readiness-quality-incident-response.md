@@ -4,6 +4,7 @@ description: "What a buyer should have in place before a Lakadong turmeric quali
 pubDate: 2026-10-04
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "traceability", "recall-readiness"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-recall-readiness-incident-response.jpg"
 imageAlt: "Warehouse worker checking batch labels on Lakadong turmeric cartons during a quality incident investigation"

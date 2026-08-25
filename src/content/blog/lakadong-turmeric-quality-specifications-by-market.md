@@ -4,6 +4,7 @@ description: "A comparative reference for the curcumin, heavy metal, pesticide r
 pubDate: 2026-09-01
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-quality-specifications-by-market.jpg"
 imageAlt: "Comparative laboratory specification chart for Lakadong turmeric quality parameters across international markets"

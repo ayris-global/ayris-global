@@ -4,6 +4,7 @@ description: "A practical guide to entering Brazil, Mexico, and the wider Latin 
 pubDate: 2026-06-28
 category: "market-intelligence"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["extracts", "powders", "market-entry"]
 author: "Ayris Global Editorial"
 featured: false
 image: "/images/blog/blog-latam-market-entry-herbal-ingredients-guide.jpg"

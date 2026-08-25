@@ -4,6 +4,7 @@ description: "Harvest seasonality, currency movement, freight cost, certificatio
 pubDate: 2026-09-28
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "pricing"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-pricing-trends-market-rate.jpg"
 imageAlt: "Line graph overlaid on turmeric harvest and shipping imagery showing price movement driven by seasonality, freight and currency factors"

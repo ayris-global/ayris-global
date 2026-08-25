@@ -4,6 +4,7 @@ description: "What MOQ to actually expect when sourcing herbal powders, standard
 pubDate: 2026-08-22
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["extracts", "powders", "essential-oils", "organic-certification", "moq"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-herbal-ingredient-pricing-cost-drivers-india.jpg"
 imageAlt: "Drums and sample jars of Indian herbal ingredients sized for different order quantities"

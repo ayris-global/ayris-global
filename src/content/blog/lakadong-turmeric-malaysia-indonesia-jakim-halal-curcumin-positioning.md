@@ -4,6 +4,7 @@ description: "How Lakadong turmeric competes against Indonesian and Thai turmeri
 pubDate: 2026-10-11
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "halal-certification", "jakim-halal"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-malaysia-indonesia-jakim-halal-curcumin.jpg"
 imageAlt: "Lakadong turmeric powder beside Malaysian and Indonesian halal certification symbols representing JAKIM certification and regional market positioning"

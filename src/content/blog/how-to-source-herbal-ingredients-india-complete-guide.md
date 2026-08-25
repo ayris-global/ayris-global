@@ -1,9 +1,10 @@
-﻿---
+---
 title: "How to Source Herbal Ingredients from India: The Complete Buyer's Guide"
 description: "A step-by-step guide for international supplement brands, food manufacturers, and ingredient buyers on how to source herbal ingredients from India - covering supplier qualification, documentation, quality testing, regulatory compliance, certifications, pricing, and shipping."
 pubDate: 2026-07-18
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["pricing", "incoterms-logistics", "quality-testing"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-how-to-source-herbal-ingredients-india-complete-guide.jpg"
 imageAlt: "International buyer reviewing herbal ingredient samples and documentation from an Indian supplier"

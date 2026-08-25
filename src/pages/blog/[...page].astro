@@ -1,0 +1,956 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await getCollection('blog');
+  const sorted = allPosts.sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  return paginate(sorted, { pageSize: 12 });
+}
+
+const { page } = Astro.props;
+
+// Full corpus, serialized once per generated page, used client-side for search/filter
+// (which must see every post, not just the current static page's slice).
+const allPostsForIndex = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const searchIndex = allPostsForIndex.map((post) => ({
+  slug: post.slug,
+  title: post.data.title,
+  description: post.data.description,
+  category: post.data.category,
+  region_tags: post.data.region_tags || [],
+  tags: post.data.tags || [],
+  pubDate: post.data.pubDate.toISOString(),
+  readingTime: post.data.readingTime || null,
+  image: post.data.image || null,
+  imageAlt: post.data.imageAlt || null,
+}));
+
+const categoryMeta: Record<string, { label: string; color: string }> = {
+  'ingredients': { label: 'Ingredients & Botanicals', color: '#15803D' },
+  'certifications': { label: 'Certifications & Compliance', color: '#7C3AED' },
+  'sourcing': { label: 'Sourcing & Trade', color: '#0F766E' },
+  'market-intelligence': { label: 'Market Intelligence', color: '#B45309' },
+};
+
+const regionMeta: Record<string, string> = {
+  'eu': 'EU',
+  'uk': 'UK',
+  'usa': 'USA',
+  'uae-gcc': 'UAE/GCC',
+  'japan': 'Japan',
+  'korea': 'Korea',
+  'anz': 'ANZ',
+  'sea': 'SEA',
+  'latam': 'LatAm',
+};
+
+const categoryKeys = ['all', ...Object.keys(categoryMeta)];
+const regionKeys = Object.keys(regionMeta);
+
+function catLabel(key: string) {
+  if (key === 'all') return 'All';
+  return categoryMeta[key]?.label || key;
+}
+
+function catColor(key: string) {
+  return categoryMeta[key]?.color || '#1B2B4B';
+}
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  });
+}
+
+const pageTitle = page.currentPage === 1
+  ? 'Sourcing Insights & Buyer Guides | Ayris Global'
+  : `Sourcing Insights & Buyer Guides - Page ${page.currentPage} | Ayris Global`;
+---
+
+<BaseLayout
+  title={pageTitle}
+  description="Expert guidance on sourcing certified Indian herbal ingredients - buyer guides, certification explainers, supplier evaluation checklists, and market intelligence for global procurement teams."
+>
+
+  <!-- Hero -->
+  <section class="blog-hero">
+    <div class="blog-hero__inner">
+      <span class="blog-hero__eyebrow">Intelligence. Insight. Advantage.</span>
+      <h1 class="blog-hero__title">Sourcing Insights &amp; Buyer Guides</h1>
+      <p class="blog-hero__sub">
+        Practical intelligence for procurement teams, brand formulators, and wholesale buyers sourcing certified herbal ingredients from India - for markets across the EU, UK, USA, UAE/GCC, Japan, Korea, ANZ, SEA and LatAm.
+      </p>
+    </div>
+  </section>
+
+  <!-- Search + Filter Bar -->
+  <section class="filter-bar">
+    <div class="filter-bar__inner">
+
+      <div class="search-row">
+        <div class="search-box">
+          <svg class="search-box__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input
+            type="text"
+            id="search-input"
+            class="search-box__input"
+            placeholder="Search articles - e.g. ashwagandha, halal certification, MOQ..."
+            aria-label="Search articles"
+            autocomplete="off"
+          />
+          <button id="search-clear" class="search-box__clear" aria-label="Clear search" style="display:none;">&times;</button>
+        </div>
+      </div>
+
+      <div class="facet-row">
+        <p class="facet-row__label">Topic:</p>
+        <div class="filter-pills" id="category-pills" role="tablist" aria-label="Filter posts by category">
+          {categoryKeys.map((key) => (
+            <button
+              class="pill"
+              data-category={key}
+              role="tab"
+              aria-selected={key === 'all' ? 'true' : 'false'}
+            >
+              {catLabel(key)}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div class="facet-row">
+        <p class="facet-row__label">Market:</p>
+        <div class="filter-pills filter-pills--region" id="region-pills" aria-label="Filter posts by region">
+          {regionKeys.map((key) => (
+            <button class="pill pill--region" data-region={key} aria-pressed="false">
+              {regionMeta[key]}
+            </button>
+          ))}
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Post Grid: server-rendered, crawlable default state -->
+  <section class="posts-section">
+    <div class="posts-section__inner">
+
+      <p class="results-count" id="results-count" style="display:none;"></p>
+
+      {page.data.length === 0 ? (
+        <p class="no-posts">No posts published yet. Check back soon.</p>
+      ) : (
+        <div class="posts-grid" id="posts-grid">
+          {page.data.map((post) => {
+            const slug = post.slug;
+            const { title, description, pubDate, category, readingTime, image, imageAlt } = post.data;
+            const color = catColor(category);
+            return (
+              <article class="post-card" data-category={category} data-region={(post.data.region_tags || []).join(',')}>
+                <a href={`/blog/${slug}/`} class="post-card__link" aria-label={title}>
+                  <div class="post-card__image-wrap">
+                    {image ? (
+                      <img
+                        src={image}
+                        alt={imageAlt || title}
+                        class="post-card__image"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ) : (
+                      <div class="post-card__image-fallback">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" aria-hidden="true">
+                          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                      </div>
+                    )}
+                    <span class="post-card__badge" style={`background:${color}`}>{catLabel(category)}</span>
+                  </div>
+                  <div class="post-card__body">
+                    <h2 class="post-card__title">{title}</h2>
+                    <p class="post-card__desc">{description}</p>
+                    <div class="post-card__meta">
+                      <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+                      {readingTime && (
+                        <>
+                          <span class="post-card__meta-sep">&middot;</span>
+                          <span>{readingTime} min read</span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                </a>
+              </article>
+            );
+          })}
+        </div>
+      )}
+
+      <p class="no-results" id="no-results" style="display:none;">
+        No posts match your search or filters - <button class="no-results__reset">reset and view all posts</button>.
+      </p>
+
+      <!-- Static numbered pagination: crawlable, real page navigation, hidden once client search/filter is active -->
+      {page.lastPage > 1 && (
+        <nav class="pagination" id="static-pagination" aria-label="Blog pagination">
+          {page.url.prev ? (
+            <a href={page.url.prev} class="pagination__btn" rel="prev">&larr; Previous</a>
+          ) : (
+            <span class="pagination__btn pagination__btn--disabled">&larr; Previous</span>
+          )}
+          <span class="pagination__status">Page {page.currentPage} of {page.lastPage}</span>
+          {page.url.next ? (
+            <a href={page.url.next} class="pagination__btn" rel="next">Next &rarr;</a>
+          ) : (
+            <span class="pagination__btn pagination__btn--disabled">Next &rarr;</span>
+          )}
+        </nav>
+      )}
+
+      <!-- Client-side pagination: shown only while search/filter is active -->
+      <nav class="pagination" id="client-pagination" style="display:none;" aria-label="Filtered results pagination">
+        <button class="pagination__btn" id="client-prev">&larr; Previous</button>
+        <span class="pagination__status" id="client-page-status"></span>
+        <button class="pagination__btn" id="client-next">Next &rarr;</button>
+      </nav>
+
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="blog-cta">
+    <div class="blog-cta__inner">
+      <h2>Have a sourcing requirement?</h2>
+      <p>Our team works with verified Indian manufacturers to supply certified herbal ingredients globally. Submit an enquiry and we'll respond within one business day.</p>
+      <div class="blog-cta__btns">
+        <a href="/contact/" class="btn-primary">Submit a Sourcing Enquiry</a>
+        <a href="/for-buyers/" class="btn-secondary">How We Work</a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<script type="application/json" id="posts-data" set:html={JSON.stringify(searchIndex)} />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js" defer></script>
+
+<script>
+  type PostRecord = {
+    slug: string;
+    title: string;
+    description: string;
+    category: string;
+    region_tags: string[];
+    tags: string[];
+    pubDate: string;
+    readingTime: number | null;
+    image: string | null;
+    imageAlt: string | null;
+  };
+
+  declare global {
+    interface Window {
+      Fuse: any;
+    }
+  }
+
+  const CLIENT_PAGE_SIZE = 12;
+
+  const dataEl = document.getElementById('posts-data');
+  const allPosts: PostRecord[] = dataEl ? JSON.parse(dataEl.textContent || '[]') : [];
+
+  const categoryMeta: Record<string, { label: string; color: string }> = {
+    'ingredients': { label: 'Ingredients & Botanicals', color: '#15803D' },
+    'certifications': { label: 'Certifications & Compliance', color: '#7C3AED' },
+    'sourcing': { label: 'Sourcing & Trade', color: '#0F766E' },
+    'market-intelligence': { label: 'Market Intelligence', color: '#B45309' },
+  };
+
+  const searchInput = document.getElementById('search-input') as HTMLInputElement | null;
+  const searchClear = document.getElementById('search-clear') as HTMLButtonElement | null;
+  const categoryPillsWrap = document.getElementById('category-pills');
+  const regionPillsWrap = document.getElementById('region-pills');
+  const categoryPills = document.querySelectorAll<HTMLButtonElement>('#category-pills .pill');
+  const regionPills = document.querySelectorAll<HTMLButtonElement>('#region-pills .pill');
+
+  const staticGrid = document.getElementById('posts-grid');
+  const staticPagination = document.getElementById('static-pagination');
+  const clientPagination = document.getElementById('client-pagination');
+  const clientPrev = document.getElementById('client-prev') as HTMLButtonElement | null;
+  const clientNext = document.getElementById('client-next') as HTMLButtonElement | null;
+  const clientPageStatus = document.getElementById('client-page-status');
+  const noResults = document.getElementById('no-results');
+  const resultsCount = document.getElementById('results-count');
+  const resetBtn = document.querySelector<HTMLButtonElement>('.no-results__reset');
+
+  let dynamicGrid: HTMLDivElement | null = null;
+  let fuse: any = null;
+  let clientPage = 1;
+
+  function ensureDynamicGrid() {
+    if (dynamicGrid) return dynamicGrid;
+    dynamicGrid = document.createElement('div');
+    dynamicGrid.className = 'posts-grid';
+    dynamicGrid.id = 'dynamic-posts-grid';
+    staticGrid?.insertAdjacentElement('afterend', dynamicGrid);
+    return dynamicGrid;
+  }
+
+  function formatDate(iso: string) {
+    return new Date(iso).toLocaleDateString('en-GB', {
+      day: 'numeric',
+      month: 'short',
+      year: 'numeric',
+    });
+  }
+
+  function renderCard(post: PostRecord) {
+    const meta = categoryMeta[post.category];
+    const color = meta?.color || '#1B2B4B';
+    const label = meta?.label || post.category;
+    const img = post.image
+      ? `<img src="${post.image}" alt="${post.imageAlt || post.title}" class="post-card__image" loading="lazy" decoding="async" />`
+      : `<div class="post-card__image-fallback"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>`;
+    const readTime = post.readingTime
+      ? `<span class="post-card__meta-sep">&middot;</span><span>${post.readingTime} min read</span>`
+      : '';
+    const article = document.createElement('article');
+    article.className = 'post-card';
+    article.innerHTML = `
+      <a href="/blog/${post.slug}/" class="post-card__link" aria-label="${post.title}">
+        <div class="post-card__image-wrap">
+          ${img}
+          <span class="post-card__badge" style="background:${color}">${label}</span>
+        </div>
+        <div class="post-card__body">
+          <h2 class="post-card__title">${post.title}</h2>
+          <p class="post-card__desc">${post.description}</p>
+          <div class="post-card__meta">
+            <time datetime="${post.pubDate}">${formatDate(post.pubDate)}</time>
+            ${readTime}
+          </div>
+        </div>
+      </a>`;
+    return article;
+  }
+
+  function getActiveCategory(): string {
+    const active = document.querySelector<HTMLButtonElement>('#category-pills .pill--active');
+    return active?.dataset.category || 'all';
+  }
+
+  function getActiveRegions(): string[] {
+    return Array.from(document.querySelectorAll<HTMLButtonElement>('#region-pills .pill--active'))
+      .map((p) => p.dataset.region || '')
+      .filter(Boolean);
+  }
+
+  function isFilterActive(): boolean {
+    const query = searchInput?.value.trim() || '';
+    return query.length > 0 || getActiveCategory() !== 'all' || getActiveRegions().length > 0;
+  }
+
+  function computeFilteredResults(): PostRecord[] {
+    const query = searchInput?.value.trim() || '';
+    const activeCategory = getActiveCategory();
+    const activeRegions = getActiveRegions();
+
+    let results: PostRecord[] = allPosts;
+
+    if (query && fuse) {
+      results = fuse.search(query).map((r: any) => r.item);
+    } else if (query) {
+      const q = query.toLowerCase();
+      results = allPosts.filter(
+        (p) => p.title.toLowerCase().includes(q) || p.description.toLowerCase().includes(q)
+      );
+    }
+
+    if (activeCategory !== 'all') {
+      results = results.filter((p) => p.category === activeCategory);
+    }
+
+    if (activeRegions.length > 0) {
+      results = results.filter((p) => activeRegions.every((r) => p.region_tags.includes(r)));
+    }
+
+    return results;
+  }
+
+  function renderFilteredState() {
+    const grid = ensureDynamicGrid();
+    const results = computeFilteredResults();
+    const totalPages = Math.max(1, Math.ceil(results.length / CLIENT_PAGE_SIZE));
+    clientPage = Math.min(clientPage, totalPages);
+    const start = (clientPage - 1) * CLIENT_PAGE_SIZE;
+    const pageItems = results.slice(start, start + CLIENT_PAGE_SIZE);
+
+    grid.innerHTML = '';
+    pageItems.forEach((post) => grid.appendChild(renderCard(post)));
+
+    if (staticGrid) staticGrid.style.display = 'none';
+    if (staticPagination) (staticPagination as HTMLElement).style.display = 'none';
+    grid.style.display = results.length > 0 ? 'grid' : 'none';
+
+    if (noResults) noResults.style.display = results.length === 0 ? 'block' : 'none';
+
+    if (resultsCount) {
+      resultsCount.style.display = 'block';
+      resultsCount.textContent = `${results.length} article${results.length === 1 ? '' : 's'} found`;
+    }
+
+    if (clientPagination) {
+      (clientPagination as HTMLElement).style.display = results.length > CLIENT_PAGE_SIZE ? 'flex' : 'none';
+    }
+    if (clientPageStatus) clientPageStatus.textContent = `Page ${clientPage} of ${totalPages}`;
+    if (clientPrev) clientPrev.disabled = clientPage <= 1;
+    if (clientNext) clientNext.disabled = clientPage >= totalPages;
+
+    if (searchClear) searchClear.style.display = (searchInput?.value.trim() ?? '') ? 'block' : 'none';
+  }
+
+  function restoreDefaultState() {
+    if (staticGrid) staticGrid.style.display = 'grid';
+    if (staticPagination) (staticPagination as HTMLElement).style.display = 'flex';
+    if (dynamicGrid) dynamicGrid.style.display = 'none';
+    if (noResults) noResults.style.display = 'none';
+    if (resultsCount) resultsCount.style.display = 'none';
+    if (clientPagination) (clientPagination as HTMLElement).style.display = 'none';
+    if (searchClear) searchClear.style.display = 'none';
+  }
+
+  function refresh() {
+    clientPage = 1;
+    if (isFilterActive()) {
+      renderFilteredState();
+    } else {
+      restoreDefaultState();
+    }
+  }
+
+  function initFuse() {
+    if (window.Fuse) {
+      fuse = new window.Fuse(allPosts, {
+        keys: [
+          { name: 'title', weight: 0.7 },
+          { name: 'description', weight: 0.3 },
+        ],
+        threshold: 0.35,
+        ignoreLocation: true,
+      });
+    } else {
+      // Fuse not yet loaded (defer script race) - retry shortly, fall back to substring match meanwhile.
+      setTimeout(initFuse, 150);
+    }
+  }
+  initFuse();
+
+  searchInput?.addEventListener('input', () => {
+    clientPage = 1;
+    refresh();
+  });
+
+  categoryPills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      categoryPills.forEach((p) => {
+        p.classList.toggle('pill--active', p === pill);
+        p.setAttribute('aria-selected', p === pill ? 'true' : 'false');
+      });
+      clientPage = 1;
+      refresh();
+    });
+  });
+
+  regionPills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const nowActive = !pill.classList.contains('pill--active');
+      pill.classList.toggle('pill--active', nowActive);
+      pill.setAttribute('aria-pressed', String(nowActive));
+      clientPage = 1;
+      refresh();
+    });
+  });
+
+  clientPrev?.addEventListener('click', () => {
+    if (clientPage > 1) {
+      clientPage -= 1;
+      renderFilteredState();
+    }
+  });
+
+  clientNext?.addEventListener('click', () => {
+    clientPage += 1;
+    renderFilteredState();
+  });
+
+  function resetAll() {
+    if (searchInput) searchInput.value = '';
+    categoryPills.forEach((p) => {
+      const isAll = p.dataset.category === 'all';
+      p.classList.toggle('pill--active', isAll);
+      p.setAttribute('aria-selected', isAll ? 'true' : 'false');
+    });
+    regionPills.forEach((p) => {
+      p.classList.remove('pill--active');
+      p.setAttribute('aria-pressed', 'false');
+    });
+    clientPage = 1;
+    restoreDefaultState();
+  }
+
+  searchClear?.addEventListener('click', resetAll);
+  resetBtn?.addEventListener('click', resetAll);
+
+  // Initialize default category pill active state (matches original single-select behavior).
+  categoryPills.forEach((p) => {
+    if (p.dataset.category === 'all') p.classList.add('pill--active');
+  });
+</script>
+
+<style>
+  .blog-hero {
+    background: linear-gradient(135deg, #1B2B4B 0%, #243d6b 100%);
+    padding: 5rem 1.5rem 4rem;
+    text-align: center;
+  }
+
+  .blog-hero__inner {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .blog-hero__eyebrow {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #C9A84C;
+    margin-bottom: 1rem;
+  }
+
+  .blog-hero__title {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: #FAFAF8;
+    margin: 0 0 1.1rem;
+    line-height: 1.15;
+  }
+
+  .blog-hero__sub {
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.72);
+    line-height: 1.75;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .filter-bar {
+    background: #fff;
+    border-bottom: 1px solid #e8e3d9;
+    padding: 1.1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    box-shadow: 0 2px 8px rgba(27,43,75,0.06);
+  }
+
+  .filter-bar__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .search-row {
+    display: flex;
+  }
+
+  .search-box {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .search-box__icon {
+    position: absolute;
+    left: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+  }
+
+  .search-box__input {
+    width: 100%;
+    padding: 0.6rem 2.4rem 0.6rem 2.6rem;
+    border: 1px solid #e0dbcf;
+    border-radius: 8px;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.9rem;
+    color: #1B2B4B;
+    background: #FAFAF8;
+    transition: border-color 0.18s, box-shadow 0.18s;
+  }
+
+  .search-box__input:focus {
+    outline: none;
+    border-color: #C9A84C;
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.18);
+    background: #fff;
+  }
+
+  .search-box__clear {
+    position: absolute;
+    right: 0.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    line-height: 1;
+    color: #999;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .search-box__clear:hover { color: #1B2B4B; }
+
+  .facet-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .facet-row__label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #888;
+    white-space: nowrap;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    min-width: 4.5rem;
+  }
+
+  .filter-pills {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .pill {
+    background: #f4f0e8;
+    border: 1px solid transparent;
+    color: #444;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+    font-family: 'Inter', system-ui, sans-serif;
+    white-space: nowrap;
+  }
+
+  .pill:hover {
+    background: #e8e0cc;
+    color: #1B2B4B;
+  }
+
+  .pill--active {
+    background: #1B2B4B;
+    color: #C9A84C;
+    border-color: #1B2B4B;
+    font-weight: 700;
+  }
+
+  .pill--region.pill--active {
+    background: #C9A84C;
+    color: #1B2B4B;
+    border-color: #C9A84C;
+  }
+
+  .posts-section {
+    background: #FAFAF8;
+    padding: 3.5rem 1.5rem 5rem;
+  }
+
+  .posts-section__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .results-count {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 0 0 1.5rem;
+    font-weight: 500;
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  @media (max-width: 900px) {
+    .posts-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 580px) {
+    .posts-grid { grid-template-columns: 1fr; }
+  }
+
+  .no-posts {
+    text-align: center;
+    color: #888;
+    font-size: 1rem;
+    padding: 4rem 0;
+  }
+
+  .no-results {
+    text-align: center;
+    color: #888;
+    font-size: 0.95rem;
+    padding: 3rem 0;
+  }
+
+  .no-results__reset {
+    background: none;
+    border: none;
+    color: #C9A84C;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    padding: 0;
+    font-family: inherit;
+  }
+
+  .post-card {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e8e3d9;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(27,43,75,0.12);
+  }
+
+  .post-card__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .post-card__image-wrap {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    background: #1B2B4B;
+    flex-shrink: 0;
+  }
+
+  .post-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .post-card:hover .post-card__image {
+    transform: scale(1.04);
+  }
+
+  .post-card__image-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1B2B4B 0%, #243d6b 100%);
+  }
+
+  .post-card__badge {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .post-card__body {
+    padding: 1.35rem 1.4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .post-card__title {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 1.1rem;
+    color: #1B2B4B;
+    line-height: 1.35;
+    margin: 0 0 0.65rem;
+  }
+
+  .post-card__desc {
+    font-size: 0.875rem;
+    color: #555;
+    line-height: 1.65;
+    margin: 0 0 1rem;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .post-card__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    color: #999;
+    margin-top: auto;
+  }
+
+  .post-card__meta-sep { opacity: 0.5; }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .pagination__btn {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e0dbcf;
+    color: #1B2B4B;
+    padding: 0.6rem 1.3rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Inter', system-ui, sans-serif;
+    transition: border-color 0.18s, background 0.18s;
+  }
+
+  .pagination__btn:hover:not(.pagination__btn--disabled):not(:disabled) {
+    border-color: #C9A84C;
+    background: rgba(201,168,76,0.08);
+  }
+
+  .pagination__btn--disabled,
+  .pagination__btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .pagination__status {
+    font-size: 0.85rem;
+    color: #888;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .blog-cta {
+    background: linear-gradient(135deg, #1B2B4B 0%, #243d6b 100%);
+    padding: 5rem 1.5rem;
+    text-align: center;
+  }
+
+  .blog-cta__inner {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .blog-cta h2 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    color: #FAFAF8;
+    margin: 0 0 0.9rem;
+  }
+
+  .blog-cta p {
+    color: rgba(255,255,255,0.72);
+    font-size: 1rem;
+    line-height: 1.75;
+    margin: 0 0 2rem;
+  }
+
+  .blog-cta__btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: #C9A84C;
+    color: #1B2B4B;
+    padding: 0.85rem 2rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-primary:hover {
+    background: #d4b05a;
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: #FAFAF8;
+    border: 2px solid rgba(255,255,255,0.35);
+    padding: 0.85rem 2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .btn-secondary:hover {
+    border-color: #C9A84C;
+    background: rgba(201,168,76,0.1);
+  }
+</style>

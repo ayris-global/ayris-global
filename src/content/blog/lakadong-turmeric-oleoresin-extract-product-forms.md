@@ -4,6 +4,7 @@ description: "Powder, oleoresin, standardized curcumin extract, and essential oi
 pubDate: 2026-09-21
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "extracts", "powders", "essential-oils", "oleoresin"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-oleoresin-extract-product-forms.jpg"
 imageAlt: "Four Lakadong turmeric product forms side by side: whole-herb powder, dark oleoresin paste, standardized curcumin extract powder, and essential oil in an amber bottle"

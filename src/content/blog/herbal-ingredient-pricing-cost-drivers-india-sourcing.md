@@ -4,6 +4,7 @@ description: "Why do Indian herbal ingredient prices vary so widely between supp
 pubDate: 2026-07-17
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["extracts", "powders", "pricing"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-herbal-ingredient-pricing-cost-drivers-india.jpg"
 imageAlt: "Indian herbal ingredient samples with quality documentation on a sourcing desk"

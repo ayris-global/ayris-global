@@ -4,6 +4,7 @@ description: "A strategic market map for Lakadong turmeric from Meghalaya across
 pubDate: 2026-09-20
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "market-intelligence-regional"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-market-opportunity-by-region.jpg"
 imageAlt: "World map highlighting nine export markets for Lakadong turmeric from Meghalaya India"

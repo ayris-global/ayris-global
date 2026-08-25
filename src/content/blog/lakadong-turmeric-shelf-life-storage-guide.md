@@ -4,6 +4,7 @@ description: "How long Lakadong turmeric fingers and powder stay within specific
 pubDate: 2026-09-04
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "powders", "shelf-life-storage", "packaging", "transit-conditions"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-shelf-life-storage.jpg"
 imageAlt: "Sealed bags of Lakadong turmeric powder in a climate-controlled warehouse storage area after import"

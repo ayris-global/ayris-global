@@ -4,6 +4,7 @@ description: "A practical guide to the UK's Border Target Operating Model for bu
 pubDate: 2026-08-22
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["brexit-btom"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-uk-post-brexit-btom-herbal-ingredients-import-guide.jpg"
 imageAlt: "UK customs and border control documentation alongside dried herbal ingredients for import compliance"

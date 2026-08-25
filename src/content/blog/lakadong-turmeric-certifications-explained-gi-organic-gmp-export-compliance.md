@@ -4,6 +4,7 @@ description: "What the Geographical Indication tag, organic certification, GMP c
 pubDate: 2026-09-01
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "gmp", "organic-certification", "gi-tag", "export-documentation"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-certifications-explained.jpg"
 imageAlt: "Certification documents and official seals relevant to Lakadong turmeric export compliance"

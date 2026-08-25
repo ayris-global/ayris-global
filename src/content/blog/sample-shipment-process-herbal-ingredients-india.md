@@ -4,6 +4,7 @@ description: "How sample requests actually work when sourcing herbal ingredients
 pubDate: 2026-08-22
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["sampling", "scaling-orders"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-export-documentation-checklist-herbal-ingredients-india.jpg"
 imageAlt: "Small sample jars and courier packaging for herbal ingredient samples shipped from India"

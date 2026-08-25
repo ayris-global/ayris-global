@@ -4,6 +4,7 @@ description: "A practical guide to India's AYUSH regulatory system for internati
 pubDate: 2026-07-05
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["gmp", "fssai", "ayush"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-ayush-regulatory-framework-indian-herbal-buyers.jpg"
 imageAlt: "Indian herbal ingredient manufacturing facility with certification documents"

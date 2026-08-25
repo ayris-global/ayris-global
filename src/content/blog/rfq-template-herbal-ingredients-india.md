@@ -4,6 +4,7 @@ description: "A practical RFQ template and field-by-field guide for buyers reque
 pubDate: 2026-08-22
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["pricing", "rfq"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-rfq-template-herbal-ingredients-india.jpg"
 imageAlt: "Procurement professional preparing a request for quotation for herbal ingredient sourcing from India"

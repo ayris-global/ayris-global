@@ -4,6 +4,7 @@ description: "A practical step-by-step guide for procurement managers and regula
 pubDate: 2026-07-10
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["gmp", "supplier-evaluation", "traceability", "first-order-guide"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-qualify-audit-indian-ayurvedic-ingredient-supplier.jpg"
 imageAlt: "Quality inspector reviewing certification documents at an Indian Ayurvedic ingredient manufacturing facility"

@@ -4,6 +4,7 @@ description: "How Lakadong turmeric's GI-backed origin story and curcumin profil
 pubDate: 2026-09-27
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "market-entry"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-japan-south-korea-market-entry.jpg"
 imageAlt: "Lakadong turmeric fingers beside Japanese and Korean packaging elements representing market entry into Japan and South Korea"

@@ -4,6 +4,7 @@ description: "A practical guide for international supplement brands and ingredie
 pubDate: 2026-07-05
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["incoterms-logistics"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-incoterms-shipping-logistics-indian-herbal-ingredients.jpg"
 imageAlt: "Aerial view of container ships at Nhava Sheva port Mumbai India for herbal ingredient export"

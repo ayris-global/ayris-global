@@ -4,6 +4,7 @@ description: "How to build a differentiated private-label nutraceutical or Ayurv
 pubDate: 2026-09-18
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "private-label", "gi-tag"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-private-label-nutraceutical-ayurvedic.jpg"
 imageAlt: "Unbranded turmeric supplement capsules and powder sachets arranged for private-label product line development"

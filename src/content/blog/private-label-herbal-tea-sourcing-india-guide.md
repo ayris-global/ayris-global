@@ -4,6 +4,7 @@ description: "How international buyers source, formulate, and import private lab
 pubDate: 2026-06-28
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["private-label", "moq"]
 author: "Ayris Global Editorial"
 featured: false
 image: "/images/blog/blog-private-label-herbal-tea-sourcing-india-guide.jpg"

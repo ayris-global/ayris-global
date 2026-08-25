@@ -4,6 +4,7 @@ description: "A practical, market-agnostic checklist for testing Lakadong turmer
 pubDate: 2026-09-03
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "coa-documentation"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-quality-testing-checklist.jpg"
 imageAlt: "Laboratory technician running HPLC curcumin testing on a Lakadong turmeric sample before export"

@@ -4,6 +4,7 @@ description: "A practical guide for US supplement brands and ingredient buyers o
 pubDate: 2026-07-10
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["gmp", "fda-compliance", "dshea", "ndi-notification"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-usa-fda-dshea-indian-herbal-ingredient-compliance.jpg"
 imageAlt: "FDA compliance documentation and herbal ingredient samples in a US supplement manufacturing facility"

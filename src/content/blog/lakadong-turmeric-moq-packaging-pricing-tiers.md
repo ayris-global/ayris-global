@@ -4,6 +4,7 @@ description: "Realistic minimum order quantities, export packaging formats, and 
 pubDate: 2026-09-09
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "moq", "pricing", "packaging"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-moq-packaging-pricing-tiers.jpg"
 imageAlt: "Export-packed drums and vacuum-sealed bags of graded Lakadong turmeric powder ready for shipment"

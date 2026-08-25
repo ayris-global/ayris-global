@@ -4,6 +4,7 @@ description: "The origin story of Lakadong turmeric: West Jaintia Hills, Meghala
 pubDate: 2026-09-01
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "gi-tag"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-origin-history-gi-tag-story.jpg"
 imageAlt: "Terraced farmland in the West Jaintia Hills of Meghalaya where Lakadong turmeric is grown"

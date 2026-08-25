@@ -4,6 +4,7 @@ description: "A regulatory and trade comparison for Indian botanical and herbal 
 pubDate: 2026-06-29
 category: "market-intelligence"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["extracts", "market-entry"]
 author: "Ayris Global Editorial"
 featured: false
 image: "/images/blog/blog-southeast-asia-herbal-ingredient-market-entry-guide.jpg"

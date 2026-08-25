@@ -4,6 +4,7 @@ description: "Particle size, solubility, delivery format, dosing, and stability 
 pubDate: 2026-09-15
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-formulating-functional-food-beverage.jpg"
 imageAlt: "Functional beverage and fortified snack formulation lab testing turmeric powder solubility and dispersion"

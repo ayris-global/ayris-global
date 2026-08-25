@@ -7,6 +7,7 @@ const blog = defineCollection({
     pubDate: z.coerce.date(),
     category: z.enum(['ingredients', 'certifications', 'sourcing', 'market-intelligence']),
     region_tags: z.array(z.enum(['eu', 'uk', 'usa', 'uae-gcc', 'japan', 'korea', 'anz', 'sea', 'latam'])).optional(),
+    tags: z.array(z.string()).optional(),
     author: z.string().default('Ayris Global Editorial'),
     readingTime: z.number().optional(),
     featured: z.boolean().default(false),

@@ -4,6 +4,7 @@ description: "How the FDA New Dietary Ingredient notification process works for 
 pubDate: 2026-08-22
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["fda-compliance", "ndi-notification"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-ndi-notification-herbal-ingredients-usa.jpg"
 imageAlt: "Regulatory affairs professional reviewing New Dietary Ingredient notification paperwork for a botanical extract"

@@ -40,11 +40,12 @@ const breadcrumbItems = [];
 if (pathname !== '/') {
   breadcrumbItems.push({ name: 'Home', url: 'https://ayrisglobal.in/' });
 
-  const isBlogPost = pathname.startsWith('/blog/') && pathname !== '/blog/';
+  const isBlogListingPage = /^\/blog\/\d+\/?$/.test(pathname) || pathname === '/blog/';
+  const isBlogPost = pathname.startsWith('/blog/') && !isBlogListingPage;
   if (isBlogPost) {
     breadcrumbItems.push({ name: 'Blog', url: 'https://ayrisglobal.in/blog/' });
     breadcrumbItems.push({ name: title, url: 'https://ayrisglobal.in' + pathname });
-  } else if (pathname === '/blog/') {
+  } else if (isBlogListingPage) {
     breadcrumbItems.push({ name: 'Blog', url: 'https://ayrisglobal.in/blog/' });
   } else {
     breadcrumbItems.push({ name: title, url: 'https://ayrisglobal.in' + pathname });

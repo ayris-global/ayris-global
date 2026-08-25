@@ -4,6 +4,7 @@ description: "What happens to Lakadong turmeric fingers and powder during multi-
 pubDate: 2026-09-11
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
+tags: ["lakadong-turmeric", "turmeric", "powders", "packaging", "transit-conditions"]
 author: "Ayris Global Editorial"
 image: "/images/blog/blog-lakadong-turmeric-transit-temperature-humidity-packaging.jpg"
 imageAlt: "Stacked cartons of packaged Lakadong turmeric inside a shipping container during ocean freight transit"
