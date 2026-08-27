@@ -1,7 +1,7 @@
 ---
 title: "Shatavari Buyer's Guide: Sourcing Asparagus racemosus for Women's Wellness"
 description: "What buyers need to know about Shatavari root extract and powder - the current clinical evidence on hormonal and reproductive health claims, wild-harvest conservation concerns, and how to source a cultivated, traceable supply from India."
-pubDate: 2026-06-26
+pubDate: 2026-05-29
 category: "ingredients"
 tags: ["Shatavari", "Asparagus racemosus", "women's wellness", "adaptogen", "phytoestrogen", "sourcing", "conservation"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

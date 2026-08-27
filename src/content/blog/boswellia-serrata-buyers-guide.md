@@ -1,7 +1,7 @@
 ---
 title: "Boswellia Serrata Buyer's Guide: Sourcing Indian Frankincense Extract"
 description: "What buyers need to know about Boswellia serrata (Indian frankincense) extract - the current clinical evidence on joint health claims, why standardization makes cross-supplier comparison difficult, and the real conservation picture for Indian-sourced material."
-pubDate: 2026-06-26
+pubDate: 2026-05-28
 category: "ingredients"
 tags: ["Boswellia", "Boswellia serrata", "boswellic acids", "AKBA", "joint health", "frankincense", "sourcing"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

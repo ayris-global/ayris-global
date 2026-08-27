@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Pricing Benchmarks Compared Across Indian Origins: Erode, Salem, Nizamabad, Alleppey, Sangli and Lakadong"
 description: "How FOB pricing compares across India's six best-known turmeric origins, why the curcumin hierarchy drives most of the spread, and how to read a cross-origin quote without relying on stale absolute numbers."
-pubDate: 2026-11-03
+pubDate: 2026-08-12
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["turmeric", "lakadong-turmeric", "origin-comparison", "pricing"]

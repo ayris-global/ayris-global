@@ -1,7 +1,7 @@
 ---
 title: "Incoterms, Shipping Logistics, and Lead Times for Indian Herbal Ingredient Buyers"
 description: "A practical guide for international supplement brands and ingredient buyers on choosing the right Incoterm for Indian herbal ingredient shipments -- covering EXW, FOB, CIF, and DAP under Incoterms 2020, Indian port selection, FCL vs LCL tradeoffs, marine insurance, realistic lead times by destination market, and what to specify in a purchase order to control landed cost."
-pubDate: 2026-07-05
+pubDate: 2026-06-08
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["incoterms-logistics"]

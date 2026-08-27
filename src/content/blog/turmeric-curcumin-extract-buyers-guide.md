@@ -1,7 +1,7 @@
 ---
 title: "Turmeric & Curcumin Extract: A Complete Buyer's Guide for Global Ingredient Sourcing"
 description: "How to evaluate curcuminoid specifications, bioavailability claims, and EU/US/UAE regulatory status when sourcing turmeric and curcumin extract from India."
-pubDate: 2026-06-22
+pubDate: 2026-05-24
 category: "ingredients"
 tags: ["turmeric", "curcumin", "curcuminoids", "botanical extracts", "sourcing", "India", "nutraceuticals", "piperine"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Shelf Life and Storage: Maintaining Quality After Import"
 description: "How long Lakadong turmeric fingers and powder stay within specification after import, and the storage conditions - humidity, temperature, packaging, and rotation - that protect curcumin content and prevent microbial growth."
-pubDate: 2026-09-04
+pubDate: 2026-07-25
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "powders", "shelf-life-storage", "packaging", "transit-conditions"]

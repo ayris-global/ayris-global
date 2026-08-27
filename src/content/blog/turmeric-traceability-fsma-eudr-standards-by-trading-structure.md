@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Traceability Against FSMA 204 and EUDR-Style Standards: What Each Trading Structure Can Actually Deliver"
 description: "FSMA 204 and EUDR-style rules demand rapid, verifiable origin retrieval, not just chain-of-custody paperwork. Auction-mandi and cooperative turmeric trading structures meet that bar very differently. A buyer's guide to what each can realistically produce on request."
-pubDate: 2027-04-13
+pubDate: 2026-08-27
 category: "sourcing"
 tags: ["turmeric", "traceability", "trading-structure", "regulatory-compliance", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

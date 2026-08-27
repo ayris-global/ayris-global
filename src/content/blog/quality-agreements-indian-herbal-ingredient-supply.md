@@ -1,7 +1,7 @@
 ---
 title: "Quality Agreements for Indian Herbal Ingredient Supply: What to Include and Why It Matters"
 description: "A practical guide to quality agreements for Indian herbal ingredient supply - covering product specification lock, change notification clauses, batch documentation requirements, non-conformance procedures, IP protection, and dispute resolution."
-pubDate: 2026-08-25
+pubDate: 2026-06-30
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["quality-testing"]

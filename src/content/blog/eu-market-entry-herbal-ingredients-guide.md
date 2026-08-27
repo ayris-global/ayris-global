@@ -1,7 +1,7 @@
 ---
 title: "Entering the EU Market: A Guide for Indian Herbal Ingredient Suppliers"
 description: "How Novel Food rules, organic equivalence, and the new India-EU trade agreement actually affect Indian botanical exporters - and what is changing versus what is not."
-pubDate: 2026-06-23
+pubDate: 2026-05-25
 category: "market-intelligence"
 tags: ["EU", "European Union", "Novel Food", "organic certification", "NPOP", "India-EU FTA", "market entry", "regulatory compliance"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

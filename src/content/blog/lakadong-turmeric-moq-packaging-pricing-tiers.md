@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric MOQ, Packaging and Pricing Tiers: What Buyers Actually Pay by Grade"
 description: "Realistic minimum order quantities, export packaging formats, and grade-linked pricing tiers for sourcing Lakadong turmeric - what changes the number, and how to budget an order before you request a quote."
-pubDate: 2026-09-09
+pubDate: 2026-07-26
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "moq", "pricing", "packaging"]

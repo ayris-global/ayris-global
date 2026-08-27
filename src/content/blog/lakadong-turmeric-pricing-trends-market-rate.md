@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Pricing Trends: What Drives the Market Rate"
 description: "Harvest seasonality, currency movement, freight cost, certification premium, and curcumin grade - the variables that move Lakadong turmeric's market rate over time, and how to read a quote against them."
-pubDate: 2026-09-28
+pubDate: 2026-08-04
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "pricing"]

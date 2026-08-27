@@ -1,7 +1,7 @@
 ---
 title: "What Quality Testing Should You Require from an Indian Herbal Ingredient Supplier? USP, EP, Heavy Metals, Microbial, and Pesticide Standards Explained"
 description: "A technical guide for international supplement brands and ingredient buyers on the quality testing parameters, analytical methods, and pharmacopoeia standards to require when sourcing herbal ingredients from India -- covering COA interpretation, HPLC identity testing, ICP-MS heavy metal limits, LC-MS/MS pesticide screening, and microbial specifications by destination market."
-pubDate: 2026-07-04
+pubDate: 2026-06-06
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["coa-documentation", "quality-testing"]

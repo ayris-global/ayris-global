@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Market Entry for Japan and South Korea Buyers"
 description: "How Lakadong turmeric's GI-backed origin story and curcumin profile play in Japan and South Korea specifically, and the import documentation buyers in each market actually need to clear a shipment."
-pubDate: 2026-09-27
+pubDate: 2026-08-03
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "market-entry"]

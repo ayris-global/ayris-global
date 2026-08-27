@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Recall Readiness and Quality Incident Response for Buyers"
 description: "What a buyer should have in place before a Lakadong turmeric quality problem occurs - using batch traceability to identify affected lots quickly, buyer-side incident response steps, and what to expect from a supplier's recall capability."
-pubDate: 2026-10-04
+pubDate: 2026-08-07
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "traceability", "recall-readiness"]

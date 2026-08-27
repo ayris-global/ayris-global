@@ -1,7 +1,7 @@
 ---
 title: "The UAE Herbal Wellness Market in 2025: What Ingredient Buyers and Brand Builders Need to Know"
 description: "A detailed intelligence briefing on the UAE herbal wellness market — market size, consumer trends, regulatory environment, key buyer categories, and what Indian ingredient suppliers need to understand to succeed here."
-pubDate: 2026-06-14
+pubDate: 2026-05-21
 category: "market-intelligence"
 region_tags: ["uae-gcc"]
 tags: ["UAE", "wellness market", "herbal ingredients", "nutraceuticals", "market intelligence", "GCC", "sourcing"]

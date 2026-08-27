@@ -1,7 +1,7 @@
 ---
 title: "RFQ Template for Sourcing Herbal Ingredients from India: What to Include So Suppliers Can Actually Quote"
 description: "A practical RFQ template and field-by-field guide for buyers requesting quotes on herbal and botanical ingredients from Indian suppliers - what to specify to get accurate, comparable pricing and avoid quote revisions."
-pubDate: 2026-08-22
+pubDate: 2026-06-19
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["pricing", "rfq"]

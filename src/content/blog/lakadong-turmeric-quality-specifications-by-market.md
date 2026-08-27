@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Quality Specifications by Market: EU, USA, Japan, and Beyond"
 description: "A comparative reference for the curcumin, heavy metal, pesticide residue, microbial, and aflatoxin specifications Lakadong turmeric must meet across the EU, UK, USA, UAE/GCC, Japan, Korea, ANZ, SEA, and LatAm markets."
-pubDate: 2026-09-01
+pubDate: 2026-07-20
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric"]

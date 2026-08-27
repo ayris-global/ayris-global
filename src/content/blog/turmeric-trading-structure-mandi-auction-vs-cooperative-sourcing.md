@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Trading Structure Across Origins: Mandi and Auction Markets vs Direct-Farm and Cooperative Sourcing"
 description: "How turmeric actually reaches an exporter differs by origin - through Tamil Nadu's auction mandis or through cooperative and farmer-group aggregation elsewhere - and why that structural difference affects price transparency, contract flexibility, and traceability for international buyers."
-pubDate: 2027-01-19
+pubDate: 2026-08-19
 category: "sourcing"
 tags: ["turmeric", "trading-structure", "mandi", "cooperative-sourcing", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Private-Label and Contract-Manufacturing Readiness by Trading Structure: What Auction-Mandi and Cooperative Origins Can Actually Support"
 description: "Auction-mandi and cooperative turmeric origins differ sharply in the volume scalability and batch traceability a private-label or contract-manufacturing programme needs. This guide compares readiness by trading structure and how to match it to your programme stage."
-pubDate: 2026-08-27
+pubDate: 2026-07-06
 category: "sourcing"
 tags: ["turmeric", "private-label", "contract-manufacturing", "trading-structure", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

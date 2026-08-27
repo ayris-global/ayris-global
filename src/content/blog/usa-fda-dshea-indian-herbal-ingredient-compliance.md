@@ -1,7 +1,7 @@
 ---
 title: "US FDA and DSHEA Requirements for Importing Herbal Ingredients from India: A Buyer's Compliance Guide"
 description: "A practical guide for US supplement brands and ingredient buyers on FDA and DSHEA compliance when sourcing herbal ingredients from India - covering cGMP, NDI notifications, FDA facility registration, Prop 65, and what to require from Indian suppliers."
-pubDate: 2026-07-10
+pubDate: 2026-06-12
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["gmp", "fda-compliance", "dshea", "ndi-notification"]

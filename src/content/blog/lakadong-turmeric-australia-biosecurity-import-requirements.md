@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Import Requirements for Australia: Biosecurity and Quarantine Beyond TGA Listing"
 description: "Getting Lakadong turmeric through Australian customs is a biosecurity question first and a TGA listing question second - what the BICON import conditions actually require for turmeric root, powder and extract from India."
-pubDate: 2026-10-04
+pubDate: 2026-08-06
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "extracts", "powders", "biosecurity"]

@@ -1,7 +1,7 @@
 ---
 title: "Auditing a Turmeric Supplier: What Changes by Trading Structure, Auction-Mandi vs Cooperative Origins"
 description: "The audit checklist for a turmeric supplier does not change by origin. Where the risk actually concentrates, and what evidence is realistic to obtain, does. A buyer's guide to adapting supplier due diligence to auction-mandi and cooperative trading structures."
-pubDate: 2027-02-02
+pubDate: 2026-08-20
 category: "sourcing"
 tags: ["turmeric", "supplier-audit", "trading-structure", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

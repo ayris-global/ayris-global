@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Harvest Calendar and Supply Continuity Across Indian Origins: Planning Around India's Single Annual Crop"
 description: "When each major Indian turmeric origin harvests, why the crop is annual almost everywhere, and how buyers should plan container-scale and annual-contract orders around a single yearly harvest window rather than assuming year-round fresh supply."
-pubDate: 2027-01-05
+pubDate: 2026-08-18
 category: "sourcing"
 tags: ["turmeric", "harvest-calendar", "supply-continuity", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

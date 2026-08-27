@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Adulteration and Contamination: What International Buyers Should Test Before Importing from India"
 description: "A pan-India guide to detecting turmeric adulteration - lead chromate, metanil yellow, and starch fillers - and the specific tests that catch fraud, separate from the standard safety and potency testing panel."
-pubDate: 2026-10-07
+pubDate: 2026-08-10
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["turmeric", "adulteration", "quality-testing", "coa-documentation"]

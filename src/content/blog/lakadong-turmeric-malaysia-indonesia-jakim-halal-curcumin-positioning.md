@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric in Malaysia and Indonesia: JAKIM Halal Certification and Curcumin-Led Positioning Against Regional Turmeric"
 description: "How Lakadong turmeric competes against Indonesian and Thai turmeric on curcumin content in Malaysia and Indonesia specifically, and what JAKIM halal certification actually requires that a generic halal guide does not cover."
-pubDate: 2026-10-11
+pubDate: 2026-08-11
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "halal-certification", "jakim-halal"]

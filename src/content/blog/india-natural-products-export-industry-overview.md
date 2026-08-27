@@ -1,7 +1,7 @@
 ---
 title: "India's Natural Products Export Industry: A Complete Overview for International Buyers"
 description: "India exports nearly $700 million in herbal and Ayurvedic products annually to over 100 countries. This guide covers what India exports, which markets buy it, how compliance works, and how international buyers can source reliably."
-pubDate: 2026-06-14
+pubDate: 2026-05-14
 category: "market-intelligence"
 tags: ["India herbal export", "botanical extracts", "Ayurvedic ingredients", "natural products", "sourcing", "nutraceuticals", "herbal ingredients", "export industry"]
 image: "/images/blog/blog-india-natural-products-export-industry-overview.jpg"

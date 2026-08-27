@@ -1,7 +1,7 @@
 ---
 title: "How to Source Herbal Ingredients from India: A First-Order Guide for International Buyers"
 description: "Placing your first order with an Indian herbal ingredient supplier doesn't have to be complicated. This step-by-step guide covers samples, MOQs, lead times, documentation, payment terms, and how to build a sourcing relationship that lasts."
-pubDate: 2026-06-14
+pubDate: 2026-05-18
 category: "sourcing"
 tags: ["sourcing", "India", "herbal ingredients", "first order", "MOQ", "samples", "buyers guide", "import", "botanical extracts"]
 image: "/images/blog/blog-sourcing-herbal-ingredients-india-first-order-guide.jpg"

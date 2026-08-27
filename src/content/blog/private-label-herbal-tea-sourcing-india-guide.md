@@ -1,7 +1,7 @@
 ---
 title: "Private Label Herbal Tea Sourcing from India: A Buyer's Guide"
 description: "How international buyers source, formulate, and import private label herbal tea from India - covering manufacturer selection, MOQs, format options, and the market-by-market regulatory differences that catch first-time importers off guard."
-pubDate: 2026-06-28
+pubDate: 2026-06-02
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["private-label", "moq"]

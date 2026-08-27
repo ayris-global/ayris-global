@@ -1,7 +1,7 @@
 ---
 title: "UK Border Target Operating Model (BTOM): What It Actually Means for Importing Herbal Ingredients from India"
 description: "A practical guide to the UK's Border Target Operating Model for buyers and suppliers of Indian herbal and botanical ingredients - what changed, what did not, and why India's position as a non-EU origin matters more than the Brexit headlines suggest."
-pubDate: 2026-08-22
+pubDate: 2026-06-22
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["brexit-btom"]

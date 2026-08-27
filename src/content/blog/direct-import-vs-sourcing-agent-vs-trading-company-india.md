@@ -1,7 +1,7 @@
 ---
 title: "Direct Import vs. Sourcing Agent vs. Trading Company: How to Choose Your India Sourcing Model"
 description: "Comparing the four main channels for sourcing herbal ingredients from India - direct manufacturer import, trading company, commission-based sourcing agent, and B2B marketplace - with honest cost, control, risk, and trust tradeoffs for each model."
-pubDate: 2026-08-24
+pubDate: 2026-06-24
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["sourcing-models"]

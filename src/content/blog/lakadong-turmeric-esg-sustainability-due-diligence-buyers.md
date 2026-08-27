@@ -1,7 +1,7 @@
 ---
 title: "Sustainability and ESG Due Diligence for Lakadong Turmeric Buyers"
 description: "What EU and UK sustainability-conscious buyers need to complete ESG questionnaires and supplier due diligence on Lakadong turmeric, including smallholder livelihood data, GI socioeconomic framing, and Meghalaya's government-backed Mission Golden Spice programme."
-pubDate: 2026-08-28
+pubDate: 2026-07-10
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "esg-sustainability"]

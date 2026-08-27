@@ -1,7 +1,7 @@
 ---
 title: "Organic-Certified Turmeric Sourcing in India: Which Origins Have Certified Organic Supply"
 description: "A buyer's guide to where certified organic turmeric supply actually exists across India's major growing origins, which certifications apply, and how to verify an organic claim before you buy."
-pubDate: 2026-11-17
+pubDate: 2026-08-14
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["turmeric", "lakadong-turmeric", "organic-certification", "origin-comparison"]

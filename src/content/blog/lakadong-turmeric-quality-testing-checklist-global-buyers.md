@@ -1,7 +1,7 @@
 ---
 title: "How to Test Lakadong Turmeric Quality Before You Buy: A Global Buyer's Checklist"
 description: "A practical, market-agnostic checklist for testing Lakadong turmeric quality before purchase - HPLC curcumin verification, microbial screening, heavy metal testing, and how to read the Certificate of Analysis that proves it."
-pubDate: 2026-09-03
+pubDate: 2026-07-24
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "coa-documentation"]

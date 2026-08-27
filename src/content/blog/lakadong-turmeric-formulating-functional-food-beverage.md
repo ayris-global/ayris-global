@@ -1,7 +1,7 @@
 ---
 title: "Formulating with Lakadong Turmeric: A Technical Guide for Functional Food and Beverage Manufacturers"
 description: "Particle size, solubility, delivery format, dosing, and stability considerations for formulating Lakadong turmeric into functional beverages, snacks, and fortified foods - what changes when you move from raw material to finished product."
-pubDate: 2026-09-15
+pubDate: 2026-07-29
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric"]

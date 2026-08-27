@@ -1,7 +1,7 @@
 ---
 title: "Herbal Capsule and Dosage-Form Contract Manufacturing from India: What International Brands Need to Know"
 description: "A practical guide to outsourcing finished herbal capsule, tablet, and sachet production to Indian contract manufacturers - covering WHO-GMP facilities, MOQs, AYUSH and FSSAI regulatory distinctions, and finished dosage-form export documentation requirements."
-pubDate: 2026-08-24
+pubDate: 2026-06-27
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["capsules-dosage-forms", "contract-manufacturing", "gmp", "fssai", "ayush", "moq", "export-documentation"]

@@ -1,7 +1,7 @@
 ---
 title: "New Dietary Ingredient (NDI) Notification: What US Buyers of Indian Herbal Ingredients Need to Know Before Launch"
 description: "How the FDA New Dietary Ingredient notification process works for herbal and botanical ingredients from India - the 75-day filing window, what counts as an NDI, and how to check whether an ingredient already has NDIN precedent."
-pubDate: 2026-08-22
+pubDate: 2026-06-18
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["fda-compliance", "ndi-notification"]

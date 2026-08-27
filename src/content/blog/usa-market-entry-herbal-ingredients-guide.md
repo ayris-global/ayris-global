@@ -1,7 +1,7 @@
 ---
 title: "Entering the USA Market: A Guide for Indian Herbal Ingredient Suppliers"
 description: "The FDA regulates herbal ingredients through a well-established dietary supplement framework, but the tariff picture is the least stable of any market in this series - a temporary statutory surcharge with a hard expiration date and an uncertain successor."
-pubDate: 2026-06-28
+pubDate: 2026-06-03
 category: "market-intelligence"
 tags: ["USA", "FDA", "DSHEA", "dietary supplements", "Section 122", "tariffs", "market entry", "regulatory compliance"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

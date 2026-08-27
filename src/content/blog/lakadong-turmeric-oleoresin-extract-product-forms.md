@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Oleoresin and Extract: A Buyer's Guide to Product Forms"
 description: "Powder, oleoresin, standardized curcumin extract, and essential oil - what each Lakadong turmeric product form actually is, how it is made, and which one fits your procurement need."
-pubDate: 2026-09-21
+pubDate: 2026-08-02
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "extracts", "powders", "essential-oils", "oleoresin"]

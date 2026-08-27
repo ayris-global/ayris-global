@@ -1,7 +1,7 @@
 ---
 title: "Turmeric MOQ and Packaging Economics by Trading Structure: Auction-Mandi vs Cooperative Origins"
 description: "Minimum order quantities and packaging flexibility for Indian turmeric are not just a function of product form. Whether a supplier sources through an auction mandi or a farmer cooperative changes what MOQ and packaging options are realistic."
-pubDate: 2027-03-16
+pubDate: 2026-08-24
 category: "sourcing"
 tags: ["turmeric", "moq", "packaging", "trading-structure", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

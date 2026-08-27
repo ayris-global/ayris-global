@@ -1,7 +1,7 @@
 ---
 title: "Export Documentation Checklist for Indian Herbal Ingredients: Registrations, Certificates and Common Rejection Causes"
 description: "Complete reference checklist for exporting herbal ingredients from India: IEC, APEDA RCMC, Phytosanitary Certificate, Certificate of Origin, CoA, and destination-specific requirements."
-pubDate: 2026-08-24
+pubDate: 2026-06-26
 category: "sourcing"
 tags: ["export documentation", "India", "APEDA", "phytosanitary certificate", "certificate of origin", "IEC", "RCMC", "compliance"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

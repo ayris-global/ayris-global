@@ -1,7 +1,7 @@
 ---
 title: "Ashwagandha Extract Export from India: Withanolide Standardization, HS Classification and Documentation"
 description: "Export-specific guide to ashwagandha extract from India: USP monograph compliance, HPLC vs HPTLC standardization, HS code 1302.19, and destination export documentation."
-pubDate: 2026-08-24
+pubDate: 2026-06-23
 category: "ingredients"
 tags: ["ashwagandha", "botanical extracts", "export", "India", "withanolides", "HS code", "USP monograph"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

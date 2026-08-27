@@ -1,7 +1,7 @@
 ---
 title: "What is AYUSH? The Indian Regulatory Framework Every International Herbal Ingredient Buyer Needs to Understand"
 description: "A practical guide to India's AYUSH regulatory system for international buyers sourcing Ayurvedic and herbal ingredients: licensing, GMP requirements, jurisdiction boundaries between AYUSH, FSSAI, and CDSCO, and what documents to request from suppliers."
-pubDate: 2026-07-05
+pubDate: 2026-06-07
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["gmp", "fssai", "ayush"]

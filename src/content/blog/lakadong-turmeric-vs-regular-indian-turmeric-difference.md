@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric vs Regular Indian Turmeric: What Is the Difference?"
 description: "Curcumin content, GI-tag origin, flavor, and price - a buyer's comparison of Lakadong turmeric against commodity Indian turmeric, and when the premium is worth paying."
-pubDate: 2026-09-01
+pubDate: 2026-07-21
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "gi-tag", "pricing"]

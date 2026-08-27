@@ -1,7 +1,7 @@
 ---
 title: "How to Source Lakadong Turmeric from India for the UAE Market"
 description: "A step-by-step process for UAE buyers sourcing Lakadong turmeric directly from India - supplier identification, sampling, specification, MOQ negotiation, and shipping."
-pubDate: 2026-08-27
+pubDate: 2026-07-04
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "moq", "incoterms-logistics"]

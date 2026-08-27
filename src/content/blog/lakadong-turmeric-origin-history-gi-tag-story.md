@@ -1,7 +1,7 @@
 ---
 title: "What Is Lakadong Turmeric? Origin, History, and the GI Tag Story"
 description: "The origin story of Lakadong turmeric: West Jaintia Hills, Meghalaya's farming communities, the Mission Golden Spice programme, and how the GI tag came to protect this variety."
-pubDate: 2026-09-01
+pubDate: 2026-07-18
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "gi-tag"]

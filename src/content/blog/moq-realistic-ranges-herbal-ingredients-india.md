@@ -1,7 +1,7 @@
 ---
 title: "Minimum Order Quantities for Indian Herbal Ingredients: Realistic Ranges by Product Type"
 description: "What MOQ to actually expect when sourcing herbal powders, standardized extracts, essential oils and organic-certified botanicals from India - and how to negotiate a workable order size before you commit."
-pubDate: 2026-08-22
+pubDate: 2026-06-16
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["extracts", "powders", "essential-oils", "organic-certification", "moq"]

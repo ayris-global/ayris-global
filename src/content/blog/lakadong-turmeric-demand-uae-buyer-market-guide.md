@@ -1,7 +1,7 @@
 ---
 title: "Is Lakadong Turmeric in Demand in the UAE? A Buyer & Market Guide"
 description: "Demand signals, buyer segments, and market positioning for Lakadong turmeric in the UAE - who is actually buying it, and what that means for suppliers and buyers evaluating the market."
-pubDate: 2026-09-02
+pubDate: 2026-07-22
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "market-intelligence-regional"]

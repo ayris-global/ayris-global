@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Batch-Level Traceability: From Cooperative to Shipment"
 description: "What lot-coding and chain-of-custody documentation buyers should actually request to trace a Lakadong turmeric shipment back to its originating cooperative, plus what Meghalaya's new blockchain traceability investment does and does not change today."
-pubDate: 2026-08-28
+pubDate: 2026-07-09
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "traceability"]

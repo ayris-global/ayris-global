@@ -1,7 +1,7 @@
 ---
 title: "Halal Certification for Indian Herbal Ingredients: A Buyer's Guide for UAE and GCC Markets"
 description: "A complete guide to halal certification requirements for Indian botanical and Ayurvedic ingredients destined for UAE, Saudi Arabia, and GCC markets — covering approved bodies, process timelines, documentation, and what to verify before sourcing."
-pubDate: 2026-06-13
+pubDate: 2026-05-08
 category: "certifications"
 region_tags: ["uae-gcc"]
 tags: ["halal certification", "Indian herbal ingredients", "UAE sourcing", "GCC compliance", "botanical extracts", "Ayurvedic ingredients", "halal supply chain"]

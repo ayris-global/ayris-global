@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Market Opportunity by Region: Where the Ingredient Fits Across Nine Global Markets"
 description: "A strategic market map for Lakadong turmeric from Meghalaya across the EU, UK, USA, UAE and GCC, Japan, South Korea, Australia and New Zealand, Southeast Asia, and Latin America - identifying buyer segments, competitive positioning, and market fit region by region."
-pubDate: 2026-09-20
+pubDate: 2026-07-31
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "market-intelligence-regional"]

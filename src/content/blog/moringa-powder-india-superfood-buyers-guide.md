@@ -1,7 +1,7 @@
 ---
 title: "Moringa Powder from India: A Complete Buyer's Guide to the World's Most Nutrient-Dense Superfood"
 description: "India produces 80% of the world's moringa supply. This buyer's guide covers moringa's nutritional profile, global market demand, product formats, certification requirements, MOQ realities, sample process, and how international buyers can source organic moringa powder from verified Indian producers."
-pubDate: 2026-06-14
+pubDate: 2026-05-16
 category: "ingredients"
 tags: ["moringa", "moringa powder", "superfood", "India", "sourcing", "nutraceuticals", "organic", "botanical extracts", "buyers guide"]
 image: "/images/blog/blog-moringa-powder-india-superfood-buyers-guide.jpg"

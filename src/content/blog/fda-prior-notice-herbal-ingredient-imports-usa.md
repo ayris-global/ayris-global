@@ -1,7 +1,7 @@
 ---
 title: "FDA Prior Notice for Herbal Ingredient Imports: Filing Windows, PNSI, and What Gets Shipments Held at the US Border"
 description: "How FDA Prior Notice works for herbal ingredient and dietary supplement shipments from India - filing windows by transport mode, PNSI vs. broker filing, and the errors that cause US port holds."
-pubDate: 2026-08-28
+pubDate: 2026-07-08
 category: "certifications"
 tags: ["FDA", "Prior Notice", "PNSI", "USA", "dietary supplements", "import compliance", "customs", "bioterrorism act"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

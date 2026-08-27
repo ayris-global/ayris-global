@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Certifications Explained: GI Tag, Organic, GMP, and Export Compliance"
 description: "What the Geographical Indication tag, organic certification, GMP certification, and core export documentation actually mean for Lakadong turmeric buyers, and which certifications matter for which destination market."
-pubDate: 2026-09-01
+pubDate: 2026-07-17
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "gmp", "organic-certification", "gi-tag", "export-documentation"]

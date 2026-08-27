@@ -1,7 +1,7 @@
 ---
 title: "HS Code Classification for Indian Herbal Ingredients: A Buyer's and Exporter's Reference Guide"
 description: "How HS/HSN codes work for botanical powders, extracts, and Ayurvedic preparations exported from India - chapter logic, common classification splits, and why the wrong code costs duty and export benefits."
-pubDate: 2026-08-26
+pubDate: 2026-07-01
 category: "sourcing"
 tags: ["HS code", "HSN code", "customs classification", "India", "export", "harmonized system", "duty", "RoDTEP"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

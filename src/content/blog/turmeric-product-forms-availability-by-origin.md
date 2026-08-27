@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Product Forms by Origin: Where Oleoresin and Standardized Extract Are Actually Made vs Powder-Only Supply"
 description: "Whole-herb powder is available from every major Indian turmeric origin. Oleoresin and standardized extract are not. A buyer's guide to which origins actually have extraction infrastructure, and what that means for sourcing timelines."
-pubDate: 2026-12-15
+pubDate: 2026-08-16
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["turmeric", "product-forms", "origin-comparison", "supply-chain"]

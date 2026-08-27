@@ -1,7 +1,7 @@
 ---
 title: "Ramadan Wellness Gifting: Why Indian Herbal Tea Belongs in Every GCC Gift Hamper"
 description: "Ramadan gifting in the UAE and GCC is evolving fast. Wellness hampers with herbal teas are among the fastest-growing gift categories. Here is why Indian herbal teas — tulsi, ashwagandha, chamomile, ginger — are the perfect fit, and how B2B buyers can source them."
-pubDate: 2026-06-14
+pubDate: 2026-05-17
 category: "market-intelligence"
 region_tags: ["uae-gcc"]
 tags: ["Ramadan", "UAE", "GCC", "herbal tea", "wellness gifting", "corporate gifting", "tulsi", "ashwagandha", "halal", "India"]

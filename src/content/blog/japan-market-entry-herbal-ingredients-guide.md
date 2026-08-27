@@ -1,7 +1,7 @@
 ---
 title: "Entering the Japan Market: A Guide for Indian Herbal Ingredient Suppliers"
 description: "How Japan's Foods with Function Claims system, JAS organic certification, and the India-Japan CEPA actually affect Indian botanical exporters - and where Japan differs sharply from the EU and UAE."
-pubDate: 2026-06-25
+pubDate: 2026-05-26
 category: "market-intelligence"
 tags: ["Japan", "Foods with Function Claims", "FFC", "JAS organic", "CEPA", "market entry", "regulatory compliance"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

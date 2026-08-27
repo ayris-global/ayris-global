@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Supplier in India: A Complete Buyer's Guide for UAE & GCC Importers"
 description: "A complete sourcing guide to Lakadong turmeric suppliers in India for UAE and GCC buyers - covering origin, curcumin testing, specifications, MOQ, documentation, and supplier evaluation."
-pubDate: 2026-08-26
+pubDate: 2026-07-02
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "moq"]

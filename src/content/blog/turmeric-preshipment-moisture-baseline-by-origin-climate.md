@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Pre-Shipment Moisture Baseline by Origin: How Local Climate and Drying Practices Set Transit Risk Before the Container Is Sealed"
 description: "Turmeric origins across India differ in local climate and drying infrastructure maturity, which sets the moisture baseline a batch carries before export. This guide compares that origin-level risk and how it compounds with in-transit conditions."
-pubDate: 2026-08-27
+pubDate: 2026-07-05
 category: "sourcing"
 tags: ["turmeric", "moisture", "climate", "drying", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

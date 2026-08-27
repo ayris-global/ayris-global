@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Contaminant Baseline Variance by Origin: What Buyers Should Actually Specify"
 description: "Heavy metal, pesticide residue, and microbial baselines in Indian turmeric are not uniform across growing origins. A buyer's guide to setting realistic contaminant specifications by origin, separate from the curcumin and trading-structure clauses covered elsewhere."
-pubDate: 2027-03-30
+pubDate: 2026-08-26
 category: "sourcing"
 tags: ["turmeric", "quality-specifications", "origin-comparison", "contaminant-testing"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

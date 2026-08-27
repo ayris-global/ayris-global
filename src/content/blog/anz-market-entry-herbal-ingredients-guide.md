@@ -1,7 +1,7 @@
 ---
 title: "Entering the Australia and New Zealand Market: A Guide for Indian Herbal Ingredient Suppliers"
 description: "Australia's TGA Listed Medicines pathway and New Zealand's older Medicines Act framework regulate herbal ingredients very differently - and the newly signed India-NZ trade agreement changes the tariff picture faster than either prior market in this series."
-pubDate: 2026-06-27
+pubDate: 2026-05-30
 category: "market-intelligence"
 tags: ["Australia", "New Zealand", "TGA", "AUST L", "Medsafe", "ECTA", "market entry", "regulatory compliance"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

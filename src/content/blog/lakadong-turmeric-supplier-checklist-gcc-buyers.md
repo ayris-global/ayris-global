@@ -1,7 +1,7 @@
 ---
 title: "How to Choose a Reliable Lakadong Turmeric Supplier: 15 Checks for GCC Buyers"
 description: "A 15-point due diligence checklist for GCC buyers evaluating Lakadong turmeric suppliers - covering credentials, traceability, testing, samples, documentation, and red flags."
-pubDate: 2026-08-29
+pubDate: 2026-07-13
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "sampling", "traceability"]

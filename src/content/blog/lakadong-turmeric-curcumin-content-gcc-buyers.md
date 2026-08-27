@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Curcumin Content: What GCC Buyers Should Actually Ask For"
 description: "Why Lakadong turmeric's 6-10% curcumin reputation is a variety-level figure, not a shipment guarantee - and exactly what HPLC testing, CoA, and lab accreditation GCC buyers should ask suppliers for."
-pubDate: 2026-08-31
+pubDate: 2026-07-16
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric"]

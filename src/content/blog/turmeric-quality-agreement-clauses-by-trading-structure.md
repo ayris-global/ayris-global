@@ -1,7 +1,7 @@
 ---
 title: "Quality Agreement Clauses for Turmeric Suppliers: What Changes by Trading Structure"
 description: "The standard quality agreement template does not account for how turmeric actually reaches an exporter. Auction-mandi and cooperative-sourced suppliers need different clauses for blending disclosure, curcumin tolerance, and volume commitment."
-pubDate: 2027-03-02
+pubDate: 2026-08-23
 category: "sourcing"
 tags: ["turmeric", "quality-agreements", "trading-structure", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

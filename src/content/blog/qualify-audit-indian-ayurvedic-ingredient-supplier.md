@@ -1,7 +1,7 @@
 ---
 title: "How to Qualify and Audit an Indian Ayurvedic Ingredient Supplier: A Step-by-Step Due Diligence Guide"
 description: "A practical step-by-step guide for procurement managers and regulatory affairs teams sourcing Ayurvedic and herbal ingredients from India: how to verify licenses, validate GMP certifications, assess COAs, confirm traceability, and conduct or commission a facility audit before placing a first order."
-pubDate: 2026-07-10
+pubDate: 2026-06-11
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["gmp", "supplier-evaluation", "traceability", "first-order-guide"]

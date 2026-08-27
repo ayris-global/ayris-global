@@ -1,7 +1,7 @@
 ---
 title: "Southeast Asia Market Entry Guide for Indian Herbal Ingredient Suppliers: Indonesia, Singapore, and Malaysia"
 description: "A regulatory and trade comparison for Indian botanical and herbal extract suppliers entering Southeast Asia, covering Indonesia BPOM registration, Singapore HSA post-market rules, Malaysia NPRA approval, and current AITIGA tariff treatment."
-pubDate: 2026-06-29
+pubDate: 2026-06-04
 category: "market-intelligence"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["extracts", "market-entry"]

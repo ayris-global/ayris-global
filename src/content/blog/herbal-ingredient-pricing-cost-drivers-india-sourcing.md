@@ -1,7 +1,7 @@
 ---
 title: "How Herbal Ingredient Prices Are Determined: A Buyer's Guide to Cost Drivers in Indian Botanical Sourcing"
 description: "Why do Indian herbal ingredient prices vary so widely between suppliers and seasons? This guide explains the cost drivers behind botanical extract and powder pricing - from raw material and processing costs to certification premiums and market dynamics."
-pubDate: 2026-07-17
+pubDate: 2026-06-14
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["extracts", "powders", "pricing"]

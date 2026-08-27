@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric in Transit: Temperature, Humidity and Packaging Risk During Ocean Freight"
 description: "What happens to Lakadong turmeric fingers and powder during multi-week ocean transit - container condensation, curcuminoid degradation risk, and the packaging choices that protect quality between the Indian port and your warehouse."
-pubDate: 2026-09-11
+pubDate: 2026-07-28
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "powders", "packaging", "transit-conditions"]

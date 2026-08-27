@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Curcumin Grading Tiers Compared: Reading Percentage Claims Across Origins and Product Forms"
 description: "How the industry actually names and prices curcumin grading bands, from 2-3 percent commodity powder to 95 percent standardized extract, and why the same percentage figure means something different depending on origin and product form."
-pubDate: 2026-12-01
+pubDate: 2026-08-15
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["turmeric", "curcumin-grading", "pricing-tiers", "origin-comparison"]

@@ -1,7 +1,7 @@
 ---
 title: "Tulsi (Holy Basil) Export Guide: Sourcing Indian Tulsi for Global Wellness Markets"
 description: "A complete buyer's guide to sourcing Tulsi (Holy Basil) from India — varieties, extract specifications, certifications, and how to find verified suppliers for EU, UK, USA, UAE, and Asian markets."
-pubDate: 2026-06-13
+pubDate: 2026-05-12
 category: "ingredients"
 tags: ["tulsi", "holy basil", "herbal extracts", "India sourcing", "adaptogen", "botanical ingredients"]
 image: "/images/blog/blog-tulsi-holy-basil-export-guide.jpg"

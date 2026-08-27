@@ -1,7 +1,7 @@
 ---
 title: "Indian Turmeric Origins Compared: Erode, Salem, Nizamabad, Alleppey, Sangli and Lakadong"
 description: "A buyer's comparison of India's six best-known turmeric origins - curcumin range, color, primary use case, and GI status - to help international buyers pick the right origin for the application, not just the highest curcumin number."
-pubDate: 2026-10-06
+pubDate: 2026-08-08
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["turmeric", "lakadong-turmeric", "origin-comparison", "gi-tag"]

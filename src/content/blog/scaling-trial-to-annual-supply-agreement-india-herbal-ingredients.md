@@ -1,7 +1,7 @@
 ---
 title: "From First Order to Annual Contract: How to Scale an India Herbal Ingredient Supply Relationship"
 description: "A practical guide to scaling beyond the trial order with Indian herbal ingredient suppliers - covering volume ramp structures, annual supply agreements, price-lock mechanisms, safety stock planning, and dual-sourcing strategy."
-pubDate: 2026-08-24
+pubDate: 2026-06-28
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["pricing", "scaling-orders", "first-order-guide"]

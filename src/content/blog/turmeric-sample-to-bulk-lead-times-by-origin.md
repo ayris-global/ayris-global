@@ -1,7 +1,7 @@
 ---
 title: "Turmeric Sample-to-Bulk Lead Times by Origin: What Harvest Timing and Trading Structure Actually Change"
 description: "The sample request process is the same across Indian turmeric origins. Whether a good sample result actually translates into a fast, full-volume bulk order depends on where that origin sits in its harvest cycle and how it trades. A buyer's guide to realistic scaling timelines by origin."
-pubDate: 2027-02-16
+pubDate: 2026-08-22
 category: "sourcing"
 tags: ["turmeric", "sampling", "scaling-orders", "origin-comparison"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]

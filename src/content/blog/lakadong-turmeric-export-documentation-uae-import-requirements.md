@@ -1,7 +1,7 @@
 ---
 title: "Lakadong Turmeric Export to UAE: Documentation, Certification & Import Requirements"
 description: "The complete documentation and certification checklist for exporting Lakadong turmeric from India to the UAE - phytosanitary certificates, Certificates of Origin, labelling rules, and HS code classification."
-pubDate: 2026-08-28
+pubDate: 2026-07-12
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "hs-code"]

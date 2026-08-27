@@ -1,7 +1,7 @@
 ---
 title: "South Korea Botanical Extracts Market: Indian Supplier Guide"
 description: "Korean buyers sourcing Indian botanical extracts: MFDS regulatory pathway, documentation checklist, CEPA duty rates, MOQs, and sample process from verified Indian suppliers."
-pubDate: 2026-06-14
+pubDate: 2026-05-20
 category: "market-intelligence"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["South Korea", "botanical extracts", "K-beauty", "nutraceuticals", "herbal ingredients", "export", "market intelligence"]

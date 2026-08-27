@@ -1,7 +1,7 @@
 ---
 title: "Ashwagandha, Shatavari and Brahmi: Indian Adaptogen Sourcing Guide"
 description: "Source ashwagandha, shatavari and brahmi from GMP-certified Indian suppliers. Specifications, organic certification, MOQs and supplier qualification guide for global wellness buyers."
-pubDate: 2026-06-20
+pubDate: 2026-05-22
 category: "ingredients"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz"]
 tags: ["adaptogens", "ashwagandha", "shatavari", "brahmi", "Ayurvedic ingredients", "nootropics", "nutraceuticals", "India sourcing"]

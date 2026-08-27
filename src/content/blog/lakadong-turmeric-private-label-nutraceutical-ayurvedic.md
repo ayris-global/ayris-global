@@ -1,7 +1,7 @@
 ---
 title: "Private-Label Nutraceutical and Ayurvedic Products with Lakadong Turmeric: A Brand Builder''s Sourcing Guide"
 description: "How to build a differentiated private-label nutraceutical or Ayurvedic product line using Lakadong turmeric from Meghalaya - covering brand positioning, product category selection, cost structure, GI-tagged origin as a marketing asset, and the sourcing decisions that separate premium turmeric private label from commodity."
-pubDate: 2026-09-18
+pubDate: 2026-07-30
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "private-label", "gi-tag"]

@@ -1,7 +1,7 @@
 ---
 title: "How to Verify Authentic Lakadong Turmeric Before You Buy"
 description: "How GCC buyers can verify a Lakadong turmeric shipment is genuine - GI-tag checks, traceability to West Jaintia Hills, mislabelling red flags, and the documentation a real supplier can produce."
-pubDate: 2026-08-30
+pubDate: 2026-07-14
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["lakadong-turmeric", "turmeric", "gi-tag", "traceability"]

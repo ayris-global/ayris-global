@@ -1,7 +1,7 @@
 ---
 title: "EU Regulatory Compliance for Importing Herbal Ingredients from India: A Buyer's Guide"
 description: "A practical guide for EU supplement brands, food manufacturers, and ingredient buyers on regulatory compliance when sourcing herbal ingredients from India - covering Novel Food Regulation, pesticide MRLs, health claims restrictions, contaminant limits, and what to require from Indian suppliers."
-pubDate: 2026-07-10
+pubDate: 2026-06-10
 category: "certifications"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 author: "Ayris Global Editorial"

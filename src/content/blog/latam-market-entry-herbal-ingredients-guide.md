@@ -1,7 +1,7 @@
 ---
 title: "Latin America Market Entry Guide for Indian Herbal Ingredient Suppliers"
 description: "A practical guide to entering Brazil, Mexico, and the wider Latin American market with Indian herbal extracts, powders, and botanicals, covering ANVISA, COFEPRIS, and current India-LatAm trade conditions."
-pubDate: 2026-06-28
+pubDate: 2026-05-31
 category: "market-intelligence"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["extracts", "powders", "market-entry"]

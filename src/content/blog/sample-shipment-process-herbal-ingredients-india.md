@@ -1,7 +1,7 @@
 ---
 title: "Getting a Sample Shipment from an Indian Herbal Ingredient Supplier: Process, Costs and Timelines"
 description: "How sample requests actually work when sourcing herbal ingredients from India - typical sample sizes, courier versus freight, who pays, how long it takes, and what to check before scaling a sample to a bulk order."
-pubDate: 2026-08-22
+pubDate: 2026-06-20
 category: "sourcing"
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
 tags: ["sampling", "scaling-orders"]
