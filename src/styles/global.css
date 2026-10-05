@@ -379,13 +379,13 @@ p {
   right: 0;
   z-index: 100;
   height: var(--nav-height);
-  background-color: var(--white);
-  border-bottom: 1px solid var(--line);
+  background-color: var(--ink);
+  border-bottom: 3px solid var(--turmeric);
   transition: box-shadow var(--transition-base);
 }
 
 .navbar.scrolled {
-  box-shadow: 0 2px 16px rgba(var(--ink-rgb), 0.10);
+  box-shadow: 0 6px 24px rgba(var(--ink-rgb), 0.35);
 }
 
 .navbar__inner {
@@ -406,7 +406,7 @@ p {
 }
 
 .navbar__logo img {
-  height: 42px;
+  height: 44px;
   width: auto;
 }
 
@@ -417,9 +417,9 @@ p {
 }
 
 .navbar__link {
-  font-size: var(--text-sm);
+  font-size: 0.92rem;
   font-weight: var(--weight-medium);
-  color: var(--slate);
+  color: rgba(var(--paper-rgb), 0.88);
   letter-spacing: 0.04em;
   transition: color var(--transition-fast);
   position: relative;
@@ -439,7 +439,7 @@ p {
 
 .navbar__link:hover,
 .navbar__link.active {
-  color: var(--ink);
+  color: var(--white);
 }
 
 .navbar__link:hover::after,
@@ -459,24 +459,27 @@ p {
   align-items: center;
   gap: var(--space-2);
   padding: var(--space-2) var(--space-4);
-  background-color: #25D366;
-  color: var(--white);
+  background-color: transparent;
+  color: var(--paper);
   font-size: var(--text-sm);
   font-weight: var(--weight-semibold);
   border-radius: var(--radius-full);
   transition: all var(--transition-base);
+  border: 1.5px solid rgba(var(--paper-rgb), 0.45);
 }
 
 .navbar__whatsapp:hover {
-  background-color: #1ebe5a;
+  background-color: rgba(var(--paper-rgb), 0.10);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35);
+  box-shadow: none;
+  border-color: var(--paper);
 }
 
 .navbar__whatsapp svg {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
+  color: #25D366;
 }
 
 /* Mobile hamburger */
@@ -494,7 +497,7 @@ p {
   display: block;
   width: 24px;
   height: 2px;
-  background-color: var(--ink);
+  background-color: var(--paper);
   border-radius: var(--radius-full);
   transition: all var(--transition-base);
 }
@@ -506,11 +509,12 @@ p {
   top: var(--nav-height);
   left: 0;
   right: 0;
-  background-color: var(--white);
-  border-top: 1px solid var(--line);
+  background-color: var(--ink);
+  border-top: 1px solid rgba(var(--paper-rgb), 0.14);
   padding: var(--space-6);
   flex-direction: column;
   gap: var(--space-4);
+  border-bottom: 3px solid var(--turmeric);
 }
 
 .navbar__mobile.open {
@@ -520,14 +524,14 @@ p {
 .navbar__mobile-link {
   font-size: var(--text-base);
   font-weight: var(--weight-medium);
-  color: var(--slate);
+  color: rgba(var(--paper-rgb), 0.9);
   padding-block: var(--space-2);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(var(--paper-rgb), 0.14);
   transition: color var(--transition-fast);
 }
 
 .navbar__mobile-link:hover {
-  color: var(--ink);
+  color: var(--turmeric);
 }
 
 
@@ -874,12 +878,12 @@ p {
 }
 
 .footer__brand img {
-  height: 44px;
+  height: 50px;
   width: auto;
-  margin-bottom: var(--space-4);
-  background: var(--white);
-  padding: 4px 10px;
-  border-radius: var(--radius-sm);
+  margin-bottom: 0;
+  background: none;
+  padding: 0;
+  border-radius: 0;
 }
 
 .footer__tagline {
@@ -966,7 +970,7 @@ p {
   align-items: center;
   gap: var(--space-3);
   background-color: #25D366;
-  color: var(--white);
+  color: var(--ink);
   padding: var(--space-3) var(--space-5);
   border-radius: var(--radius-full);
   font-size: var(--text-sm);
@@ -1072,6 +1076,11 @@ p {
     display: none; /* icon only on mobile */
   }
 
+  /* Phones show one WhatsApp icon (the mobile one), not two */
+  .navbar__actions .navbar__whatsapp {
+    display: none;
+  }
+
   .grid-2,
   .grid-3 {
     grid-template-columns: 1fr;
@@ -1136,4 +1145,39 @@ p {
   h1, .h1 { font-size: var(--text-3xl); }
   h2, .h2 { font-size: var(--text-2xl); }
   h3, .h3 { font-size: var(--text-xl); }
+}
+
+
+/* ============================================================
+   16. BRAND LOCKUP (nav + footer): logo mark + AYRIS / GLOBAL
+   Colours come from the palette variables above.
+   ============================================================ */
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.brand-text__main {
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
+  letter-spacing: 0.16em;
+  color: var(--paper);
+}
+.brand-text__sub {
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.52em;
+  color: var(--turmeric);
+  margin-top: 5px;
+}
+.footer__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+@media (max-width: 480px) {
+  .brand-text__main { font-size: 1.2rem; }
+  .brand-text__sub  { letter-spacing: 0.42em; }
 }
