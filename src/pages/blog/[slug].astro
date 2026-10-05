@@ -55,22 +55,22 @@ const relatedPosts = candidates
   {faqSchema && <script type="application/ld+json" set:html={faqSchema} slot="head" />}
 
   <!-- Hero -->
-  <section style="background: #1B2B4B; padding: 80px 24px 60px;">
+  <section style="background: var(--mist); border-bottom: 3px solid var(--turmeric); padding: 80px 24px 60px;">
     <div style="max-width: 800px; margin: 0 auto;">
-      <p style="color: #C9A84C; font-family: Inter, sans-serif; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;">
+      <p style="color: var(--ink); font-family: Inter, sans-serif; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;">
         {post.data.category}
       </p>
-      <h1 style="font-family: 'DM Serif Display', serif; font-size: clamp(2rem, 4vw, 3rem); color: #FAFAF8; line-height: 1.2; margin-bottom: 24px;">
+      <h1 style="font-family: 'DM Serif Display', serif; font-size: clamp(2rem, 4vw, 3rem); color: var(--ink); line-height: 1.2; margin-bottom: 24px;">
         {post.data.title}
       </h1>
-      <p style="color: #FAFAF8; opacity: 0.7; font-family: Inter, sans-serif; font-size: 0.95rem;">
+      <p style="color: var(--slate); font-family: Inter, sans-serif; font-size: 0.95rem;">
         {formattedDate}
         {post.data.readingTime && <>&nbsp;&middot;&nbsp;{post.data.readingTime} min read</>}
       </p>
     </div>
   </section>
   <!-- Content -->
-  <section style="background: #FAFAF8; padding: 60px 24px 80px;">
+  <section style="background: var(--paper); padding: 60px 24px 80px;">
     <div style="max-width: 800px; margin: 0 auto;">
       {post.data.image && (
         <img
@@ -88,7 +88,7 @@ const relatedPosts = candidates
           <h2 class="related-articles__title">Related Articles</h2>
           <div class="related-grid">
             {relatedPosts.map((rp) => {
-              const color = categoryMeta[rp.data.category]?.color || '#1B2B4B';
+              const color = categoryMeta[rp.data.category]?.color || 'var(--ink)';
               const label = categoryMeta[rp.data.category]?.label || rp.data.category;
               return (
                 <a href={`/blog/${rp.slug}/`} class="related-card">
@@ -118,8 +118,8 @@ const relatedPosts = candidates
       )}
 
       <!-- Back link -->
-      <div style="margin-top: 64px; padding-top: 32px; border-top: 1px solid #e5e7eb;">
-        <a href="/blog/" style="color: #C9A84C; font-family: Inter, sans-serif; font-weight: 600; text-decoration: none; font-size: 0.95rem;">
+      <div style="margin-top: 64px; padding-top: 32px; border-top: 1px solid var(--line);">
+        <a href="/blog/" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--turmeric); text-underline-offset: 4px; font-family: Inter, sans-serif; font-weight: 600; font-size: 0.95rem;">
           &larr; Back to Insights
         </a>
       </div>
@@ -131,19 +131,19 @@ const relatedPosts = candidates
     font-family: Inter, sans-serif;
     font-size: 1.05rem;
     line-height: 1.8;
-    color: #1B2B4B;
+    color: var(--ink);
   }
   .prose h2 {
     font-family: 'DM Serif Display', serif;
     font-size: 1.75rem;
-    color: #1B2B4B;
+    color: var(--ink);
     margin-top: 48px;
     margin-bottom: 16px;
   }
   .prose h3 {
     font-family: 'DM Serif Display', serif;
     font-size: 1.35rem;
-    color: #1B2B4B;
+    color: var(--ink);
     margin-top: 36px;
     margin-bottom: 12px;
   }
@@ -158,31 +158,34 @@ const relatedPosts = candidates
     margin-bottom: 8px;
   }
   .prose strong {
-    color: #1B2B4B;
+    color: var(--ink);
     font-weight: 600;
   }
   .prose a {
-    color: #C9A84C;
+    color: var(--ink);
     text-decoration: underline;
-  }
+  text-decoration-color: var(--turmeric);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
   .prose blockquote {
-    border-left: 3px solid #C9A84C;
+    border-left: 3px solid var(--turmeric);
     padding-left: 20px;
     margin-left: 0;
-    color: #4B5563;
+    color: var(--slate);
     font-style: italic;
   }
 
   .related-articles {
     margin-top: 64px;
     padding-top: 48px;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid var(--line);
   }
 
   .related-articles__title {
     font-family: 'DM Serif Display', serif;
     font-size: 1.5rem;
-    color: #1B2B4B;
+    color: var(--ink);
     margin-bottom: 28px;
   }
 
@@ -201,9 +204,9 @@ const relatedPosts = candidates
   }
 
   .related-card {
-    background: #fff;
+    background: var(--white);
     border-radius: 12px;
-    border: 1px solid #e8e3d9;
+    border: 1px solid var(--line);
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
@@ -214,14 +217,14 @@ const relatedPosts = candidates
 
   .related-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(27,43,75,0.12);
+    box-shadow: 0 12px 32px rgba(var(--ink-rgb),0.12);
   }
 
   .related-card__image-wrap {
     position: relative;
     height: 140px;
     overflow: hidden;
-    background: #1B2B4B;
+    background: var(--ink);
     flex-shrink: 0;
   }
 
@@ -239,7 +242,7 @@ const relatedPosts = candidates
   .related-card__image-fallback {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #1B2B4B 0%, #243d6b 100%);
+    background: var(--ink);
   }
 
   .related-card__badge {
@@ -252,7 +255,7 @@ const relatedPosts = candidates
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--white);
   }
 
   .related-card__body {
@@ -265,14 +268,14 @@ const relatedPosts = candidates
   .related-card__title {
     font-family: 'DM Serif Display', serif;
     font-size: 0.95rem;
-    color: #1B2B4B;
+    color: var(--ink);
     line-height: 1.35;
     margin: 0 0 0.5rem;
   }
 
   .related-card__desc {
     font-size: 0.8rem;
-    color: #555;
+    color: var(--slate);
     line-height: 1.6;
     margin: 0;
     flex: 1;
