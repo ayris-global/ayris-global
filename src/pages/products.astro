@@ -4,11 +4,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="Ingredient Categories"
-  description="Explore Ayris Global's full range of premium Indian botanical ingredients: Ayurvedic ingredients, herbal extracts, botanical powders, nutraceuticals, essential oils, and natural wellness ingredients. GMP-certified, globally supplied."
+  description="Indian botanical ingredients sourced by Ayris Global: Ayurvedic ingredients, herbal extracts, botanical powders, nutraceuticals, essential oils and natural wellness ingredients, documentation-first."
 >
 
   <!-- Product/ItemList JSON-LD Schema (Session 28) -->
-  <script type="application/ld+json" set:html={`{"@context":"https://schema.org","@type":"ItemList","name":"Ayris Global Ingredient Categories","description":"Premium Indian botanical ingredients supplied by Ayris Global across six categories: Ayurvedic ingredients, herbal extracts, botanical powders, nutraceutical ingredients, essential oils, and natural wellness ingredients.","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Ashwagandha","alternateName":"Withania somnifera","category":"Ayurvedic Ingredients","description":"Root extract (KSM-66, Sensoril standardised), root powder. The world's most commercially significant Ayurvedic adaptogen.","image":"https://ayrisglobal.in/images/products/ashwagandha.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Shatavari","alternateName":"Asparagus racemosus","category":"Ayurvedic Ingredients","description":"Root powder and extract. A leading women's wellness tonic, with growing demand across EU nutraceutical and functional food sectors.","image":"https://ayrisglobal.in/images/products/shatavari.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Brahmi","alternateName":"Bacopa monnieri","category":"Ayurvedic Ingredients","description":"Aerial extract standardised to bacosides. A nootropic ingredient in strong demand from UK, USA, Japan and Korean cognitive supplement markets.","image":"https://ayrisglobal.in/images/products/brahmi.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Tulsi Extract","alternateName":"Ocimum tenuiflorum","category":"Herbal Extracts","description":"Leaf extract standardised to ursolic acid and eugenol. Adaptogenic, antimicrobial, highly sought by functional tea and supplement brands in ANZ, USA and UK.","image":"https://ayrisglobal.in/images/products/tulsi-extract.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Boswellia Extract","alternateName":"Boswellia serrata","category":"Herbal Extracts","description":"AKBA-standardised Indian frankincense extract. The leading joint health ingredient in European and North American nutraceutical markets.","image":"https://ayrisglobal.in/images/products/boswellia-extract.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Guduchi Extract","alternateName":"Tinospora cordifolia","category":"Herbal Extracts","description":"Stem extract standardised to tinosporin. A premier Ayurvedic immunomodulator with growing clinical validation and rising demand across EU and Korean markets.","image":"https://ayrisglobal.in/images/products/guduchi-extract.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Moringa Powder","alternateName":"Moringa oleifera","category":"Botanical Powders","description":"Leaf powder, a complete protein source with exceptional iron and antioxidant profiles. In high demand from EU health food brands, SEA wellness markets, and LatAm functional food producers.","image":"https://ayrisglobal.in/images/products/moringa-powder.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Amla Powder","alternateName":"Phyllanthus emblica","category":"Botanical Powders","description":"Indian gooseberry fruit powder, one of the richest natural sources of Vitamin C. A star ingredient for immunity, hair wellness, and antioxidant supplement formulations worldwide.","image":"https://ayrisglobal.in/images/products/amla-powder.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":9,"item":{"@type":"Product","name":"Neem Powder","alternateName":"Azadirachta indica","category":"Botanical Powders","description":"Leaf and seed powder. Widely used in cosmetic formulations, nutraceutical capsules, and functional wellness products across EU, UK and Middle East markets.","image":"https://ayrisglobal.in/images/products/neem-powder.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":10,"item":{"@type":"Product","name":"Curcumin (Turmeric Extract)","alternateName":"Curcuma longa","category":"Nutraceutical Ingredients","description":"95% curcuminoids standardised, BCM-95 and CurcuWIN formats available. The world's most studied botanical anti-inflammatory, core to supplement lines in every major global market.","image":"https://ayrisglobal.in/images/products/curcumin.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":11,"item":{"@type":"Product","name":"Piperine (Black Pepper Extract)","alternateName":"Piper nigrum","category":"Nutraceutical Ingredients","description":"95% piperine standardised. The bioavailability enhancer found in the majority of premium curcumin, ashwagandha, and fat-soluble vitamin formulations globally.","image":"https://ayrisglobal.in/images/products/piperine.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":12,"item":{"@type":"Product","name":"Triphala","alternateName":"Amla, Haritaki, Bibhitaki","category":"Nutraceutical Ingredients","description":"The foundational Ayurvedic three-fruit formula, standardised extract and traditional powder. In strong demand from digestive wellness and longevity supplement markets in USA, EU and Japan.","image":"https://ayrisglobal.in/images/products/triphala.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":13,"item":{"@type":"Product","name":"Cardamom Oil","alternateName":"Elettaria cardamomum","category":"Essential Oils","description":"Steam-distilled from Kerala green cardamom pods. Prized in luxury fragrance, food flavouring, and aromatherapy applications from Europe to Japan.","image":"https://ayrisglobal.in/images/products/cardamom-oil.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":14,"item":{"@type":"Product","name":"Vetiver Oil","alternateName":"Chrysopogon zizanioides","category":"Essential Oils","description":"Indian vetiver (khus), steam-distilled root oil with a distinctive earthy, woody profile. A key base note in luxury fragrances and a growing ingredient in ayurvedic skincare formulations.","image":"https://ayrisglobal.in/images/products/vetiver-oil.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":15,"item":{"@type":"Product","name":"Ginger Oil","alternateName":"Zingiber officinale","category":"Essential Oils","description":"CO2 and steam-distilled from Indian ginger rhizomes. Used in food flavouring, digestive wellness formulations, and sports recovery products across all major global markets.","image":"https://ayrisglobal.in/images/products/ginger-oil.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":16,"item":{"@type":"Product","name":"Rose Petals","alternateName":"Rosa damascena","category":"Natural Wellness Ingredients","description":"Dried and whole rose petals from Rajasthan and Uttarakhand, used in luxury herbal teas, Ayurvedic skincare, and beauty supplement formulations across EU, UAE/GCC and Korean markets.","image":"https://ayrisglobal.in/images/products/rose-petals.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":17,"item":{"@type":"Product","name":"Hibiscus","alternateName":"Hibiscus sabdariffa","category":"Natural Wellness Ingredients","description":"Dried calyx, a vibrant functional botanical used in herbal teas, functional beverages, and wellness formulations. Strong demand from EU, USA, and LatAm markets for its colour, flavour, and antioxidant content.","image":"https://ayrisglobal.in/images/products/hibiscus.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}},{"@type":"ListItem","position":18,"item":{"@type":"Product","name":"Chamomile","alternateName":"Matricaria chamomilla","category":"Natural Wellness Ingredients","description":"Dried chamomile flowers, whole and cut grades available. A consistent top-seller in herbal tea blends globally, from UK high-street brands to Japanese wellness subscription boxes.","image":"https://ayrisglobal.in/images/products/chamomile.jpg","brand":{"@type":"Organization","name":"Ayris Global"}}}]}`} slot="head" />
+  <script type="application/ld+json" set:html={`{"@context":"https://schema.org","@type":"ItemList","name":"Ayris Global Ingredient Categories","description":"Indian botanical ingredients sourced by Ayris Global across six categories: Ayurvedic ingredients, herbal extracts, botanical powders, nutraceutical ingredients, essential oils, and natural wellness ingredients.","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Ashwagandha","alternateName":"Withania somnifera","category":"Ayurvedic Ingredients","description":"Root extract standardised to withanolides, and root powder. One of the most widely traded Ayurvedic adaptogens.","image":"https://ayrisglobal.in/images/products/ashwagandha.jpg"}},{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Shatavari","alternateName":"Asparagus racemosus","category":"Ayurvedic Ingredients","description":"Root powder and extract. A classical Ayurvedic tonic used in women's wellness formulations.","image":"https://ayrisglobal.in/images/products/shatavari.jpg"}},{"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Brahmi","alternateName":"Bacopa monnieri","category":"Ayurvedic Ingredients","description":"Aerial extract standardised to bacosides, and powder. Used in cognitive-support supplement formulations.","image":"https://ayrisglobal.in/images/products/brahmi.jpg"}},{"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Tulsi Extract","alternateName":"Ocimum tenuiflorum","category":"Herbal Extracts","description":"Leaf extract standardised to ursolic acid and eugenol. Used by functional tea and supplement brands.","image":"https://ayrisglobal.in/images/products/tulsi-extract.jpg"}},{"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Boswellia Extract","alternateName":"Boswellia serrata","category":"Herbal Extracts","description":"AKBA-standardised Indian frankincense extract. A widely used joint-health ingredient.","image":"https://ayrisglobal.in/images/products/boswellia-extract.jpg"}},{"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Guduchi Extract","alternateName":"Tinospora cordifolia","category":"Herbal Extracts","description":"Stem extract and powder, standardised to customer specification. A classical Ayurvedic herb.","image":"https://ayrisglobal.in/images/products/guduchi-extract.jpg"}},{"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Moringa Powder","alternateName":"Moringa oleifera","category":"Botanical Powders","description":"Leaf powder containing all essential amino acids, with notable iron and micronutrient content. Used in health food and functional food products.","image":"https://ayrisglobal.in/images/products/moringa-powder.jpg"}},{"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Amla Powder","alternateName":"Phyllanthus emblica","category":"Botanical Powders","description":"Indian gooseberry fruit powder, a recognised natural source of vitamin C. Used in supplement, hair care and food formulations.","image":"https://ayrisglobal.in/images/products/amla-powder.jpg"}},{"@type":"ListItem","position":9,"item":{"@type":"Product","name":"Neem Powder","alternateName":"Azadirachta indica","category":"Botanical Powders","description":"Leaf and seed powder. Widely used in cosmetic formulations, nutraceutical capsules, and functional wellness products across EU, UK and Middle East markets.","image":"https://ayrisglobal.in/images/products/neem-powder.jpg"}},{"@type":"ListItem","position":10,"item":{"@type":"Product","name":"Curcumin (Turmeric Extract)","alternateName":"Curcuma longa","category":"Nutraceutical Ingredients","description":"Standardised to 95% curcuminoids. Among the most researched botanicals, and a core supplement ingredient.","image":"https://ayrisglobal.in/images/products/curcumin.jpg"}},{"@type":"ListItem","position":11,"item":{"@type":"Product","name":"Piperine (Black Pepper Extract)","alternateName":"Piper nigrum","category":"Nutraceutical Ingredients","description":"Standardised to 95% piperine. Commonly paired with curcumin in supplement formulations.","image":"https://ayrisglobal.in/images/products/piperine.jpg"}},{"@type":"ListItem","position":12,"item":{"@type":"Product","name":"Triphala","alternateName":"Amla, Haritaki, Bibhitaki","category":"Nutraceutical Ingredients","description":"The classical Ayurvedic three-fruit formula, as standardised extract and traditional powder. Used in digestive wellness formulations.","image":"https://ayrisglobal.in/images/products/triphala.jpg"}},{"@type":"ListItem","position":13,"item":{"@type":"Product","name":"Cardamom Oil","alternateName":"Elettaria cardamomum","category":"Essential Oils","description":"Steam-distilled from Kerala green cardamom pods. Used in fragrance, food flavouring and aromatherapy.","image":"https://ayrisglobal.in/images/products/cardamom-oil.jpg"}},{"@type":"ListItem","position":14,"item":{"@type":"Product","name":"Vetiver Oil","alternateName":"Chrysopogon zizanioides","category":"Essential Oils","description":"Indian vetiver (khus), steam-distilled root oil with a distinctive earthy, woody profile. A key base note in luxury fragrances and a growing ingredient in ayurvedic skincare formulations.","image":"https://ayrisglobal.in/images/products/vetiver-oil.jpg"}},{"@type":"ListItem","position":15,"item":{"@type":"Product","name":"Ginger Oil","alternateName":"Zingiber officinale","category":"Essential Oils","description":"CO2 and steam-distilled from Indian ginger rhizomes. Used in food flavouring, digestive wellness formulations, and sports recovery products across all major global markets.","image":"https://ayrisglobal.in/images/products/ginger-oil.jpg"}},{"@type":"ListItem","position":16,"item":{"@type":"Product","name":"Rose Petals","alternateName":"Rosa damascena","category":"Natural Wellness Ingredients","description":"Dried whole rose petals, used in herbal teas, Ayurvedic skincare and beauty formulations.","image":"https://ayrisglobal.in/images/products/rose-petals.jpg"}},{"@type":"ListItem","position":17,"item":{"@type":"Product","name":"Hibiscus","alternateName":"Hibiscus sabdariffa","category":"Natural Wellness Ingredients","description":"Dried calyx used in herbal teas, functional beverages and wellness formulations for its colour and flavour.","image":"https://ayrisglobal.in/images/products/hibiscus.jpg"}},{"@type":"ListItem","position":18,"item":{"@type":"Product","name":"Chamomile","alternateName":"Matricaria chamomilla","category":"Natural Wellness Ingredients","description":"Dried chamomile flowers, whole and cut grades available. A staple of herbal tea blends.","image":"https://ayrisglobal.in/images/products/chamomile.jpg"}}]}`} slot="head" />
 
   <!-- ═══════════════════════════════════
        PAGE HERO
@@ -17,7 +17,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="page-hero__inner">
       <span class="eyebrow">What We Source</span>
       <h1 class="page-hero__title">Ingredient Categories</h1>
-      <p class="page-hero__sub">Six category families. Hundreds of individual ingredients. Every one sourced from GMP-certified, audit-ready Indian producers — and matched to the specific market requirements of your region.</p>
+      <p class="page-hero__sub">Six category families, sourced from documented Indian producers and matched to the requirements of your market. Enquiries are welcome beyond the ingredients shown here.</p>
     </div>
   </section>
 
@@ -42,9 +42,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
 
         <div class="category__content">
-          <span class="category__eyebrow">5,000 years of tradition</span>
+          <span class="category__eyebrow">Rooted in classical Ayurveda</span>
           <h2 class="category__title">Ayurvedic Ingredients</h2>
-          <p class="category__desc">The foundational botanicals of Ayurveda — India's classical system of medicine. These are the adaptogens, rasayanas, and tonic herbs that global supplement brands, functional food producers, and wellness formulators are building their most credible product lines around.</p>
+          <p class="category__desc">The foundational botanicals of Ayurveda - India's classical system of medicine. These are the adaptogens, rasayanas, and tonic herbs that global supplement brands, functional food producers, and wellness formulators are building their most credible product lines around.</p>
+          <p class="category__certs-label">Available from producers, by enquiry:</p>
           <ul class="category__certs">
             <li>GMP certified</li>
             <li>FSSAI licensed</li>
@@ -61,7 +62,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Ashwagandha</h3>
                 <p class="latin">Withania somnifera</p>
-                <p>Root extract (KSM-66, Sensoril standardised), root powder. The world's most commercially significant Ayurvedic adaptogen.</p>
+                <p>Root extract standardised to withanolides, and root powder. One of the most widely traded Ayurvedic adaptogens.</p>
               </div>
             </div>
 
@@ -72,7 +73,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Shatavari</h3>
                 <p class="latin">Asparagus racemosus</p>
-                <p>Root powder and extract. A leading women's wellness tonic — growing demand across EU nutraceutical and functional food sectors.</p>
+                <p>Root powder and extract. A classical Ayurvedic tonic used in women's wellness formulations.</p>
               </div>
             </div>
 
@@ -83,7 +84,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Brahmi</h3>
                 <p class="latin">Bacopa monnieri</p>
-                <p>Aerial extract standardised to bacosides. A nootropic ingredient in strong demand from UK, USA, Japan and Korean cognitive supplement markets.</p>
+                <p>Aerial extract standardised to bacosides, and powder. Used in cognitive-support supplement formulations.</p>
               </div>
             </div>
 
@@ -116,12 +117,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="category__content">
           <span class="category__eyebrow">Precision standardisation</span>
           <h2 class="category__title">Herbal Extracts</h2>
-          <p class="category__desc">Concentrated botanical extracts with defined active content — standardised by HPLC, UV, or gravimetric methods. Supplied as dry powders, liquid extracts, or encapsulated forms. Each batch accompanied by full CoA, MSDS, and origin documentation.</p>
+          <p class="category__desc">Concentrated botanical extracts with defined active content - standardised by HPLC, UV, or gravimetric methods. Supplied as dry powders, liquid extracts, or encapsulated forms. Batch CoA, SDS and origin documents are requested with every enquiry.</p>
+          <p class="category__certs-label">Available from producers, by enquiry:</p>
           <ul class="category__certs">
             <li>HPLC-standardised actives</li>
             <li>ISO 22000 / ISO 9001</li>
             <li>Halal & Kosher available</li>
-            <li>EU, UK, US import-ready</li>
+            <li>Documentation for EU, UK, US imports</li>
           </ul>
 
           <div class="ingredient-cards">
@@ -133,7 +135,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Tulsi Extract</h3>
                 <p class="latin">Ocimum tenuiflorum</p>
-                <p>Leaf extract standardised to ursolic acid and eugenol. Adaptogenic, antimicrobial — highly sought by functional tea and supplement brands in ANZ, USA and UK.</p>
+                <p>Leaf extract standardised to ursolic acid and eugenol. Used by functional tea and supplement brands.</p>
               </div>
             </div>
 
@@ -144,7 +146,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Boswellia Extract</h3>
                 <p class="latin">Boswellia serrata</p>
-                <p>AKBA-standardised Indian frankincense extract. The leading joint health ingredient in European and North American nutraceutical markets.</p>
+                <p>AKBA-standardised Indian frankincense extract. A widely used joint-health ingredient.</p>
               </div>
             </div>
 
@@ -155,7 +157,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Guduchi Extract</h3>
                 <p class="latin">Tinospora cordifolia</p>
-                <p>Stem extract standardised to tinosporin. A premier Ayurvedic immunomodulator with growing clinical validation and rising demand across EU and Korean markets.</p>
+                <p>Stem extract and powder, standardised to customer specification. A classical Ayurvedic herb.</p>
               </div>
             </div>
 
@@ -188,7 +190,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="category__content">
           <span class="category__eyebrow">Whole ingredient integrity</span>
           <h2 class="category__title">Botanical Powders</h2>
-          <p class="category__desc">Whole-plant and single-part botanical powders — dried, milled, and sieved to specification. Used in finished supplements, functional foods, teas, smoothie blends, and cosmetic formulations. Available in conventional, organic, and spray-dried formats.</p>
+          <p class="category__desc">Whole-plant and single-part botanical powders - dried, milled, and sieved to specification. Used in finished supplements, functional foods, teas, smoothie blends, and cosmetic formulations. Available in conventional, organic, and spray-dried formats.</p>
+          <p class="category__certs-label">Available from producers, by enquiry:</p>
           <ul class="category__certs">
             <li>Organic NPOP / NOP certified</li>
             <li>Mesh size to specification</li>
@@ -205,7 +208,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Moringa Powder</h3>
                 <p class="latin">Moringa oleifera</p>
-                <p>Leaf powder — a complete protein source with exceptional iron and antioxidant profiles. In high demand from EU health food brands, SEA wellness markets, and LatAm functional food producers.</p>
+                <p>Leaf powder containing all essential amino acids, with notable iron and micronutrient content. Used in health food and functional food products.</p>
               </div>
             </div>
 
@@ -216,7 +219,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Amla Powder</h3>
                 <p class="latin">Phyllanthus emblica</p>
-                <p>Indian gooseberry fruit powder — one of the richest natural sources of Vitamin C. A star ingredient for immunity, hair wellness, and antioxidant supplement formulations worldwide.</p>
+                <p>Indian gooseberry fruit powder, a recognised natural source of vitamin C. Used in supplement, hair care and food formulations.</p>
               </div>
             </div>
 
@@ -260,11 +263,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="category__content">
           <span class="category__eyebrow">Active ingredient science</span>
           <h2 class="category__title">Nutraceutical Ingredients</h2>
-          <p class="category__desc">Active botanical ingredients for inclusion in dietary supplements, functional foods, and nutraceutical formulations. Supplied with full technical documentation — CoA, MSDS, stability data, and bioavailability references — to meet the procurement standards of regulated markets globally.</p>
+          <p class="category__desc">Active botanical ingredients for inclusion in dietary supplements, functional foods, and nutraceutical formulations. We request full technical documentation from the producer, including CoA, SDS and stability data, to support procurement in regulated markets.</p>
+          <p class="category__certs-label">Available from producers, by enquiry:</p>
           <ul class="category__certs">
             <li>GMP, ISO 22000</li>
             <li>EU Novel Food status guidance</li>
-            <li>FDA facility registered</li>
+            <li>Producer FDA food facility registration</li>
             <li>Full technical dossier available</li>
           </ul>
 
@@ -277,7 +281,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Curcumin (Turmeric Extract)</h3>
                 <p class="latin">Curcuma longa</p>
-                <p>95% curcuminoids standardised, BCM-95 and CurcuWIN formats available. The world's most studied botanical anti-inflammatory — core to supplement lines in every major global market.</p>
+                <p>Standardised to 95% curcuminoids. Among the most researched botanicals, and a core supplement ingredient.</p>
               </div>
             </div>
 
@@ -288,7 +292,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Piperine (Black Pepper Extract)</h3>
                 <p class="latin">Piper nigrum</p>
-                <p>95% piperine standardised. The bioavailability enhancer found in the majority of premium curcumin, ashwagandha, and fat-soluble vitamin formulations globally.</p>
+                <p>Standardised to 95% piperine. Commonly paired with curcumin in supplement formulations.</p>
               </div>
             </div>
 
@@ -299,7 +303,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Triphala</h3>
                 <p class="latin">Amla, Haritaki, Bibhitaki</p>
-                <p>The foundational Ayurvedic three-fruit formula — standardised extract and traditional powder. In strong demand from digestive wellness and longevity supplement markets in USA, EU and Japan.</p>
+                <p>The classical Ayurvedic three-fruit formula, as standardised extract and traditional powder. Used in digestive wellness formulations.</p>
               </div>
             </div>
 
@@ -332,9 +336,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="category__content">
           <span class="category__eyebrow">Steam-distilled, cold-pressed, CO₂ extracted</span>
           <h2 class="category__title">Essential Oils</h2>
-          <p class="category__desc">India is one of the world's most important origins for essential oil production — from steam-distilled spice oils in Kerala to CO₂-extracted botanical oils from Rajasthan and Uttarakhand. Supplied in full GC/MS-tested batches with complete quality documentation.</p>
+          <p class="category__desc">India is an established origin for essential oils, from steam-distilled spice oils in Kerala to CO₂-extracted botanical oils. Batches are GC-MS tested by the producer, with quality documentation requested for every enquiry.</p>
+          <p class="category__certs-label">Available from producers, by enquiry:</p>
           <ul class="category__certs">
-            <li>GC/MS tested, batch certified</li>
+            <li>GC-MS tested by the producer</li>
             <li>IFRA compliance guidance</li>
             <li>Food grade and cosmetic grade</li>
             <li>Halal certified available</li>
@@ -349,7 +354,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Cardamom Oil</h3>
                 <p class="latin">Elettaria cardamomum</p>
-                <p>Steam-distilled from Kerala green cardamom pods. Prized in luxury fragrance, food flavouring, and aromatherapy applications from Europe to Japan.</p>
+                <p>Steam-distilled from Kerala green cardamom pods. Used in fragrance, food flavouring and aromatherapy.</p>
               </div>
             </div>
 
@@ -360,7 +365,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Vetiver Oil</h3>
                 <p class="latin">Chrysopogon zizanioides</p>
-                <p>Indian vetiver (khus) — steam-distilled root oil with a distinctive earthy, woody profile. A key base note in luxury fragrances and a growing ingredient in ayurvedic skincare formulations.</p>
+                <p>Indian vetiver (khus) - steam-distilled root oil with a distinctive earthy, woody profile. A key base note in luxury fragrances and a growing ingredient in ayurvedic skincare formulations.</p>
               </div>
             </div>
 
@@ -404,7 +409,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="category__content">
           <span class="category__eyebrow">Flowers, roots & botanicals</span>
           <h2 class="category__title">Natural Wellness Ingredients</h2>
-          <p class="category__desc">Edible botanicals, functional flowers, and wellness-grade plant ingredients used in herbal teas, functional beverages, beauty supplements, and natural cosmetic formulations. From Himalayan rose petals to South Indian hibiscus — sourced at origin, processed to specification.</p>
+          <p class="category__desc">Edible botanicals, functional flowers, and wellness-grade plant ingredients used in herbal teas, functional beverages, beauty supplements, and natural cosmetic formulations. From rose petals to hibiscus, sourced at origin and processed to specification.</p>
+          <p class="category__certs-label">Available from producers, by enquiry:</p>
           <ul class="category__certs">
             <li>Food-grade processing</li>
             <li>Organic NPOP certified</li>
@@ -421,7 +427,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Rose Petals</h3>
                 <p class="latin">Rosa damascena</p>
-                <p>Dried and whole rose petals from Rajasthan and Uttarakhand — used in luxury herbal teas, Ayurvedic skincare, and beauty supplement formulations across EU, UAE/GCC and Korean markets.</p>
+                <p>Dried whole rose petals, used in herbal teas, Ayurvedic skincare and beauty formulations.</p>
               </div>
             </div>
 
@@ -432,7 +438,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Hibiscus</h3>
                 <p class="latin">Hibiscus sabdariffa</p>
-                <p>Dried calyx — a vibrant functional botanical used in herbal teas, functional beverages, and wellness formulations. Strong demand from EU, USA, and LatAm markets for its colour, flavour, and antioxidant content.</p>
+                <p>Dried calyx used in herbal teas, functional beverages and wellness formulations for its colour and flavour.</p>
               </div>
             </div>
 
@@ -443,7 +449,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               <div class="ingredient-card--sm__body">
                 <h3>Chamomile</h3>
                 <p class="latin">Matricaria chamomilla</p>
-                <p>Dried chamomile flowers — whole and cut grades available. A consistent top-seller in herbal tea blends globally, from UK high-street brands to Japanese wellness subscription boxes.</p>
+                <p>Dried chamomile flowers, whole and cut grades available. A staple of herbal tea blends.</p>
               </div>
             </div>
 
@@ -459,8 +465,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <section class="doc-strip">
     <div class="container">
       <div class="doc-strip__inner">
-        <h2 class="doc-strip__title">Every ingredient comes fully documented</h2>
-        <p class="doc-strip__sub">We know that documentation is the difference between a sample that converts and one that stalls in your procurement process. Every ingredient we supply comes with a complete documentation package — matched to your market's specific import requirements.</p>
+        <h2 class="doc-strip__title">Documentation-first, for every ingredient</h2>
+        <p class="doc-strip__sub">We know that documentation is the difference between a sample that converts and one that stalls in your procurement process. For every enquiry, we request a documentation package from the producer, matched to your market's import requirements.</p>
         <div class="doc-grid">
           <div class="doc-item">
             <span class="doc-item__icon">CoA</span>
@@ -498,7 +504,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="container">
       <div class="cta-band__inner">
         <h2 class="cta-band__title">Don't see what you're looking for?</h2>
-        <p class="cta-band__sub">Our sourcing capability extends well beyond this list. If you need a specific Indian botanical ingredient — in a particular form, grade, or certification — start a conversation and we'll tell you what we can do.</p>
+        <p class="cta-band__sub">Our sourcing capability extends well beyond this list. If you need a specific Indian botanical ingredient - in a particular form, grade, or certification - start a conversation and we'll tell you what we can do.</p>
         <div class="cta-band__actions">
           <a href="/contact/" class="btn btn--primary btn--lg">Submit a Sourcing Enquiry</a>
           <a href="/for-buyers/" class="btn btn--ghost btn--lg">Why Buyers Choose Ayris Global</a>
@@ -897,5 +903,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   @media (prefers-reduced-motion: reduce) {
     .ingredient-card--sm { transition: none; }
     .ingredient-card--sm__img img { transition: none; }
+  }
+  .category__certs-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: #888;
+    margin: 0 0 0.6rem;
   }
 </style>

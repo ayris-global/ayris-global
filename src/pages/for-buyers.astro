@@ -3,192 +3,155 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="For Buyers"
-  description="Ayris Global partners with wellness brands, supplement manufacturers, and ingredient buyers across the EU, UK, USA, UAE/GCC, Japan, Korea, ANZ, Southeast Asia, and Latin America. Discover why global buyers source Indian botanicals through Ayris Global."
+  title="For Buyers: Source Indian Botanical Ingredients"
+  description="Ayris Global sources Indian botanical ingredients, herbal extracts and Ayurvedic ingredients for brands and manufacturers in 9 regions. Specification-first, documentation-first."
 >
 
-  <!-- HowTo JSON-LD Schema (Session 28) -->
-  <script type="application/ld+json" set:html={`{"@context":"https://schema.org","@type":"HowTo","name":"From Enquiry to Delivered Ingredient","description":"How global wellness ingredient buyers source Indian botanicals through Ayris Global, from initial enquiry to shipment.","step":[{"@type":"HowToStep","position":1,"name":"Submit Your Enquiry","text":"Tell us what you need: ingredient, form, specification, certifications required, quantity, and target market. Use the contact form or reach Ayris Global directly via email or WhatsApp."},{"@type":"HowToStep","position":2,"name":"We Match and Confirm","text":"Within 48 hours, Ayris Global confirms availability, matched producer capability, and provides an initial specification sheet and indicative pricing."},{"@type":"HowToStep","position":3,"name":"Sample Dispatch","text":"Samples are dispatched with full technical documentation, including Certificate of Analysis, Material Safety Data Sheet, and certification documents relevant to the buyer's market."},{"@type":"HowToStep","position":4,"name":"Order and Shipment","text":"On approval, Ayris Global manages the full order process: producer coordination, quality inspection, export documentation, and shipment, with one point of contact throughout."}]}`} slot="head" />
+  <!-- HowTo JSON-LD Schema -->
+  <script type="application/ld+json" set:html={`{"@context":"https://schema.org","@type":"HowTo","name":"How to Source Indian Botanical Ingredients Through Ayris Global","description":"How international buyers source Indian botanical ingredients through Ayris Global, from specification to order.","step":[{"@type":"HowToStep","position":1,"name":"Send your specification","text":"Share the ingredient, form, grade, certifications, volume and destination market using the contact form, email or WhatsApp."},{"@type":"HowToStep","position":2,"name":"We screen and shortlist","text":"Ayris Global screens Indian producers against the specification and aims to reply within two working days with questions or a first view."},{"@type":"HowToStep","position":3,"name":"Documentation review","text":"The buyer's QA team reviews the producer's CoA, technical data sheet and certificates before anything moves forward."},{"@type":"HowToStep","position":4,"name":"Quotation and order","text":"Ayris Global provides a delivered price on agreed Incoterms and coordinates the order, with one point of contact throughout."}]}`} slot="head" />
 
-  <!-- ═══════════════════════════════════
-       PAGE HERO
-  ════════════════════════════════════ -->
+  <!-- PAGE HERO -->
   <section class="page-hero">
     <div class="page-hero__inner">
       <span class="eyebrow">For Global Buyers</span>
-      <h1 class="page-hero__title">Why the World's Wellness Brands Source Through Ayris Global</h1>
-      <p class="page-hero__sub">India produces more certified botanical ingredients than any other country on earth. Getting to the right producers — with the right certifications, the right documentation, and the right pricing — requires a partner who knows the supply chain from the ground up. That's what Ayris Global exists to do.</p>
+      <h1 class="page-hero__title">Source Indian Botanical Ingredients with One Point of Contact</h1>
+      <p class="page-hero__sub">Finding the right Indian producer for a specific grade, certification and documentation set takes time and local knowledge. Ayris Global does that work for you. We take your specification, screen Indian producers against it, review their documents, and manage the process through to order.</p>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════
-       ORIGIN SECTION
-  ════════════════════════════════════ -->
+  <!-- WHAT WE DO / DO NOT -->
+  <section class="offer">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">How We Work</span>
+        <h2 class="section-title">What We Do, and What We Do Not</h2>
+        <p class="section-sub">A clear scope, so your procurement and QA teams know exactly what to expect from us.</p>
+      </div>
+      <div class="offer-grid offer-grid--two">
+        <div class="offer-card">
+          <h3 class="offer-card__title">What we do</h3>
+          <ul class="scope-list">
+            <li>Take your full specification: botanical name, plant part, form, active marker and test method, certifications, quantity and destination market.</li>
+            <li>Screen Indian manufacturers and processors against it.</li>
+            <li>Request and review producer documents before recommending anything: CoA, technical data sheet, safety data sheet, and certificates such as GMP, ISO 22000, FSSAI, organic, Halal and Kosher as relevant.</li>
+            <li>Flag gaps between what a producer holds and what your market usually asks for.</li>
+            <li>Provide a quotation and coordinate the order through to dispatch.</li>
+            <li>Stay your single point of contact, and handle both sides of the transaction confidentially.</li>
+          </ul>
+        </div>
+        <div class="offer-card">
+          <h3 class="offer-card__title">What we do not do</h3>
+          <ul class="scope-list">
+            <li>Make or test ingredients in our own facility. Testing is done by the producer and, where you require it, by an accredited third-party laboratory.</li>
+            <li>Present producer certifications as our own. GMP, organic, Halal and Kosher certificates belong to the producers, and we share them for your review.</li>
+            <li>Act as your regulatory consultant. Decisions on Novel Food status, FDA, TGA or other local rules stay with you. We supply the producer documents you need to make them.</li>
+            <li>Make health or efficacy claims about any ingredient.</li>
+            <li>Commit to price or availability before documents have been reviewed.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE SOURCE FROM INDIA -->
   <section class="origin">
     <div class="container">
       <div class="origin__inner">
         <div class="origin__text">
-          <span class="section-eyebrow">Why India</span>
-          <h2 class="section-title">The World's Most Important Botanical Origin</h2>
-          <p>India holds a unique position in the global wellness ingredient economy. With the world's largest certified organic farming area, a 5,000-year tradition of botanical knowledge, and an unmatched diversity of growing climates — from the Himalayan foothills to the Kerala coast — no other origin offers the same breadth, depth, and certification infrastructure.</p>
-          <p>Indian botanical producers now hold GMP, ISO, FSSAI, NPOP, NOP, Halal, and Kosher certifications at scale — meeting the compliance requirements of every major regulated market. The challenge for global buyers is not whether the ingredient exists. It's finding the right producer, at the right specification, at a price that works.</p>
-          <p>Ayris Global exists to solve exactly that problem.</p>
+          <span class="section-eyebrow">What We Source</span>
+          <h2 class="section-title">Indian Botanical Ingredients, Sourced to Specification</h2>
+          <p>We source Ayurvedic ingredients, standardised herbal extracts (HPLC-tested where specified), botanical powders, nutraceutical actives, essential oils, and dried botanicals for tea from Indian producers.</p>
+          <p>Frequent enquiries include ashwagandha, turmeric and curcumin, Lakadong turmeric from Meghalaya, shatavari, moringa, tulsi and boswellia. If your ingredient is not listed, ask. Most enquiries start with something specific.</p>
+          <p><a href="/products/" class="text-link">Explore ingredient categories</a></p>
         </div>
         <div class="origin__stats">
           <div class="stat">
-            <span class="stat__num">5,000+</span>
-            <span class="stat__label">Years of documented botanical practice</span>
-          </div>
-          <div class="stat">
-            <span class="stat__num">#1</span>
-            <span class="stat__label">Global producer of certified organic spices</span>
-          </div>
-          <div class="stat">
             <span class="stat__num">1,178</span>
-            <span class="stat__label">Medicinal plant species in active trade (NMPB)</span>
+            <span class="stat__label">Medicinal plant species in trade in India (NMPB-FRLHT study, 2008)</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">242</span>
+            <span class="stat__label">Species traded above 100 tonnes a year (same study)</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">6</span>
+            <span class="stat__label">Ingredient categories we source</span>
           </div>
           <div class="stat">
             <span class="stat__num">9</span>
-            <span class="stat__label">Global markets we actively serve</span>
+            <span class="stat__label">Regions we work with</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════
-       WHAT WE OFFER BUYERS
-  ════════════════════════════════════ -->
-  <section class="offer">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">The Ayris Difference</span>
-        <h2 class="section-title">What We Bring to Every Sourcing Partnership</h2>
-        <p class="section-sub">We work with ingredient buyers at every stage — from initial specification through to shipment and ongoing supply chain management.</p>
-      </div>
-
-      <div class="offer-grid">
-
-        <div class="offer-card">
-          <div class="offer-card__num">01</div>
-          <h3 class="offer-card__title">Origin Intelligence</h3>
-          <p class="offer-card__text">We know which regions grow which botanicals at what quality levels. We know which producers hold which certifications. We know how seasonal variation affects active content and pricing. When you ask us for a specific ingredient, you get a shortlist of vetted producers — not a directory search.</p>
-        </div>
-
-        <div class="offer-card">
-          <div class="offer-card__num">02</div>
-          <h3 class="offer-card__title">Specification Matching</h3>
-          <p class="offer-card__text">Whether you need 95% curcuminoids standardised by HPLC, KSM-66 ashwagandha with withanolide certification, or organic moringa at 80 mesh — we match your technical requirements precisely to producer capability. No guesswork. No surprises when the CoA arrives.</p>
-        </div>
-
-        <div class="offer-card">
-          <div class="offer-card__num">03</div>
-          <h3 class="offer-card__title">Certification Navigation</h3>
-          <p class="offer-card__text">GMP, ISO 22000, FSSAI, Organic (NPOP/NOP), Halal, Kosher, EU Novel Food compliance, FDA facility registration — we match the right certification stack to every market. Your procurement team shouldn't have to navigate Indian regulatory frameworks. We do it for you.</p>
-        </div>
-
-        <div class="offer-card">
-          <div class="offer-card__num">04</div>
-          <h3 class="offer-card__title">Complete Documentation</h3>
-          <p class="offer-card__text">Every ingredient supplied by Ayris Global comes with a full documentation package: Certificate of Analysis, Material Safety Data Sheet, Phytosanitary Certificate, GMP Certificate, and certification documents relevant to your market. Documentation is never an afterthought.</p>
-        </div>
-
-        <div class="offer-card">
-          <div class="offer-card__num">05</div>
-          <h3 class="offer-card__title">Sample Service</h3>
-          <p class="offer-card__text">Samples dispatched fast. We understand that your product development timeline doesn't wait for slow supply chains. Sample requests handled with priority — accompanied by full technical data sheets, so your R&D team can evaluate before the sample even arrives.</p>
-        </div>
-
-        <div class="offer-card">
-          <div class="offer-card__num">06</div>
-          <h3 class="offer-card__title">Relationship, Not Transactions</h3>
-          <p class="offer-card__text">One point of contact. One team who knows your sourcing programme, understands your market's compliance requirements, and can anticipate what you need before you ask. We build long-term sourcing partnerships — not one-time supplier relationships.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════
-       GLOBAL MARKETS
-  ════════════════════════════════════ -->
+  <!-- DOCUMENTATION BY REGION -->
   <section class="markets">
     <div class="container">
       <div class="section-header section-header--light">
         <span class="section-eyebrow section-eyebrow--gold">Where We Work</span>
-        <h2 class="section-title section-title--white">Global Markets We Serve</h2>
-        <p class="section-sub section-sub--light">Ayris Global partners with buyers across every major wellness market. Our sourcing and documentation capability is calibrated to the specific regulatory environment, cultural preferences, and certification requirements of each region.</p>
+        <h2 class="section-title section-title--white">Documentation by Region</h2>
+        <p class="section-sub section-sub--light">Your market sets the documentation. We request what it needs from the producer, so your QA and regulatory teams can make their own decisions.</p>
       </div>
-
       <div class="markets-grid">
-
         <div class="market-card">
           <div class="market-card__region">European Union</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">EU Regulation 1924/2006 compliant ingredient profiles. Novel Food guidance. EFSA documentation support. Organic EU equivalency via NPOP. Preferred certifications: GMP, ISO 22000, Organic, Halal. High demand for turmeric/curcumin, ashwagandha, moringa, and botanical extracts in DACH, Benelux, Nordics, and Southern Europe.</p>
+          <p class="market-card__text">CoA with pesticide residue and contaminant panels, organic certification valid for the EU where organic is claimed, and the producer documents your team needs to assess Novel Food status.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">United Kingdom</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">Post-Brexit UK Food Standards Agency compliance. MHRA-aligned documentation for health claims. Strong functional tea and supplement market — chamomile, tulsi, ashwagandha and adaptogenic blends in high demand from UK health food brands and supermarket own-label formulation teams.</p>
+          <p class="market-card__text">CoA with pesticide residue and contaminant panels, organic certification valid for Great Britain where organic is claimed, and origin documents for import.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">United States</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">FDA facility registration, DSHEA-compliant documentation, cGMP certifications. NOP organic certification for USDA organic label eligibility. The world's largest supplement market — and one where Indian botanical ingredients, particularly ashwagandha, turmeric, and boswellia, hold dominant market positions.</p>
+          <p class="market-card__text">CoA, the producer's FDA food facility registration, and USDA NOP organic certification where organic is claimed.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">UAE / GCC</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">ESMA and Gulf Standards Organisation compliance. Halal certification mandatory for most ingredients — available across our full range. India's trade relationship with the GCC creates favourable duty structures for qualified exporters. Dubai operates as a re-export hub for broader MENA market access.</p>
+          <p class="market-card__text">Halal certificate from a body accepted in the destination market, and a certificate of origin to claim India-UAE CEPA preferential duty on qualifying goods.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">Japan</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">MHLW and Food Sanitation Act compliant documentation. Japan's functional food (FOSHU, FFC) and supplement market demands exceptional quality documentation and traceability — areas where Ayris Global's sourcing rigour is directly matched to buyer expectations. Strong demand for cardamom, turmeric, and high-purity botanical extracts.</p>
+          <p class="market-card__text">Detailed CoA and residue testing against Japanese limits, with batch-level traceability documents.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">Korea</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">MFDS and Korea Food Code compliant documentation. Korea's rapidly growing K-wellness and beauty supplement sector has significant appetite for adaptogens, botanical skin actives, and Ayurvedic-derived ingredients. Growing demand for ashwagandha, amla, and neem-derived ingredients in Korean beauty formulations.</p>
+          <p class="market-card__text">Detailed CoA and residue testing against Korean limits, with the producer documents needed for MFDS import procedures.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">Australia &amp; New Zealand</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">TGA (Australia) and Medsafe (NZ) compliant documentation. FSANZ import standards. Organic certification via NPOP-NOP equivalency supports organic label claims in both markets. Strong ANZ market for moringa, turmeric, and herbal wellness formulations — and a growing premium positioning for Indian-origin Ayurvedic ingredients.</p>
+          <p class="market-card__text">CoA and the documents required by each country's import conditions, plus organic certification to the destination standard where organic is claimed.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">Southeast Asia</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">ASEAN member state regulatory compliance across Singapore (HSA), Malaysia (NPRA), Thailand (FDA), Indonesia (BPOM), and Vietnam (DAV). A fast-growing wellness ingredient market with strong cultural affinity for Ayurvedic and traditional botanical ingredients. Halal certification essential across most SEA markets.</p>
+          <p class="market-card__text">CoA, Halal certification where the market requires it, and producer documents for local product registration.</p>
         </div>
-
         <div class="market-card">
           <div class="market-card__region">Latin America</div>
           <div class="market-card__divider"></div>
-          <p class="market-card__text">ANVISA (Brazil), INVIMA (Colombia), COFEPRIS (Mexico) and regional MERCOSUR regulatory alignment. LatAm's functional food and supplement sectors are among the world's fastest-growing. Indian botanicals — particularly moringa, turmeric, and ashwagandha — are gaining strong market traction across Brazil, Mexico, and Colombia.</p>
+          <p class="market-card__text">CoA and the producer documents needed for local registration with regulators such as ANVISA, COFEPRIS and INVIMA.</p>
         </div>
-
       </div>
     </div>
   </section>
-
   <!-- ═══════════════════════════════════
        WHO WE WORK WITH
   ════════════════════════════════════ -->
   <section class="buyers">
     <div class="container">
       <div class="section-header">
-        <span class="section-eyebrow">Our Buyers</span>
-        <h2 class="section-title">Who Sources Through Ayris Global</h2>
-        <p class="section-sub">We work with a broad range of buyers across the global wellness supply chain — from early-stage brands building their first formulation to established manufacturers expanding their Indian sourcing programme.</p>
+        <span class="section-eyebrow">Built For</span>
+        <h2 class="section-title">Who We Source For</h2>
+        <p class="section-sub">Our process is built for buyers across the wellness supply chain, from early-stage brands building a first formulation to manufacturers expanding an Indian sourcing programme.</p>
       </div>
 
       <div class="buyers-grid">
@@ -201,7 +164,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </svg>
           </span>
           <h3>Supplement Brands</h3>
-          <p>Brands formulating finished supplements for retail, D2C, and subscription channels. We supply the standardised extracts, powders, and actives that go into your capsules, tablets, and powders — with full documentation for your market.</p>
+          <p>Brands formulating finished supplements for retail, D2C, and subscription channels. We source the standardised extracts, powders and actives that go into your capsules, tablets and powders, with the documentation your market asks for.</p>
         </div>
 
         <div class="buyer-type">
@@ -213,7 +176,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </svg>
           </span>
           <h3>Functional Food &amp; Beverage</h3>
-          <p>Food and drink manufacturers adding botanical actives, functional ingredients, and superfoods to their product lines. We supply food-grade botanical powders, extracts, and natural colours with FSANZ, EFSA, and FDA-aligned documentation.</p>
+          <p>Food and drink manufacturers adding botanical actives, functional ingredients, and superfoods to their product lines. We source food-grade botanical powders, extracts and natural colours, with producer documentation for your market.</p>
         </div>
 
         <div class="buyer-type">
@@ -225,7 +188,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </svg>
           </span>
           <h3>Herbal Tea &amp; Wellness Beverage</h3>
-          <p>Tea blenders, herbal infusion brands, and functional beverage producers sourcing culinary-grade dried botanicals — tulsi, hibiscus, chamomile, rose petals, moringa, and spice blends. We supply to specification, with consistent colour, aroma, and microbiological standards.</p>
+          <p>Tea blenders, herbal infusion brands, and functional beverage producers sourcing culinary-grade dried botanicals - tulsi, hibiscus, chamomile, rose petals, moringa, and spice blends. We source to your specification for colour, aroma and microbiological limits.</p>
         </div>
 
         <div class="buyer-type">
@@ -238,7 +201,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </svg>
           </span>
           <h3>Natural Cosmetic &amp; Beauty</h3>
-          <p>Skincare, haircare, and beauty supplement brands sourcing botanical actives, essential oils, and plant-derived ingredients. We supply cosmetic-grade botanicals with INCI names, IFRA compliance guidance, and allergen declarations for EU, UK, and global cosmetic regulatory frameworks.</p>
+          <p>Skincare, haircare, and beauty supplement brands sourcing botanical actives, essential oils, and plant-derived ingredients. We source cosmetic-grade botanicals and request INCI names, allergen declarations and IFRA documents from the producer where available.</p>
         </div>
 
         <div class="buyer-type">
@@ -250,7 +213,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </svg>
           </span>
           <h3>Private Label &amp; Contract Manufacturers</h3>
-          <p>Contract manufacturers and private label producers who need a reliable, audit-ready supply of botanical ingredients to serve their own brand clients. We integrate into your supply chain with the consistency and documentation rigour your clients demand.</p>
+          <p>Contract manufacturers and private label producers who need documented botanical ingredients to serve their own brand clients. We work to your specifications and documentation requirements.</p>
         </div>
 
         <div class="buyer-type">
@@ -262,76 +225,59 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             </svg>
           </span>
           <h3>Ingredient Distributors</h3>
-          <p>Regional ingredient distributors building their Indian botanical portfolio for resale to downstream food, supplement, and cosmetic manufacturers. We supply at distributor volume with the documentation and traceability your customers require.</p>
+          <p>Regional ingredient distributors building their Indian botanical portfolio for resale to downstream food, supplement, and cosmetic manufacturers. We source at distributor volumes and request the documentation your customers require.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════
-       TRADE ADVANTAGES
-  ════════════════════════════════════ -->
+
+  <!-- WHY SOURCE FROM INDIA -->
   <section class="trade">
     <div class="container">
       <div class="trade__inner">
         <div class="trade__text">
-          <span class="section-eyebrow">Sourcing Advantages</span>
-          <h2 class="section-title">Why Indian Botanicals. Why Now.</h2>
-          <p>The global wellness ingredient market is undergoing a structural shift. Buyers who built their supply chains on single-origin European or Chinese botanical sources are diversifying. India has become the preferred alternative — and in many categories, the preferred primary source.</p>
-          <p>Here's why buyers across every region are increasing their India sourcing:</p>
+          <span class="section-eyebrow">Sourcing Context</span>
+          <h2 class="section-title">Why Source Botanicals from India</h2>
+          <p>India is one of the world's most important origins for medicinal and wellness botanicals. These are the facts we rely on when we talk to buyers about it.</p>
         </div>
-
         <div class="trade__advantages">
-
           <div class="advantage">
             <div class="advantage__marker" aria-hidden="true"></div>
             <div class="advantage__content">
-              <h4>Certification Infrastructure at Scale</h4>
-              <p>India now has more GMP-certified botanical processing facilities than any other emerging market. Organic, Halal, Kosher, and ISO certifications are available across hundreds of producers — giving buyers access to certified supply at volume.</p>
+              <h4>Range of species</h4>
+              <p>An estimated 1,178 medicinal plant species are in trade in India, with 242 traded above 100 tonnes a year, according to a National Medicinal Plants Board and FRLHT study (2008).</p>
             </div>
           </div>
-
           <div class="advantage">
             <div class="advantage__marker" aria-hidden="true"></div>
             <div class="advantage__content">
-              <h4>Ingredient Diversity Unmatched Globally</h4>
-              <p>From Himalayan herbs to Kerala spices to Rajasthan botanicals — India's climatic and biodiversity range means that an estimated 1,178 medicinal plant species are in active commercial trade, according to National Medicinal Plants Board data, with 242 species traded at volumes exceeding 100 metric tonnes annually. No other single-origin supply chain offers this breadth.</p>
+              <h4>Certified producers</h4>
+              <p>Many Indian producers hold GMP, ISO 22000, FSSAI, organic, Halal and Kosher certification. Which certificates a given producer holds varies, which is why we review them before recommending anyone.</p>
             </div>
           </div>
-
           <div class="advantage">
             <div class="advantage__marker" aria-hidden="true"></div>
             <div class="advantage__content">
-              <h4>Competitive Pricing on Standardised Extracts</h4>
-              <p>India's scale in botanical processing means that standardised, HPLC-verified extracts can be sourced at significantly better pricing than equivalent European-processed material — without compromising on quality or certification.</p>
+              <h4>Standardised extracts</h4>
+              <p>Indian extract manufacturers commonly supply material standardised to defined markers, such as withanolides in ashwagandha, curcuminoids in turmeric and AKBA in boswellia, with test methods stated on the CoA.</p>
             </div>
           </div>
-
           <div class="advantage">
             <div class="advantage__marker" aria-hidden="true"></div>
             <div class="advantage__content">
-              <h4>Favourable Trade Frameworks</h4>
-              <p>India holds preferential trade agreements and frameworks with multiple major markets — including FTAs with the UAE/GCC (CEPA), ASEAN, and ongoing negotiations with the EU and UK. These create duty advantages for qualified exporters that benefit well-structured supply chains.</p>
+              <h4>Trade agreements</h4>
+              <p>The India-UAE CEPA has been in force since 2022 and the India-EFTA TEPA since 2025. India also trades with ASEAN under the ASEAN-India agreement, and the India-EU free trade agreement was concluded in January 2026 and is pending ratification.</p>
             </div>
           </div>
-
           <div class="advantage">
             <div class="advantage__marker" aria-hidden="true"></div>
             <div class="advantage__content">
-              <h4>Consumer Demand for Indian Botanicals</h4>
-              <p>Ayurveda, adaptogens, and Indian botanical ingredients are not a trend. They are a sustained, decade-long shift in consumer preference across EU, UK, USA, Japan, Korea, and ANZ markets — with brand equity attached to transparent Indian origin.</p>
+              <h4>Depth of tradition</h4>
+              <p>Classical Ayurvedic texts such as the Charaka Samhita, roughly two thousand years old, describe many of the botanicals still traded today.</p>
             </div>
           </div>
-
-          <div class="advantage">
-            <div class="advantage__marker" aria-hidden="true"></div>
-            <div class="advantage__content">
-              <h4>Supply Chain Resilience</h4>
-              <p>Post-pandemic procurement strategy across the global wellness industry has prioritised supply chain diversification. India — with its scale, domestic production capacity, and growing export infrastructure — is the natural beneficiary of that shift.</p>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
@@ -343,7 +289,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <section class="credentials">
     <div class="container">
       <h2 class="credentials__title">Certifications We Source To</h2>
-      <p class="credentials__sub">Every market has different certification requirements. We source to match yours.</p>
+      <p class="credentials__sub">Producer certifications we request, depending on your market. These are held by the producers, not by Ayris Global.</p>
       <div class="certs-grid">
         <div class="cert-card">
           <span class="cert-card__badge">GMP</span>
@@ -379,69 +325,56 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════
-       HOW IT WORKS
-  ════════════════════════════════════ -->
+  <!-- HOW IT WORKS -->
   <section class="process">
     <div class="container">
       <div class="section-header">
         <span class="section-eyebrow">The Process</span>
-        <h2 class="section-title">From Enquiry to Delivered Ingredient</h2>
-        <p class="section-sub">A straightforward sourcing process — designed around how ingredient buyers actually work.</p>
+        <h2 class="section-title">From Specification to Order</h2>
+        <p class="section-sub">Documentation first. Nothing moves forward until your team is satisfied with what the producer holds.</p>
       </div>
-
       <div class="process-steps">
-
         <div class="process-step">
           <div class="process-step__num">1</div>
           <div class="process-step__content">
-            <h3>Submit Your Enquiry</h3>
-            <p>Tell us what you need — ingredient, form, specification, certifications required, quantity, and target market. Use our contact form or reach us directly via email or WhatsApp.</p>
+            <h3>Send Your Specification</h3>
+            <p>Ingredient, form, grade, certifications, volume and destination market. Use the contact form, email or WhatsApp.</p>
           </div>
         </div>
-
         <div class="process-step__connector" aria-hidden="true"></div>
-
         <div class="process-step">
           <div class="process-step__num">2</div>
           <div class="process-step__content">
-            <h3>We Match &amp; Confirm</h3>
-            <p>Within 48 hours, we confirm availability, matched producer capability, and provide an initial specification sheet and indicative pricing. We'll ask any questions we need to get the match right.</p>
+            <h3>We Screen &amp; Shortlist</h3>
+            <p>We screen Indian producers against your specification and aim to reply within two working days with questions or a first view.</p>
           </div>
         </div>
-
         <div class="process-step__connector" aria-hidden="true"></div>
-
         <div class="process-step">
           <div class="process-step__num">3</div>
           <div class="process-step__content">
-            <h3>Sample Dispatch</h3>
-            <p>Samples dispatched with full technical documentation — CoA, MSDS, and certification documents relevant to your market. Your R&D team can begin evaluation immediately.</p>
+            <h3>Documentation Review</h3>
+            <p>Your QA team reviews the producer's CoA, technical data sheet and certificates before anything moves forward.</p>
           </div>
         </div>
-
         <div class="process-step__connector" aria-hidden="true"></div>
-
         <div class="process-step">
           <div class="process-step__num">4</div>
           <div class="process-step__content">
-            <h3>Order &amp; Shipment</h3>
-            <p>On approval, we manage the full order process — producer coordination, quality inspection, export documentation, and shipment. One point of contact throughout.</p>
+            <h3>Quotation &amp; Order</h3>
+            <p>A delivered price on agreed Incoterms, with the order coordinated through Ayris Global. One point of contact throughout.</p>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════
-       CTA
-  ════════════════════════════════════ -->
+  <!-- CTA -->
   <section class="cta-band">
     <div class="container">
       <div class="cta-band__inner">
         <h2 class="cta-band__title">Ready to start a sourcing conversation?</h2>
-        <p class="cta-band__sub">Whether you have a precise specification or you're still exploring which ingredients work for your formulation — we're happy to help. Start with an enquiry and we'll take it from there.</p>
+        <p class="cta-band__sub">Send your specification, or tell us what you are exploring. We handle buyer and producer identities confidentially, and you deal with Ayris Global throughout.</p>
         <div class="cta-band__actions">
           <a href="/contact/" class="btn btn--primary btn--lg">Submit a Sourcing Enquiry</a>
           <a href="/products/" class="btn btn--ghost btn--lg">Explore Ingredient Categories</a>
@@ -1049,4 +982,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     .cta-band__actions { flex-direction: column; align-items: center; }
     .process-step { padding: 0 0.5rem; }
   }
+  /* Scope lists (What we do / do not) */
+  .offer-grid--two { grid-template-columns: repeat(2, 1fr); }
+  .scope-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    color: #555;
+    line-height: 1.75;
+  }
+  .scope-list li { margin-bottom: 0.6rem; }
+  .text-link { color: #C9A84C; font-weight: 500; text-decoration: none; }
+  .text-link:hover { text-decoration: underline; }
+  @media (max-width: 600px) { .offer-grid--two { grid-template-columns: 1fr; } }
 </style>
