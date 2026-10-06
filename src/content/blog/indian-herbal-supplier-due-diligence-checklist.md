@@ -46,7 +46,7 @@ This is where the most common misrepresentation occurs. Request originals or iss
 
 **Organic certification:** For organic-claimed ingredients, require both the umbrella certificate (NOP for the USA, EU Regulation 2018/848 for Europe, India NPOP) and the lot-specific Transaction Certificate (TC). The TC proves the specific batch is certified; the umbrella certificate alone does not.
 
-**Third-party lab reports:** COAs cross-verified by an independent NABL-accredited or internationally recognised laboratory (Eurofins, SGS, Intertek, Bureau Veritas) carry significantly more weight than self-issued in-house COAs. Where the ingredient has an active-content specification (curcuminoids, piperine, silymarin, etc.), request a third-party HPLC report. For the Lakadong Turmeric cluster specifically, our [quality testing and certification guide](/blog/lakadong-turmeric-certifications-explained/) covers the applicable standards in detail.
+**Third-party lab reports:** COAs cross-verified by an independent NABL-accredited or internationally recognised laboratory (Eurofins, SGS, Intertek, Bureau Veritas) carry significantly more weight than self-issued in-house COAs. Where the ingredient has an active-content specification (curcuminoids, piperine, silymarin, etc.), request a third-party HPLC report. For the Lakadong Turmeric cluster specifically, our [quality testing and certification guide](/blog/lakadong-turmeric-certifications-explained-gi-organic-gmp-export-compliance/) covers the applicable standards in detail.
 
 ## Layer 4: Product Documentation Review
 
@@ -60,7 +60,7 @@ Request the following for the specific ingredient and, where possible, the speci
 
 **Packing specification and label draft:** Confirm net weight, gross weight, pack configuration, and label content matches your import documentation and labelling requirements.
 
-For a structured framework on testing Lakadong Turmeric lots specifically, see our [Lakadong Turmeric quality testing checklist](/blog/lakadong-turmeric-quality-testing-checklist/).
+For a structured framework on testing Lakadong Turmeric lots specifically, see our [Lakadong Turmeric quality testing checklist](/blog/lakadong-turmeric-quality-testing-checklist-global-buyers/).
 
 ## Layer 5: Commercial and Capacity Verification
 

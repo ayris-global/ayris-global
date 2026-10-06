@@ -1,17 +1,116 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { clusterOf } from '../../data/clusters';
+
+// Related Articles: deterministic, build-time, cluster-aware.
+// Score: same cluster +5, each shared tag +2 (capped at 6), same category +1.
+// Region tags are ignored (every post carries all of them).
+// Ties: newest first, then slug. A global cap keeps any post in at most
+// MAX_EXPOSURE lists, and a repair pass makes sure every post appears in at
+// least MIN_EXPOSURE lists. The build fails if any rule below is broken.
 export async function getStaticPaths() {
+  // (Astro hoists getStaticPaths, so the helper lives inside it.)
+  const CARDS = 4;
+  const MAX_EXPOSURE = 12;
+  const MIN_EXPOSURE = 2;
+  const MIN_SAME_CLUSTER = 2;
+
+  function computeRelated(all: CollectionEntry<'blog'>[]) {
+    const posts = [...all].sort((a, b) => (a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0));
+    const info = new Map(
+      posts.map((p) => [
+        p.slug,
+        {
+          post: p,
+          cluster: clusterOf(p.slug),
+          tags: new Set((p.data.tags ?? []).map((t) => t.toLowerCase())),
+          time: new Date(p.data.pubDate).getTime(),
+        },
+      ])
+    );
+    const score = (a: string, b: string) => {
+      const x = info.get(a)!;
+      const y = info.get(b)!;
+      let shared = 0;
+      x.tags.forEach((t) => { if (y.tags.has(t)) shared++; });
+      return (x.cluster === y.cluster ? 5 : 0) + Math.min(6, shared * 2) + (x.post.data.category === y.post.data.category ? 1 : 0);
+    };
+    const ranked = new Map<string, string[]>();
+    for (const p of posts) {
+      const list = posts
+        .filter((q) => q.slug !== p.slug)
+        .map((q) => ({ slug: q.slug, s: score(p.slug, q.slug), t: info.get(q.slug)!.time }))
+        .sort((m, n) => n.s - m.s || n.t - m.t || (m.slug < n.slug ? -1 : 1));
+      ranked.set(p.slug, list.map((m) => m.slug));
+    }
+    const selected = new Map<string, string[]>(posts.map((p) => [p.slug, []]));
+    const exposure = new Map<string, number>(posts.map((p) => [p.slug, 0]));
+    // Fill one card slot per round so early posts do not hog the exposure cap.
+    for (let k = 0; k < CARDS; k++) {
+      for (const p of posts) {
+        const chosen = selected.get(p.slug)!;
+        const pick = ranked.get(p.slug)!.find((q) => !chosen.includes(q) && exposure.get(q)! < MAX_EXPOSURE);
+        if (!pick) throw new Error(`Related: no candidate for ${p.slug}`);
+        chosen.push(pick);
+        exposure.set(pick, exposure.get(pick)! + 1);
+      }
+    }
+    const sameCount = (slug: string, list: string[]) =>
+      list.filter((q) => info.get(q)!.cluster === info.get(slug)!.cluster).length;
+    const needSame = (slug: string) =>
+      Math.min(MIN_SAME_CLUSTER, posts.filter((q) => info.get(q.slug)!.cluster === info.get(slug)!.cluster).length - 1);
+    // Repair: lift under-exposed posts by swapping into the lists they fit best.
+    for (let guard = 0; guard < 2000; guard++) {
+      const under = posts.find((p) => exposure.get(p.slug)! < MIN_EXPOSURE);
+      if (!under) break;
+      let done = false;
+      for (const srcSlug of ranked.get(under.slug)!) {
+        const list = selected.get(srcSlug)!;
+        if (list.includes(under.slug)) continue;
+        const swappable = list
+          .map((q) => ({ q, s: score(srcSlug, q) }))
+          .filter((m) => exposure.get(m.q)! > MIN_EXPOSURE)
+          .sort((m, n) => m.s - n.s || (m.q < n.q ? -1 : 1));
+        for (const { q } of swappable) {
+          const next = list.map((x) => (x === q ? under.slug : x));
+          if (sameCount(srcSlug, next) >= needSame(srcSlug)) {
+            selected.set(srcSlug, next);
+            exposure.set(q, exposure.get(q)! - 1);
+            exposure.set(under.slug, exposure.get(under.slug)! + 1);
+            done = true;
+            break;
+          }
+        }
+        if (done) break;
+      }
+      if (!done) throw new Error(`Related: cannot lift exposure for ${under.slug}`);
+    }
+    // Hard checks: fail the build rather than ship a bad related graph.
+    for (const p of posts) {
+      const list = selected.get(p.slug)!;
+      if (list.length !== CARDS) throw new Error(`Related: ${p.slug} has ${list.length} cards`);
+      if (list.includes(p.slug)) throw new Error(`Related: ${p.slug} lists itself`);
+      if (new Set(list).size !== list.length) throw new Error(`Related: ${p.slug} has duplicate cards`);
+      if (sameCount(p.slug, list) < needSame(p.slug)) throw new Error(`Related: ${p.slug} has too few same-cluster cards`);
+      const e = exposure.get(p.slug)!;
+      if (e < MIN_EXPOSURE || e > MAX_EXPOSURE) throw new Error(`Related: ${p.slug} exposure ${e}`);
+    }
+    return new Map(posts.map((p) => [p.slug, selected.get(p.slug)!.map((q) => info.get(q)!.post)]));
+  }
+
   const posts = await getCollection('blog');
+  const related = computeRelated(posts);
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { post },
+    props: { post, related: related.get(post.slug)! },
   }));
 }
 type Props = {
   post: CollectionEntry<'blog'>;
+  related: CollectionEntry<'blog'>[];
 };
-const { post } = Astro.props;
+const { post, related: relatedPosts } = Astro.props;
 const { Content } = await post.render();
 const formattedDate = new Date(post.data.pubDate).toLocaleDateString('en-GB', {
   day: 'numeric',
@@ -27,27 +126,6 @@ const categoryMeta: Record<string, { label: string; color: string }> = {
   'market-intelligence': { label: 'Market Intelligence', color: '#B45309' },
 };
 
-function regionOverlapCount(a?: string[], b?: string[]) {
-  if (!a || !b) return 0;
-  return a.filter((tag) => b.includes(tag)).length;
-}
-
-const allPosts = await getCollection('blog');
-const candidates = allPosts.filter((p) => p.slug !== post.slug);
-
-const relatedPosts = candidates
-  .map((p) => {
-    const sameCategory = p.data.category === post.data.category;
-    const overlap = regionOverlapCount(post.data.region_tags, p.data.region_tags);
-    return { post: p, sameCategory, overlap };
-  })
-  .filter((c) => c.sameCategory || c.overlap > 0)
-  .sort((a, b) => {
-    if (a.sameCategory !== b.sameCategory) return a.sameCategory ? -1 : 1;
-    return b.overlap - a.overlap;
-  })
-  .slice(0, 3)
-  .map((c) => c.post);
 ---
 <BaseLayout title={post.data.title} description={post.data.description}>
 
@@ -191,12 +269,8 @@ const relatedPosts = candidates
 
   .related-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-  }
-
-  @media (max-width: 900px) {
-    .related-grid { grid-template-columns: repeat(2, 1fr); }
   }
 
   @media (max-width: 580px) {

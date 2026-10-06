@@ -83,7 +83,7 @@ If the certification body named on a certificate does not appear in the accredit
 
 **Address inconsistency:** If the address on the certificate does not match the address on the COA or company registration documents, ask for an explanation before accepting the document. Registered-office and correspondence-address differences are common and usually benign -- but unexplained address mismatches across documents warrant a question.
 
-For a broader framework on supplier document review beyond GMP certification, see our [Indian herbal supplier due diligence checklist](/blog/indian-herbal-supplier-due-diligence-checklist/). For the certifications specific to Lakadong Turmeric sourcing, see our [Lakadong Turmeric certifications guide](/blog/lakadong-turmeric-certifications-explained/).
+For a broader framework on supplier document review beyond GMP certification, see our [Indian herbal supplier due diligence checklist](/blog/indian-herbal-supplier-due-diligence-checklist/). For the certifications specific to Lakadong Turmeric sourcing, see our [Lakadong Turmeric certifications guide](/blog/lakadong-turmeric-certifications-explained-gi-organic-gmp-export-compliance/).
 
 ## Working with Ayris Global
 

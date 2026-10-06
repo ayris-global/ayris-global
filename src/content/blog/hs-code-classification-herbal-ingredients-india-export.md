@@ -191,4 +191,4 @@ The WCO standard runs to 6 digits, recognized consistently across most countries
 
 ---
 
-*Ayris Global works with verified Indian suppliers who classify and document shipments accurately across every export market. To confirm classification and duty treatment for your specific ingredient, contact our team at [sourcing@ayrisglobal.in](mailto:sourcing@ayrisglobal.in) or visit our [products page](/products/).*
+*Ayris Global works with reviewed Indian suppliers who classify and document shipments accurately across every export market. To confirm classification and duty treatment for your specific ingredient, contact our team at [sourcing@ayrisglobal.in](mailto:sourcing@ayrisglobal.in) or visit our [products page](/products/).*
