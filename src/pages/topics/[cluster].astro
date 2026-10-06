@@ -1,0 +1,276 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CLUSTERS, clusterOf } from '../../data/clusters';
+import { TOPICS, topicWordCount, type Topic } from '../../data/topics';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  // Build-time guards: fail the build rather than publish a broken hub.
+  const clusterSlugs = CLUSTERS.map((c) => c.slug).sort().join('|');
+  const topicSlugs = TOPICS.map((t) => t.slug).sort().join('|');
+  if (clusterSlugs !== topicSlugs) throw new Error('Topics and clusters are out of step');
+  if (TOPICS.length < 6 || TOPICS.length > 8) throw new Error('Expected 6 to 8 hubs');
+
+  return TOPICS.map((topic) => {
+    if (topicWordCount(topic) < 150) throw new Error(`Hub intro too short: ${topic.slug}`);
+    const inCluster = posts.filter((p) => clusterOf(p.slug) === topic.slug);
+    if (inCluster.length === 0) throw new Error(`Hub has no posts: ${topic.slug}`);
+    for (const s of topic.startHere) {
+      if (!inCluster.some((p) => p.slug === s)) throw new Error(`startHere ${s} is not in ${topic.slug}`);
+    }
+    const pinned = topic.startHere.map((s) => inCluster.find((p) => p.slug === s)!);
+    const rest = inCluster
+      .filter((p) => !topic.startHere.includes(p.slug))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() || (a.slug < b.slug ? -1 : 1));
+    return {
+      params: { cluster: topic.slug },
+      props: { topic, ordered: [...pinned, ...rest], pinnedCount: pinned.length },
+    };
+  });
+}
+
+type Props = {
+  topic: Topic;
+  ordered: CollectionEntry<'blog'>[];
+  pinnedCount: number;
+};
+const { topic, ordered, pinnedCount } = Astro.props;
+const hubUrl = `https://ayrisglobal.in/topics/${topic.slug}/`;
+const others = TOPICS.filter((t) => t.slug !== topic.slug);
+
+const breadcrumbs = [
+  { name: 'Blog', url: 'https://ayrisglobal.in/blog/' },
+  { name: topic.title, url: hubUrl },
+];
+
+const itemListJson = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: topic.title,
+  description: topic.metaDescription,
+  url: hubUrl,
+  numberOfItems: ordered.length,
+  itemListElement: ordered.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `https://ayrisglobal.in/blog/${p.slug}/`,
+    name: p.data.title,
+  })),
+}).replace(/</g, '\\u003c');
+---
+<BaseLayout title={topic.metaTitle} description={topic.metaDescription} breadcrumbs={breadcrumbs}>
+
+  <script type="application/ld+json" set:html={itemListJson} slot="head" />
+
+  <!-- Hero -->
+  <section class="hub-hero">
+    <div class="hub-wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">&rsaquo;</span>
+        <a href="/blog/">Blog</a><span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="page">{topic.title}</span>
+      </nav>
+      <p class="hub-eyebrow">Topic guide</p>
+      <h1 class="hub-title">{topic.title}</h1>
+      <p class="hub-count">{ordered.length} guides</p>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="hub-intro">
+    <div class="hub-wrap hub-prose">
+      {topic.intro.map((para) => <p>{para}</p>)}
+    </div>
+  </section>
+
+  <!-- Guides -->
+  <section class="hub-list">
+    <div class="hub-wrap">
+      <h2 class="hub-h2">All guides in this topic</h2>
+      <ol class="hub-items">
+        {ordered.map((p, i) => (
+          <li class="hub-item">
+            {i < pinnedCount && <span class="hub-badge">Start here</span>}
+            <h3 class="hub-item__title"><a href={`/blog/${p.slug}/`}>{p.data.title}</a></h3>
+            <p class="hub-item__desc">{p.data.description}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- Other topics -->
+  <section class="hub-others">
+    <div class="hub-wrap">
+      <h2 class="hub-h2 hub-h2--sm">Other topics</h2>
+      <ul class="hub-chips">
+        {others.map((t) => (
+          <li><a class="hub-chip" href={`/topics/${t.slug}/`}>{t.short}</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="hub-cta">
+    <div class="hub-wrap hub-cta__inner">
+      <h2 class="hub-cta__title">Talk to us about your specification</h2>
+      <p class="hub-cta__sub">Share the ingredient, form and destination market, and the Ayris Global team will come back with questions or a first view.</p>
+      <div class="hub-cta__actions">
+        <a href="/contact/" class="btn btn--primary btn--lg">Start a Sourcing Conversation</a>
+        <a href="/for-buyers/" class="btn btn--ghost btn--lg">How Buying Through Ayris Global Works</a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .hub-wrap { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+
+  .hub-hero {
+    background: var(--mist);
+    border-bottom: 3px solid var(--turmeric);
+    padding: 104px 0 52px;
+  }
+  .crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    color: var(--slate);
+    margin-bottom: 1.5rem;
+  }
+  .crumbs a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--turmeric);
+    text-underline-offset: 3px;
+  }
+  .hub-eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 14px;
+  }
+  .hub-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 0 0 16px;
+  }
+  .hub-count {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--slate);
+    margin: 0;
+  }
+
+  .hub-intro { background: var(--paper); padding: 52px 0 12px; }
+  .hub-prose {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--ink);
+  }
+  .hub-prose p { margin: 0 0 20px; }
+
+  .hub-list { background: var(--paper); padding: 24px 0 64px; }
+  .hub-h2 {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    color: var(--ink);
+    margin: 0 0 24px;
+    line-height: 1.25;
+  }
+  .hub-h2--sm { font-size: 1.25rem; margin-bottom: 16px; }
+  .hub-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .hub-item {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 22px 20px;
+  }
+  .hub-badge {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--mist);
+    border-left: 3px solid var(--turmeric);
+    padding: 3px 8px;
+    margin-bottom: 8px;
+  }
+  .hub-item__title {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 0 0 6px;
+  }
+  .hub-item__title a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--turmeric);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .hub-item__desc {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--slate);
+    margin: 0;
+  }
+
+  .hub-others { background: var(--mist); padding: 40px 0; }
+  .hub-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .hub-chip {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.45rem 1rem;
+    text-decoration: none;
+    transition: border-color 0.2s;
+  }
+  .hub-chip:hover { border-color: var(--turmeric); }
+
+  .hub-cta { background: var(--ink); color: var(--paper); padding: 64px 0; text-align: center; }
+  .hub-cta__title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: var(--paper);
+    margin: 0 0 12px;
+  }
+  .hub-cta__sub {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(var(--paper-rgb), 0.85);
+    margin: 0 auto 28px;
+    max-width: 52ch;
+  }
+  .hub-cta__actions { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+
+  @media (max-width: 600px) {
+    .hub-hero { padding: 92px 0 36px; }
+    .hub-item { padding: 16px 16px 18px; }
+    .hub-cta { padding: 48px 0; }
+    .hub-cta__actions { flex-direction: column; align-items: stretch; }
+    .hub-cta__actions .btn { white-space: normal; text-align: center; max-width: 100%; box-sizing: border-box; }
+  }
+</style>

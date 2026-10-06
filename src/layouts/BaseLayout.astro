@@ -1,11 +1,13 @@
 ---
 import '../styles/global.css';
+import { TOPICS } from '../data/topics';
 
 interface Props {
   title:       string;
   description: string;
   canonical?:  string;
   ogImage?:    string;
+  breadcrumbs?: Array<{ name: string; url: string }>;
 }
 
 const {
@@ -13,6 +15,7 @@ const {
   description,
   canonical  = `https://ayrisglobal.in${Astro.url.pathname}`,
   ogImage    = '/og-image.jpg',
+  breadcrumbs: customBreadcrumbs,
 } = Astro.props;
 
 const fullTitle = title === 'Home'
@@ -32,13 +35,16 @@ const whatsappNumber = '+919729256621';
 const whatsappMessage = encodeURIComponent('Hello Ayris Global, I am interested in sourcing Indian wellness ingredients. Please share more details.');
 const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 const currentPath = Astro.url.pathname;
-const orgSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Ayris Global\",\"legalName\":\"Neha Rai Singh (trading as Ayris Global)\",\"taxID\":\"27CDNPS7626E3Z0\",\"url\":\"https://ayrisglobal.in\",\"logo\":\"https://ayrisglobal.in/logo.png\",\"description\":\"Premium Indian wellness ingredient sourcing for international buyers.\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressCountry\":\"IN\"},\"contactPoint\":{\"@type\":\"ContactPoint\",\"email\":\"sourcing@ayrisglobal.in\",\"contactType\":\"sales\"},\"sameAs\":[]}";
+const orgSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://ayrisglobal.in/#organization\",\"name\":\"Ayris Global\",\"legalName\":\"Neha Rai Singh (trading as Ayris Global)\",\"taxID\":\"27CDNPS7626E3Z0\",\"url\":\"https://ayrisglobal.in\",\"logo\":\"https://ayrisglobal.in/logo.png\",\"description\":\"Premium Indian wellness ingredient sourcing for international buyers.\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressCountry\":\"IN\"},\"contactPoint\":{\"@type\":\"ContactPoint\",\"email\":\"sourcing@ayrisglobal.in\",\"contactType\":\"sales\"},\"sameAs\":[]}";
 
 // BreadcrumbList structured data (skip homepage)
 const pathname = Astro.url.pathname;
 const breadcrumbItems = [];
 
-if (pathname !== '/') {
+if (customBreadcrumbs && customBreadcrumbs.length) {
+  breadcrumbItems.push({ name: 'Home', url: 'https://ayrisglobal.in/' });
+  for (const c of customBreadcrumbs) breadcrumbItems.push(c);
+} else if (pathname !== '/') {
   breadcrumbItems.push({ name: 'Home', url: 'https://ayrisglobal.in/' });
 
   const isBlogListingPage = /^\/blog\/\d+\/?$/.test(pathname) || pathname === '/blog/';
@@ -247,6 +253,15 @@ const breadcrumbSchemaJson = breadcrumbItems.length > 0
 
       </div>
 
+      <nav class="footer__guides" aria-label="Guides by topic">
+        <p class="footer__guides-title">Guides</p>
+        <ul>
+          {TOPICS.map((t) => (
+            <li><a href={`/topics/${t.slug}/`}>{t.short}</a></li>
+          ))}
+        </ul>
+      </nav>
+
       <div class="footer__bottom">
         <p class="footer__copyright">
           &copy; {new Date().getFullYear()} Ayris Global. All rights reserved.
@@ -258,6 +273,13 @@ const breadcrumbSchemaJson = breadcrumbItems.length > 0
       </div>
     </div>
   </footer>
+  <style>
+    .footer__guides { padding: 1.5rem 0; border-top: 1px solid rgba(var(--paper-rgb), 0.15); }
+    .footer__guides-title { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--paper-rgb), 0.7); margin: 0 0 0.75rem; }
+    .footer__guides ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+    .footer__guides a { color: rgba(var(--paper-rgb), 0.85); font-size: 0.875rem; text-decoration: none; }
+    .footer__guides a:hover { color: var(--turmeric); }
+  </style>
 
   <a
     href={whatsappURL}

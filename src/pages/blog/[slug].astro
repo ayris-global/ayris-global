@@ -2,6 +2,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { clusterOf } from '../../data/clusters';
+import { topicBySlug } from '../../data/topics';
 
 // Related Articles: deterministic, build-time, cluster-aware.
 // Score: same cluster +5, each shared tag +2 (capped at 6), same category +1.
@@ -119,6 +120,29 @@ const formattedDate = new Date(post.data.pubDate).toLocaleDateString('en-GB', {
 });
 const faqSchema = post.data.faqSchema;
 
+const topic = topicBySlug(clusterOf(post.slug))!;
+const topicUrl = `/topics/${topic.slug}/`;
+const postUrl = `https://ayrisglobal.in/blog/${post.slug}/`;
+const breadcrumbs = [
+  { name: 'Blog', url: 'https://ayrisglobal.in/blog/' },
+  { name: topic.short, url: `https://ayrisglobal.in${topicUrl}` },
+  { name: post.data.title, url: postUrl },
+];
+const imgUrl = post.data.image
+  ? (post.data.image.startsWith('http') ? post.data.image : `https://ayrisglobal.in${post.data.image.startsWith('/') ? '' : '/'}${post.data.image}`)
+  : 'https://ayrisglobal.in/og-image.jpg';
+const blogPostingJson = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: new Date(post.data.pubDate).toISOString(),
+  author: { '@type': 'Organization', name: 'Ayris Global Editorial', url: 'https://ayrisglobal.in/' },
+  publisher: { '@type': 'Organization', '@id': 'https://ayrisglobal.in/#organization', name: 'Ayris Global' },
+  image: imgUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+}).replace(/</g, '\\u003c');
+
 const categoryMeta: Record<string, { label: string; color: string }> = {
   'ingredients': { label: 'Ingredients & Botanicals', color: '#15803D' },
   'certifications': { label: 'Certifications & Compliance', color: '#7C3AED' },
@@ -127,7 +151,9 @@ const categoryMeta: Record<string, { label: string; color: string }> = {
 };
 
 ---
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout title={post.data.title} description={post.data.description} breadcrumbs={breadcrumbs}>
+
+  <script type="application/ld+json" set:html={blogPostingJson} slot="head" />
 
   <!-- FAQ JSON-LD Schema (injected via head slot when faqSchema frontmatter is present) -->
   {faqSchema && <script type="application/ld+json" set:html={faqSchema} slot="head" />}
@@ -135,6 +161,9 @@ const categoryMeta: Record<string, { label: string; color: string }> = {
   <!-- Hero -->
   <section style="background: var(--mist); border-bottom: 3px solid var(--turmeric); padding: 80px 24px 60px;">
     <div style="max-width: 800px; margin: 0 auto;">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/blog/">Blog</a> <span aria-hidden="true">&rsaquo;</span> <a href={topicUrl}>{topic.short}</a>
+      </nav>
       <p style="color: var(--ink); font-family: Inter, sans-serif; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px;">
         {post.data.category}
       </p>
@@ -205,6 +234,9 @@ const categoryMeta: Record<string, { label: string; color: string }> = {
   </section>
 </BaseLayout>
 <style>
+  .crumbs { font-family: var(--font-body, Inter, sans-serif); font-size: 0.85rem; color: var(--slate); margin-bottom: 16px; }
+  .crumbs a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--turmeric); text-underline-offset: 3px; }
+  .crumbs span { margin: 0 6px; }
   .prose {
     font-family: Inter, sans-serif;
     font-size: 1.05rem;

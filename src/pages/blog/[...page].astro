@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import GuidesByTopic from '../../components/GuidesByTopic.astro';
 
 export async function getStaticPaths({ paginate }) {
   const allPosts = await getCollection('blog');
@@ -144,6 +145,8 @@ const pageTitle = page.currentPage === 1
   </section>
 
   <!-- Post Grid: server-rendered, crawlable default state -->
+  <GuidesByTopic variant="strip" />
+
   <section class="posts-section">
     <div class="posts-section__inner">
 
