@@ -1,202 +1,154 @@
 ---
-title: "Sourcing Ashwagandha Extract from India for US Supplement Brands"
-description: "What US supplement brands need to know when sourcing ashwagandha extract from India - DSHEA compliance, 21 CFR Part 111 cGMP, FDA facility registration, FSVP documentation, USP-NF monograph, Proposition 65 lead limits, and how to write a compliant purchase order specification."
-pubDate: 2026-09-17
+title: "Curcumin 95% Extract Price from India"
+description: "How to read and compare curcumin 95% extract quotes from India: assay basis, curcuminoid ratio, solvents, Incoterms and FOB-to-landed cost, no price table."
+pubDate: 2026-10-06
 category: "sourcing"
+tags: ["curcumin 95%", "curcumin extract price", "curcuminoids", "turmeric extract", "India export", "HPLC", "landed cost", "FOB"]
 region_tags: ["eu", "uk", "usa", "uae-gcc", "japan", "korea", "anz", "sea", "latam"]
-image: "/images/blog/blog-sourcing-ashwagandha-extract-india-us-supplement-brands.jpg"
-imageAlt: "Ashwagandha root extract powder with US supplement compliance documentation on a sourcing desk"
-faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does ashwagandha extract qualify as a New Dietary Ingredient under US law?","acceptedAnswer":{"@type":"Answer","text":"No. Ashwagandha root extract has an established history of use in the US dietary supplement market predating the October 1994 DSHEA cutoff. It is not classified as a New Dietary Ingredient, and US supplement brands can formulate with it without submitting an NDI safety notification. Chemically modified or unusual derivative forms may warrant separate NDI review - confirm with regulatory counsel if anything other than standard root extract is being considered."}},{"@type":"Question","name":"What does FDA-registered facility actually mean for US supplement brand buyers?","acceptedAnswer":{"@type":"Answer","text":"FDA facility registration means the Indian manufacturer is known to FDA and is subject to its inspection authority. It is not a quality certification or product approval. Registration must be renewed during each even-numbered year - a lapsed registration means unregistered status, which can result in shipment detention regardless of product quality. Verify the supplier''s registration number in the FDA public database before placing an order."}},{"@type":"Question","name":"What testing documentation do US supplement brands typically require from Indian ashwagandha suppliers?","acceptedAnswer":{"@type":"Answer","text":"A CoA showing withanolide content by HPLC (ideally per USP-NF method), HPTLC botanical identity confirmation, heavy metals by ICP-MS (lead, cadmium, mercury, arsenic), full pesticide residue screening, and microbial limits. Testing should be conducted by an ISO 17025-accredited or FDA-recognized third-party laboratory. US importers must also maintain FSVP documentation, which requires facility-level audit history and safety process records from the supplier."}},{"@type":"Question","name":"What is the difference between WHO-GMP and 21 CFR Part 111 cGMP for US buyers?","acceptedAnswer":{"@type":"Answer","text":"WHO-GMP is a broad international manufacturing standard. 21 CFR Part 111 is the FDA''s dietary supplement-specific cGMP regulation, with more prescriptive requirements for identity testing of all incoming ingredients, batch documentation, and finished product release. Indian manufacturers who regularly supply the US market typically operate to Part 111-consistent standards as a condition of their customer relationships. Ask for the documentation they provide to US-based co-manufacturers for supplier qualification."}},{"@type":"Question","name":"How should US supplement brands specify ashwagandha extract in a purchase order?","acceptedAnswer":{"@type":"Answer","text":"Include: botanical name (Withania somnifera), plant part (root only), withanolide specification (percent by HPLC with method reference), organic certification status, heavy metals limits (referencing USP 2232 or Proposition 65 lead threshold), pesticide residue testing scope, microbial limits per USP 61/62, testing laboratory accreditation requirement, FDA facility registration number of the manufacturing site, and a signed Certificate of Conformance for each lot."}}]}'
+image: "/images/blog/blog-curcumin-95-extract-price-india.jpg"
+imageAlt: "Fine orange curcumin powder in a glass bowl on an orange background"
+faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the price of curcumin 95% extract from India?","acceptedAnswer":{"@type":"Answer","text":"There is no single reliable figure. Price depends on assay basis, curcuminoid ratio, residual solvent limits, testing scope, pack size, lot size, Incoterm and payment terms, and it moves with raw turmeric and extraction costs. Public listings rarely state these terms. Request lot-specific quotes on the same Incoterm and assay basis, then compare price per kg of curcuminoid."}},{"@type":"Question","name":"Is curcumin 95% the same as curcuminoids 95%?","acceptedAnswer":{"@type":"Answer","text":"No. Curcuminoids are three compounds: curcumin, desmethoxycurcumin and bisdesmethoxycurcumin. A 95% curcuminoid extract measures the sum of all three, and curcumin alone is normally the largest share. A product that is 95% curcumin alone would be a narrower, different specification. Always ask whether the figure is the sum of three curcuminoids and on which basis it is reported."}},{"@type":"Question","name":"How is a 95% curcuminoid extract tested?","acceptedAnswer":{"@type":"Answer","text":"The usual method is HPLC against reference standards, reporting each curcuminoid and the total. The USP-NF Curcuminoids monograph sets not less than 95.0% total curcuminoids on the dried basis, with ranges for each of the three compounds. Ask for a lot-level certificate of analysis that states the method, the basis and the individual results."}},{"@type":"Question","name":"Which HS code applies to curcumin extract exported from India?","acceptedAnswer":{"@type":"Answer","text":"Standardized turmeric extract is normally declared under heading 1302, vegetable saps and extracts. In the US tariff the 6-digit 1302.19 line is the residual line for extracts not named elsewhere. India adds national digits and each importing country adds its own, so confirm the full code with your customs broker and the supplier shipping documents."}},{"@type":"Question","name":"What costs sit between an FOB India quote and landed cost?","acceptedAnswer":{"@type":"Answer","text":"Under FOB the buyer normally pays international freight, cargo insurance, import duty, import VAT or sales tax, customs brokerage, port and inland handling, any destination re-testing, and the cost of the payment terms agreed. Moving to CIF shifts freight and minimum insurance into the seller price, so quotes on different Incoterms must be converted before comparison."}}]}'
 ---
 
-The United States is the world's largest dietary supplement market, and ashwagandha has become one of its highest-demand adaptogenic ingredients. US supplement brands - from established nutraceutical manufacturers to emerging direct-to-consumer labels - are increasingly sourcing ashwagandha extract directly from India rather than through domestic distributors, attracted by better pricing, more transparent supply chains, and access to a wider specification range.
+**Direct Answer:** A curcumin 95% extract price from India can only be compared once quotes share the same assay basis, curcuminoid ratio, solvent declaration and Incoterm. Compare the price per kg of curcuminoid, not per kg of powder, then add freight, duty and testing to reach landed cost. This guide shows which quote variables move the price.
 
-Sourcing ashwagandha extract from India for the US market is straightforward when you understand what US compliance actually requires. It is costly when you do not - through failed import inspections, documentation shortfalls that disqualify the supply from a co-manufacturer's qualification process, or a first order that cannot be used because the testing package does not meet FDA expectations.
+Search for curcumin 95% extract prices and you will find single-line listings with a figure and almost no context. A number like that cannot be used to budget a purchase, because two suppliers can both write "95%" and be describing different products. This page does not publish a price table. Prices move with raw turmeric costs, extraction capacity, freight and lot size, and a figure printed here would be out of date before it was useful. It explains instead what a 95% quote must contain, how to put quotes from different suppliers on a common footing, and which line items separate an FOB India price from the cost at your warehouse.
 
-This guide covers what US supplement brands specifically need to know: the compliance framework, the documentation package, and how to specify ashwagandha extract for the US market correctly.
-
----
-
-## Direct Answer: What Makes US-Market Sourcing Different
-
-Three US-specific requirements separate this sourcing context from the general international buyer profile:
-
-1. The supplier facility must be FDA-registered, and the registration must be current and verifiable
-2. The testing package must be consistent with 21 CFR Part 111 cGMP expectations, not just WHO-GMP
-3. The US importer has a legal obligation under FSVP (the Foreign Supplier Verification Program) to verify the supplier's safety practices - and the supplier must be able to support that verification with documentation
-
-Everything else - withanolide specification, certifications, pricing, lead times - applies to any qualified international buyer. These three requirements are the US-specific layer.
+For how 95% extract differs from high-curcumin whole-herb powder, read [curcumin grading tiers compared](/blog/turmeric-curcumin-grading-tiers-compared-origins-forms/) first. For specification, regulatory status and applications, see the [turmeric and curcumin extract buyer's guide](/blog/turmeric-curcumin-extract-buyers-guide/). This article covers the commercial step that follows both: reading and comparing the quote itself.
 
 ---
 
-## Is Ashwagandha a New Dietary Ingredient in the US?
+## What "95%" Should Mean on a Quote
 
-No. This is one of the first questions US supplement brands should resolve for any botanical ingredient, and for ashwagandha, the answer is clear.
+Two official documents show how much sits behind that single figure.
 
-Ashwagandha root (Withania somnifera) has an established history of use in the US dietary supplement market predating the October 15, 1994 DSHEA cutoff date. It is not classified as a New Dietary Ingredient (NDI). This means US supplement brands can formulate with standard ashwagandha root extract without submitting an NDI safety notification to the FDA before marketing, and without the mandatory 75-day pre-market waiting period that NDI notification requires.
+In the USP-NF, the Curcuminoids monograph describes the ingredient as a partially purified natural complex of diaryl heptanoid derivatives isolated from turmeric (Curcuma longa). It requires not less than 95.0% curcuminoids on the dried basis, calculated as the sum of curcumin, desmethoxycurcumin and bisdesmethoxycurcumin. It also sets a window for each compound: curcumin 70.0% to 80.0%, desmethoxycurcumin 15.0% to 25.0%, and bisdesmethoxycurcumin 2.5% to 6.5%. We reviewed the monograph as published by USP online; check the current official text and revision in USP-NF before you write it into a contract.
 
-This is commercially significant. For genuinely novel botanical extracts, an NDI notification creates a 75-day delay before the first product containing that ingredient can be introduced into interstate commerce. Ashwagandha root extract, as an established ingredient, does not trigger this delay.
+That gives a buyer three questions a bare "95%" does not answer. Is the figure the sum of all three curcuminoids, or curcumin alone? Is it reported on the dried basis or as received? And does the ratio between the three compounds fall inside a recognised window?
 
-One important caveat: the NDI exemption applies to ashwagandha root extract as typically produced. If a supplier is offering a chemically modified derivative - a significantly altered form produced through a non-standard synthetic or semi-synthetic process - the NDI exemption may not apply to that specific form. Confirm with your regulatory counsel if anything other than standard root extract is being considered.
-
----
-
-## The cGMP Requirement: Part 111, Not Just WHO-GMP
-
-Most qualified Indian ashwagandha manufacturers hold WHO-GMP certification, which is an internationally recognised manufacturing standard. For US supplement brands, WHO-GMP is a good indicator of a manufacturer's quality management capability - but it is not the same as 21 CFR Part 111 cGMP compliance.
-
-21 CFR Part 111 is the FDA's Current Good Manufacturing Practice regulation specifically for dietary supplements. Key requirements that are more prescriptive under Part 111 than under WHO-GMP include:
-
-**Identity testing of all incoming dietary ingredients.** Part 111 requires that the identity of every lot of dietary ingredient be confirmed before it is used in manufacturing. For ashwagandha, this means HPTLC or equivalent botanical identification testing - not just a supplier CoA.
-
-**Batch documentation.** Part 111 requires complete batch production and control records for every finished supplement produced. Indian suppliers producing extract for a US-based co-manufacturer need to provide documentation that allows the co-manufacturer's batch records to reference the ingredient accurately.
-
-**Personnel qualification and training records.** Part 111 sets out personnel requirements that may go beyond what WHO-GMP requires in certain operating environments.
-
-In practice, most Indian ashwagandha manufacturers who routinely supply the US market operate under processes consistent with Part 111 expectations, because their US customers require it as a supplier qualification condition. The practical check for a US supplement brand: ask the supplier whether they supply US-based dietary supplement manufacturers or co-manufacturers, and ask for the documentation they typically provide to those customers for supplier qualification. A supplier with an established US export track record will understand what is required without being prompted.
+A different document sets a different number. When curcumin is used as a food colour in the European Union it is additive E 100, and Regulation (EU) No 231/2012 sets its purity specification at not less than 90% total colouring matters, alongside limits for residual solvents and toxic elements. A supplement-grade 95% lot and an E 100 food-colour lot are specified against different tests, so state on your request which use the material is for.
 
 ---
 
-> **Sourcing ashwagandha extract for the US market?** Ayris Global connects qualified US supplement brands with FDA-registered, cGMP-compliant Indian ashwagandha manufacturers. We support FSVP documentation, USP-NF testing packages, and full specification alignment from inquiry through first shipment. [Request samples](/contact/)
+## Seven Variables That Move a 95% Quote
+
+Most of the spread between two quotes for "the same" extract comes from the items below. None of them shows up on a one-line listing.
+
+| Variable | What to ask | Why it moves the price |
+|---|---|---|
+| Assay basis and method | Total curcuminoids by HPLC, dried basis or as received, which reference standards | A lower real assay at the same label means less active per kg, and meeting a stricter method costs more |
+| Ratio profile | Percentage of each of the three curcuminoids | A narrow ratio window can need tighter process control, and some specifications require it |
+| Solvent and residuals | Which solvents were used, and the residual solvent results against your stated limit | Purification passes, solvent recovery and testing add cost, and tighter limits cost more |
+| Contaminant testing scope | Heavy metals, pesticide residues, microbiology and any other panel your market requires | A full panel on every lot adds testing cost; scope should match the destination market |
+| Raw material and traceability | Turmeric origin, harvest window, and whether each lot traces to its raw material | Raw material quality and consistency affect yield and therefore price |
+| Physical form | Particle size, bulk density, flow, moisture, and anything added such as carriers or flow agents | Formulated or water-dispersible forms are different products and are priced as such |
+| Pack, lot and terms | Pack size, minimum order, lot size, payment terms, Incoterm | Small lots and urgent dispatch cost more per kg |
+
+Two of these deserve a closer look. Origin matters because extraction starts from the rhizome; see our comparison of [Indian turmeric origins](/blog/indian-turmeric-origins-compared-erode-salem-nizamabad-alleppey-sangli-lakadong/) for how growing region and harvest timing differ. Lot size matters because extract is produced and tested in lots; see [realistic MOQ ranges for herbal ingredients from India](/blog/moq-realistic-ranges-herbal-ingredients-india/) for how order size interacts with price.
 
 ---
 
-## FDA Facility Registration: What It Is and How to Verify It
+## How to Compare Two Quotes: Price per Kg of Curcuminoid
 
-FDA facility registration confirms that an Indian ashwagandha manufacturer has registered its facility with the US FDA as a foreign facility that manufactures, processes, packs, or holds food or dietary ingredients for the US market.
+A per-kg sticker price tells you what you pay for the powder. What you are buying is curcuminoid. The comparison that holds up across suppliers is:
 
-What registration is:
-- A database record that makes the facility known to FDA and subject to its inspection authority
-- A prerequisite for US import - unregistered facilities can have shipments detained at the port of entry regardless of product quality
-- Required to be renewed during each even-numbered year (2024, 2026, 2028)
+**Cost per kg of curcuminoid = quoted price per kg divided by the assay, expressed as a decimal on the same basis.**
 
-What registration is not:
-- An FDA quality certification or endorsement of the facility's products
-- A guarantee that FDA has audited or approved the manufacturing process
-- A permanent credential - a lapsed registration means unregistered status
+A worked example uses only ratios, because the point is the method. Suppose two suppliers quote the same sticker price per kg. One states 95.0% on the dried basis. The other states 92% as received. The second delivers about 3.3% less curcuminoid per kg before any moisture difference is counted, so its cost per kg of curcuminoid is about 3.3% higher at the same sticker price. A quote that looks cheaper can end up costing more per unit of active.
 
-How to verify: FDA facility registration can be confirmed via the FDA's public registration database. Ask the supplier for their FDA registration number, search it in the database, confirm the registered facility address matches the actual manufacturing site, and confirm renewal status is current.
+Put quotes on a common footing in this order:
 
-A supplier without a current FDA facility registration cannot legally supply the US market. Do not proceed on the assumption that registration will be obtained before shipment - verify it is already current before placing an order.
+1. Convert all quotes to the same Incoterm. FOB and CIF are not comparable until freight and insurance are separated.
+2. Convert all assays to the same basis, and confirm each is the sum of the three curcuminoids.
+3. Confirm each quote covers the same specification set: solvents, metals, microbiology and form.
+4. Only then divide price by assay and compare.
 
----
-
-## FSVP: The US Importer's Legal Obligation
-
-The Foreign Supplier Verification Program (FSVP) places the legal burden of foreign supplier verification on the US importer - the entity whose name appears on the US Customs entry as the importer of record. The US importer is legally required to verify that food and dietary ingredients imported from abroad meet US safety standards.
-
-In practice, FSVP means the US importer or supplement brand must:
-
-- Conduct a hazard analysis of the ashwagandha extract to identify the reasonably foreseeable hazards - for a botanical extract, this includes heavy metals, pesticide residues, microbial contamination, and botanical misidentification
-- Determine what verification activities are appropriate for each identified hazard
-- Conduct those verification activities - which may include supplier audits, lot-level testing, or review of the supplier's food safety records
-- Maintain FSVP records available for FDA inspection
-
-For US supplement brands who are the importer of record, this means the Indian ashwagandha supplier must be able to provide documentation that supports the brand's FSVP file. This typically includes: facility audit reports (third-party or self-audit, depending on the verification approach), a history of CoA data showing consistent testing results, and evidence of the supplier's own hazard control processes.
-
-Brands who import through a US ingredient distributor or broker who handles import-of-record will often have their FSVP obligation satisfied by the distributor - but should confirm this explicitly rather than assuming.
+If a supplier will not state the basis or the method, that is a finding in itself.
 
 ---
 
-## USP-NF Monograph Compliance
+## From FOB India to Landed Cost
 
-The US Pharmacopeia maintains a compendial monograph for Ashwagandha Root Dry Extract. Compliance with this monograph is not a legal requirement for US dietary supplement sale, but it functions as a de facto quality benchmark that many US supplement brands request from Indian suppliers.
+An FOB India price is where the seller's responsibility ends. Under Incoterms 2020 FOB, the seller delivers the goods on board the vessel at the named port of shipment and risk passes to the buyer there. Under CIF the seller also contracts and pays for carriage and minimum insurance to the named destination port, although risk still passes on loading. See our guide to [Incoterms and shipping logistics for Indian herbal ingredients](/blog/incoterms-shipping-logistics-indian-herbal-ingredient-buyers/) for how each term shifts cost.
 
-The monograph requires two distinct analytical components:
+| Line item | Who normally pays under FOB | What to confirm |
+|---|---|---|
+| FOB price per kg | Buyer, to the seller | Named port, packing included, lot size |
+| International freight | Buyer | Mode, transit time, minimum charges |
+| Cargo insurance | Buyer | Level of cover and who is the insured party |
+| Import duty | Buyer | Destination tariff code for the extract, normally under heading 1302; confirm the full national code with your broker |
+| Import VAT, GST or sales tax | Buyer | Whether it is recoverable in your jurisdiction |
+| Customs brokerage, port and inland handling | Buyer | Fixed fees against per-kg fees |
+| Destination re-testing | Buyer | Which laboratory, how many lots, which tests |
+| Cost of payment terms | Both | Letter of credit, advance payment or open account |
 
-**HPLC assay for total withanolides.** The monograph specifies an HPLC method for quantifying withanolide content, calculated as the sum of withanolide aglycones (measured as withanolide A) and withanolide glycosides (measured as withanoside IV). This is the number behind the commercial specification - 2.5%, 5%, 7% - and should appear on every batch CoA.
-
-**HPTLC identification.** Separately, the monograph includes an HPTLC identification test confirming the sample shows chromatographic peaks matching withanolide A and withanoside IV reference standards. This test exists to confirm the material genuinely derives from Withania somnifera rather than an adulterated substitute.
-
-A CoA showing only a single HPLC withanolide percentage figure - without identification data or reference to specific USP-NF methods - is not demonstrating monograph compliance. US brands who specify USP-NF compliance should ask suppliers to confirm which specific monograph entry applies (the monograph has separate entries for root-derived and aerial-parts-derived extract) and that both the assay and identification tests were performed.
-
-For more on the USP monograph requirements and export documentation, see our [ashwagandha extract export guide](/blog/ashwagandha-extract-export-india-buyers-guide/).
-
----
-
-## Heavy Metals: The Proposition 65 Consideration
-
-Heavy metals testing is mandatory for any credible ashwagandha extract supplier. For US brands, there is an additional US-specific layer: California's Proposition 65 limits for lead.
-
-The FDA's heavy metals guidance for dietary supplements references relevant pharmacopoeia standards. California's Proposition 65, however, requires that any product sold in California that exposes consumers to listed chemicals above defined thresholds carry a warning label. The lead threshold under Proposition 65 is lower than the limits in some pharmacopoeia standards.
-
-For US brands distributing nationally - which includes California - the practical requirement is to source ashwagandha extract with lead content low enough that the finished supplement's lead exposure per daily serving falls below the Proposition 65 No Significant Risk Level (NSRL) of 0.5 micrograms per day. This level must be calculated based on the extract's lead content per gram and the serving size per dose.
-
-Ask your Indian supplier for lead test results expressed in mg/kg, and confirm with your quality team or regulatory counsel that the lead content at your planned serving size falls below the Proposition 65 threshold for your finished product. This is a US-specific compliance check that is easy to miss when evaluating a supplier whose documentation otherwise looks complete.
+On classification, the extract is normally declared under HS heading 1302 (vegetable saps and extracts). In the US tariff the 6-digit 1302.19 line is the residual "other" line for extracts not named elsewhere. Each country adds its own national digits, so the importing broker's code and the exporter's declared code should be reconciled before shipment. Our [HS code classification reference](/blog/hs-code-classification-herbal-ingredients-india-export/) explains the chapter logic, and the [HSN code lookup for Indian herbal ingredients](/blog/hsn-code-lookup-indian-herbal-ingredients/) lists 6-digit codes ingredient by ingredient. The paperwork that travels with the cargo is covered in the [export documentation checklist](/blog/export-documentation-checklist-herbal-ingredients-india/).
 
 ---
 
-## Branded vs. Generic Ashwagandha: A US-Market Distinction
+## Red Flags in a 95% Quote
 
-The US supplement market has a notable presence of branded proprietary ashwagandha extracts - ingredients with patented standardisation processes, specific withanolide profiles, and supporting clinical evidence packages.
-
-For US supplement brands formulating products where a branded ingredient is a commercial selling point - featured on front-of-pack or in marketing materials - the brand association is inseparable from the specific manufacturer, and generic equivalents are not substitutes regardless of how similar their specification appears on paper.
-
-For US supplement brands sourcing ashwagandha extract as a generic ingredient - where specification and compliance documentation matter, not brand identity - there is no commercial requirement to pay the brand premium. A well-specified generic from a qualified, FDA-registered Indian manufacturer meets all US regulatory requirements and is appropriate for most private-label and formulation contexts.
-
-The distinction matters for sourcing approach. Branded ingredient buyers are effectively procuring from a specific manufacturer's proprietary output. Generic buyers are sourcing from a specification, and the qualified supplier pool is broader. Knowing which you are doing before approaching suppliers avoids wasted inquiry cycles.
-
----
-
-## How to Specify Ashwagandha Extract for a US Purchase Order
-
-A well-specified purchase order removes ambiguity and prevents substitution with lower-specification material. The specification should include:
-
-- **Botanical name:** Withania somnifera
-- **Plant part:** Root only - confirm explicitly in writing; do not leave open to root-and-leaf
-- **Withanolide specification:** Percent by HPLC, and specify whether USP-NF method is required
-- **Source material written statement:** Signed confirmation from supplier that extract is derived from root only
-- **Organic certification:** State explicitly (none, NPOP, USDA NOP, or EU organic)
-- **Heavy metals limits:** Lead, cadmium, mercury, arsenic per USP 2232 or specify Proposition 65 lead limit equivalent
-- **Pesticide residue testing scope:** Reference to EU MRL limits or specify the residue panel required
-- **Microbial limits:** Reference standard (USP 61/62 or equivalent) and parameters
-- **Testing laboratory:** Require ISO 17025-accredited or FDA-recognized third-party laboratory
-- **FDA facility registration number:** Specify the exact manufacturing site registration number to appear on all documentation
-- **Certificate of Conformance:** Require the supplier to issue a signed CoC confirming each lot meets all specifications before shipment
-
-For pricing benchmarks across withanolide specifications, volume tiers, and organic premiums, see our [ashwagandha extract price guide for international buyers](/blog/ashwagandha-extract-price-india-international-buyers/).
+- **A price far below peers with no lot-level certificate offered.** A low number with nothing behind it is the most common reason a quote does not survive qualification.
+- **"95%" with no method, basis or breakdown.** If the figure cannot be tied to HPLC and the three curcuminoids, it cannot be compared.
+- **Curcumin and curcuminoids used as if they were the same thing.** They are not, and the difference is large.
+- **No solvent declaration.** Extraction uses solvents, and a supplier should be able to name them and report residuals.
+- **A certificate that is not tied to a lot number**, or identical results across several lots.
+- **A quoting party that cannot say whether it manufactures or trades.** That affects both price structure and accountability; our guide to [manufacturer versus trader](/blog/manufacturer-vs-trader-india-herbal-ingredient/) explains how to read it.
+- **A price that never changes with quantity or term**, which usually means the quote is a placeholder.
 
 ---
 
-## Summary: The US-Market Sourcing Checklist
+## What to Put in Your Request for Quotation
 
-For a US supplement brand sourcing ashwagandha extract from India:
+A quote can only be as precise as the request that produced it. Include:
 
-1. Confirm FDA facility registration is current for the manufacturing site - verify in the FDA public database, not just from the supplier's own documentation
-2. Confirm the supplier operates to standards consistent with 21 CFR Part 111 and can provide documentation supporting your FSVP file
-3. Request a CoA that includes both HPLC withanolide assay and HPTLC botanical identity confirmation, with method references to USP-NF where monograph compliance is required
-4. Confirm heavy metals results and calculate finished-product lead exposure against the Proposition 65 NSRL if distributing in California
-5. Specify root-only source material explicitly in the purchase order - do not assume
-6. Determine before approaching suppliers whether you are sourcing a branded proprietary ingredient or a generic specification - the supplier pool and negotiating approach differ between the two
+- The specification you need: total curcuminoids not less than 95.0% by HPLC, stated basis, and the ratio window if your specification requires one.
+- The intended use (supplement, food colour or other), because specifications differ by use.
+- Residual solvent and contaminant limits, or the standard you want them measured against.
+- The pack size, annual volume, first order quantity and delivery window.
+- The Incoterm and destination port you want priced.
+- The documents required with each lot: certificate of analysis, specification sheet, and the full list of everything in the product including carriers.
+
+Our [RFQ template for herbal ingredients](/blog/rfq-template-herbal-ingredients-india/) sets this out in a format suppliers can answer directly, and the guide to [certificates of analysis, MSDS and phytosanitary certificates](/blog/coa-msds-phytosanitary-certificates-herbal-imports/) explains what each lot document should contain. For the testing side, see [quality testing for Indian herbal ingredients](/blog/quality-testing-indian-herbal-ingredients-supplier/).
+
+---
+
+## Why Quotes Change Over Time
+
+Raw turmeric cost feeds through to extract pricing, but it is only one component alongside extraction yield, solvent and energy cost, testing and freight, and the share each takes varies by producer. For that reason, a quote is valid for a stated period and a stated lot, and a price seen once should not be treated as a benchmark. Our guide to [how herbal ingredient prices are determined](/blog/herbal-ingredient-pricing-cost-drivers-india-sourcing/) covers the general cost drivers, and the [ashwagandha extract price guide](/blog/ashwagandha-extract-price-india-international-buyers/) applies the same method to a second ingredient.
+
+---
+
+## Working with Ayris Global
+
+Ayris Global works as an intermediary between international buyers and Indian producers, and keeps the identity of each side confidential until both have agreed to proceed. Buyers send a target specification and receive producer responses that match it, with lot-level documentation reviewed before any introduction.
+
+If you are preparing a curcumin 95% request, start on the [for buyers page](/for-buyers/) or send your specification through the [contact page](/contact/). You can also browse the [products page](/products/) for the range we cover.
 
 ---
 
 ## Frequently Asked Questions
 
-**Does ashwagandha extract qualify as a New Dietary Ingredient under US law?**
+**What is the price of curcumin 95% extract from India?**
 
-No. Ashwagandha root extract has an established history of use in the US dietary supplement market predating the October 1994 DSHEA cutoff. It is not classified as an NDI, and US supplement brands can formulate with it without submitting an NDI safety notification. Chemically modified or unusual derivative forms may warrant separate NDI review - confirm with regulatory counsel if anything other than standard root extract is being considered.
+There is no single reliable figure. Price depends on assay basis, curcuminoid ratio, residual solvent limits, testing scope, pack size, lot size, Incoterm and payment terms, and it moves with raw turmeric and extraction costs. Public listings rarely state these terms. Request lot-specific quotes on the same Incoterm and assay basis, then compare price per kg of curcuminoid.
 
-**What does FDA-registered facility actually mean for US supplement brand buyers?**
+**Is curcumin 95% the same as curcuminoids 95%?**
 
-FDA facility registration means the Indian manufacturer is known to FDA and is subject to its inspection authority. It is not a quality certification or product approval. Registration must be renewed during each even-numbered year - a lapsed registration means unregistered status, which can result in shipment detention regardless of product quality. Verify the supplier's registration number in the FDA public database before placing an order.
+No. Curcuminoids are three compounds: curcumin, desmethoxycurcumin and bisdesmethoxycurcumin. A 95% curcuminoid extract measures the sum of all three, and curcumin alone is normally the largest share. A product that is 95% curcumin alone would be a narrower, different specification. Always ask whether the figure is the sum of three curcuminoids and on which basis it is reported.
 
-**What testing documentation do US supplement brands typically require from Indian ashwagandha suppliers?**
+**How is a 95% curcuminoid extract tested?**
 
-A CoA showing withanolide content by HPLC (ideally per USP-NF method), HPTLC botanical identity confirmation, heavy metals by ICP-MS (lead, cadmium, mercury, arsenic), full pesticide residue screening, and microbial limits. Testing should be conducted by an ISO 17025-accredited or FDA-recognized third-party laboratory. US importers must also maintain FSVP documentation, which requires facility-level audit history and safety process records from the supplier.
+The usual method is HPLC against reference standards, reporting each curcuminoid and the total. The USP-NF Curcuminoids monograph sets not less than 95.0% total curcuminoids on the dried basis, with ranges for each of the three compounds. Ask for a lot-level certificate of analysis that states the method, the basis and the individual results.
 
-**What is the difference between WHO-GMP and 21 CFR Part 111 cGMP for US buyers?**
+**Which HS code applies to curcumin extract exported from India?**
 
-WHO-GMP is a broad international manufacturing standard. 21 CFR Part 111 is the FDA's dietary supplement-specific cGMP regulation, with more prescriptive requirements for identity testing of all incoming ingredients, batch documentation, and finished product release. Indian manufacturers who regularly supply the US market typically operate to Part 111-consistent standards as a condition of their customer relationships. Confirm this by asking for the documentation they provide to US-based co-manufacturers for supplier qualification.
+Standardized turmeric extract is normally declared under heading 1302, vegetable saps and extracts. In the US tariff the 6-digit 1302.19 line is the residual line for extracts not named elsewhere. India adds national digits and each importing country adds its own, so confirm the full code with your customs broker and the supplier shipping documents.
 
-**How should US supplement brands specify ashwagandha extract in a purchase order?**
+**What costs sit between an FOB India quote and landed cost?**
 
-Include: botanical name (Withania somnifera), plant part (root only), withanolide specification (percent by HPLC with method reference), organic certification status, heavy metals limits (referencing USP 2232 or Proposition 65 lead threshold), pesticide residue testing scope, microbial limits per USP 61/62, testing laboratory accreditation requirement, FDA facility registration number of the manufacturing site, and a signed Certificate of Conformance for each lot.
-
----
-
-**Further Reading:** [Ashwagandha Extract: A Complete Buyer's Guide](/blog/ashwagandha-extract-buyers-guide/) - [Ashwagandha Extract Export from India: HS Classification and Documentation](/blog/ashwagandha-extract-export-india-buyers-guide/) - [Entering the USA Market: A Guide for Indian Herbal Ingredient Suppliers](/blog/usa-market-entry-herbal-ingredients-guide/)
+Under FOB the buyer normally pays international freight, cargo insurance, import duty, import VAT or sales tax, customs brokerage, port and inland handling, any destination re-testing, and the cost of the payment terms agreed. Moving to CIF shifts freight and minimum insurance into the seller price, so quotes on different Incoterms must be converted before comparison.
 
 ---
 
-*Ayris Global sources verified ashwagandha extract from FDA-registered, cGMP-compliant Indian manufacturers for qualified US supplement brands. We support FSVP documentation, USP-NF testing packages, and full specification alignment from inquiry through first shipment. [Contact our team](/contact/) or visit our [products page](/products/).*
+Ready to specify your order? Visit the [for buyers page](/for-buyers/) or [contact Ayris Global](/contact/).
