@@ -60,11 +60,15 @@ Prior Notice is the FDA requirement most likely to catch first-time importers of
 
 This guide covers what Prior Notice requires, exactly when it must be filed by transport mode, who is responsible for filing it, and the specific failure patterns that hold herbal ingredient and dietary supplement shipments at US ports. If your supply chain is not yet FDA-compliant more broadly, start with our guide to [US FDA and DSHEA requirements for importing herbal ingredients from India](/blog/usa-fda-dshea-indian-herbal-ingredient-compliance/), which covers facility registration, cGMP, and NDI notifications - Prior Notice is a separate, per-shipment requirement that sits on top of those business-level compliance items.
 
+A related question is covered in [when a new dietary ingredient notification applies](/blog/ndi-notification-herbal-ingredients-usa/).
+
 ---
 
 ## Direct Answer: What Prior Notice Is and Why It Applies
 
 FDA Prior Notice is a mandatory advance notification required under the Public Health Security and Bioterrorism Preparedness and Response Act of 2002, codified at 21 CFR Part 1, Subpart I. It applies to all food, animal feed, and dietary supplement shipments imported or offered for import into the United States - which includes herbal and botanical ingredients, standardized extracts, and dietary supplement raw materials from India. Prior Notice must be submitted electronically and confirmed by FDA before the shipment physically arrives at the US port of entry. There is no exemption for herbal or botanical ingredients specifically; if the product is food or a dietary supplement ingredient under FDA's jurisdiction, Prior Notice applies.
+
+Our article on [FSVP records for US importers of Indian botanicals](/blog/fsvp-records-us-importers-indian-botanical-suppliers/) goes further.
 
 ---
 

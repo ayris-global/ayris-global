@@ -14,6 +14,8 @@ Most international wellness brands sourcing from India are sourcing raw ingredie
 
 A smaller but growing segment of international brands is asking a different question: can we source finished products from India? Not raw ashwagandha extract to formulate ourselves, but finished ashwagandha capsules, ready for labelling and retail. Not bulk turmeric powder, but turmeric-curcumin softgels in blister packs. Not moringa powder for a co-packer, but moringa powder in sachets, produced to specification by an Indian contract manufacturer.
 
+Our article on [sourcing private label ayurvedic products from India](/blog/private-label-ayurvedic-products-source-from-india/) goes further.
+
 This is a fundamentally different supply chain question. The ingredients are the same; the product type, the regulatory framework, and the sourcing process are not.
 
 This guide covers what international brands need to know about outsourcing finished herbal dosage-form production to Indian contract manufacturers: what the Indian contract manufacturing landscape looks like, how the regulatory framework differs from raw ingredient export, what certifications to require, what MOQs to expect, and what the import documentation looks like at the destination end.
@@ -150,6 +152,8 @@ A finished herbal capsule shipment from India requires substantially more docume
 ## Raw Ingredient vs. Finished Product Sourcing: Which Is Right for Your Business?
 
 The decision between sourcing raw ingredients and outsourcing finished dosage-form production is not a simple cost comparison. Both models have legitimate roles in an international brand's supply chain.
+
+A related question is covered in [direct import versus a sourcing agent or trading company](/blog/direct-import-vs-sourcing-agent-vs-trading-company-india/).
 
 **Source raw ingredients when** you have a co-packer or in-house production capability in your market, you need flexibility to reformulate or adjust specifications without renegotiating a contract manufacturing agreement, your regulatory environment requires the product to be manufactured in a domestically licensed facility, or your volumes are below Indian contract manufacturing minimums.
 

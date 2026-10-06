@@ -58,6 +58,8 @@ faqSchema: |
 
 Shatavari occupies an unusual position among Ayurvedic botanicals entering global wellness markets. It carries one of the strongest traditional-use reputations of any herb in EWI's coverage, specifically for women's reproductive and hormonal health, and it is now also one of the few Ayurvedic ingredients accumulating a real body of recent randomized, placebo-controlled clinical trials. At the same time, it carries a wild-harvest conservation profile that most buyer-facing content ignores entirely. This guide covers what the current evidence actually supports, what it does not yet support, and what sourcing-origin question every serious buyer should be asking before placing a first order.
 
+A related question is covered in [the Boswellia serrata buyer guide](/blog/boswellia-serrata-buyers-guide/).
+
 ---
 
 ## What Shatavari Is

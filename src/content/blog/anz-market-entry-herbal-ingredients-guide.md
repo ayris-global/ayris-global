@@ -124,9 +124,13 @@ This is a genuinely time-sensitive point worth flagging clearly: as of this guid
 
 Australia and New Zealand are not one market. Australia operates a structured, risk-tiered system built around the AUST L Listed Medicines pathway, where sponsors self-certify against a defined Permissible Ingredients Determination and GMP requirements, with the TGA auditing after the fact rather than assessing before market entry. New Zealand, after a repealed attempt at comprehensive reform, currently regulates herbal ingredients under decades-old medicines legislation with no equivalent listing category, and a promised modern natural health products regime that has not yet arrived.
 
+A related question is covered in [entering Latin American markets with herbal ingredients](/blog/latam-market-entry-herbal-ingredients-guide/).
+
 On trade access, both countries currently favor Indian exporters, but on different timelines: Australia's ECTA has delivered full tariff elimination as an operating reality since the start of 2026, while New Zealand's FTA, signed only in April 2026, promises an even faster full elimination once it clears ratification, a milestone that had not yet occurred as this guide was published. Suppliers who get the Australia-New Zealand distinction right, and who verify the New Zealand FTA's in-force status before committing to pricing, are positioned to convert this nine-market region's most commonly mishandled pairing into a genuine advantage.
 
 ---
+
+For more on this, see [Southeast Asia market entry for herbal ingredients](/blog/southeast-asia-herbal-ingredient-market-entry-guide/).
 
 ## Frequently Asked Questions
 

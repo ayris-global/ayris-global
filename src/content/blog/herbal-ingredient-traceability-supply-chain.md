@@ -20,6 +20,8 @@ This article explains what herbal ingredient traceability means in practice, why
 
 Traceability, in the context of herbal and botanical ingredient supply chains, refers to the ability to document and verify the journey of an ingredient from its point of origin â the specific farm, collection zone, or growing region â through every step of processing, extraction, storage, and shipment to the point of delivery to the buyer.
 
+Our article on [how a first trial shipment works with an Indian supplier](/blog/sample-shipment-process-herbal-ingredients-india/) goes further.
+
 It is not the same as certification. A GMP certificate tells a buyer that a manufacturer operates to a defined quality standard. A traceability system tells them where the raw material in a specific batch actually came from, who handled it at each stage, what quality tests were applied, and what the chain of custody looks like between those steps.
 
 The distinction matters enormously in practice. A supplier can be GMP-certified and still use raw materials of unknown origin, variable quality, or questionable authenticity. Traceability fills the gap that certification alone leaves open.
@@ -47,6 +49,8 @@ The two most consequential regulatory developments for herbal ingredient buyers 
 Under FSMA 204, companies importing food-category ingredients into the United States must maintain traceability records for listed high-risk products â including fresh herbs â and must be able to provide complete traceability records to the FDA within 24 hours of request. The regulation requires that importers verify their foreign suppliers can identify the raw materials used in their products. Failure to comply can trigger enforcement actions, expanded inspections, and significant penalties.
 
 The EUDR introduces an equally significant shift for EU-market buyers. While its initial scope focused on commodities directly linked to deforestation â cocoa, coffee, soy, palm oil â its underlying logic is extending the principle of origin-verified, documented supply chains across categories. The regulation establishes that market access to the EU depends on the ability to prove, with primary data, where raw materials originated and that their production complied with applicable environmental and legal standards. Botanical ingredient buyers operating in or supplying to the EU should treat EUDR as a signal of the direction of travel, not a one-off compliance event limited to specific commodity categories.
+
+Buyers working through this point may also find [turmeric traceability against FSMA 204 and EUDR-style standards](/blog/turmeric-traceability-fsma-eudr-standards-by-trading-structure/) useful.
 
 Beyond FSMA and EUDR, the EU's Corporate Sustainability Reporting Directive (CSRD) is creating additional traceability obligations for companies of significant scale: documented evidence of supply chain sustainability and ethical sourcing practices is increasingly required as part of corporate compliance reporting.
 

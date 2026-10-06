@@ -57,6 +57,8 @@ faqSchema: |
 
 Ashwagandha - Withania somnifera - has moved from the shelves of Ayurvedic pharmacies to the ingredient lists of mainstream supplement brands, functional food manufacturers, and wellness companies across Europe, North America, the Gulf, and East Asia. Global demand for ashwagandha extract has grown at over 15% annually for the past five years, and the trajectory shows no sign of softening.
 
+Buyers working through this point may also find [ashwagandha extract sourcing for the US market](/blog/sourcing-ashwagandha-extract-india-us-supplement-brands/) useful.
+
 For ingredient buyers, this growth creates both opportunity and complexity. The market now contains a wide range of suppliers offering products described as ashwagandha extract - but with significant variation in quality, potency, documentation standards, and supply chain integrity. Buying well in this category requires understanding what you are actually purchasing.
 
 This guide covers everything an international buyer needs to know: what ashwagandha extract is, how to read specifications, what certifications matter, and how to evaluate Indian suppliers effectively.

@@ -61,11 +61,15 @@ Most content on bringing Lakadong turmeric into Australia, including our own [ma
 
 Those are two separate gates, administered by two separate authorities, and a supplier or buyer who prepares thoroughly for one while assuming the other is a formality is the one who experiences an unexpected delay on a first shipment. This guide covers the gate that comes first: Australian biosecurity and quarantine requirements for turmeric as an imported plant product, independent of what happens to it afterward on the TGA side.
 
+For more on this, see [export documentation for Lakadong turmeric going to the UAE](/blog/lakadong-turmeric-export-documentation-uae-import-requirements/).
+
 ---
 
 ## Two Gates, Not One
 
 Australia's biosecurity system, administered through the Department responsible for agriculture and biosecurity, exists to prevent pests, diseases, and contaminants from entering the country via imported goods. It applies to turmeric because turmeric is, physically, a plant product - a rhizome, whether shipped fresh, dried, ground into powder, or processed into an oleoresin extract. This assessment happens at the border and is entirely separate from anything the TGA does.
+
+For more on this, see [Lakadong turmeric oleoresin and extract forms](/blog/lakadong-turmeric-oleoresin-extract-product-forms/).
 
 The TGA's Listed Medicines framework, by contrast, governs whether an ingredient can appear in a finished complementary medicine sold in Australia, what claims can be made about it, and what manufacturing standard the supplying facility must meet. This is a commercial and regulatory compliance question that applies once the ingredient is already inside the country and destined for a specific finished product.
 

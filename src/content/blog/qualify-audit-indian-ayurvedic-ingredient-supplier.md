@@ -166,6 +166,8 @@ Several importing country markets -- particularly in Southeast Asia, Latin Ameri
 
 Documentation tells you what a supplier claims. An audit tells you whether what they claim corresponds to what exists on the ground. For any first-time sourcing relationship involving ingredients that will enter your finished product supply chain, a facility audit -- either conducted by your own team or commissioned from a recognised third-party inspection body -- is the appropriate level of diligence.
 
+Our article on [a due diligence checklist for Indian herbal suppliers](/blog/indian-herbal-supplier-due-diligence-checklist/) goes further.
+
 **Remote desk audit versus on-site audit:**
 
 A remote desk audit reviews documentation: the quality manual, SOPs, batch manufacturing records, training records, calibration records, and corrective action logs. It can be completed without travel and provides a reasonable initial-stage assessment. Its limitation is that documentation compliance and manufacturing reality can diverge significantly.

@@ -15,6 +15,8 @@ A buyer who takes a standard herbal ingredient quality agreement template, chang
 
 Our [general quality agreement guide](/blog/quality-agreements-indian-herbal-ingredient-supply/) covers the full framework any herbal ingredient supply relationship needs. This guide covers what to add or adjust specifically for turmeric, depending on whether the supplier's trading structure is auction-mandi or cooperative, following the same origin-trading-structure distinction set out in our [trading structure guide](/blog/turmeric-trading-structure-mandi-auction-vs-cooperative-sourcing/) and applied to audit priorities in our [supplier audit guide](/blog/turmeric-supplier-audit-priorities-by-trading-structure/).
 
+Buyers working through this point may also find [turmeric MOQ and packaging economics by trading structure](/blog/turmeric-moq-packaging-economics-by-trading-structure/) useful.
+
 **Quick answer:** For auction-mandi-sourced turmeric (Erode, Salem, largely Nizamabad), add a blending disclosure clause and set a wider curcumin tolerance band that reflects genuine multi-farm aggregation variance. For cooperative-sourced turmeric (Lakadong, increasingly Sangli), add a capacity-commitment and non-substitution clause, and negotiate a tighter curcumin tolerance band the more uniform sourcing base can usually support. The base contract framework, specification lock, batch documentation, non-conformance escalation, stays the same either way.
 
 ---
@@ -22,6 +24,8 @@ Our [general quality agreement guide](/blog/quality-agreements-indian-herbal-ing
 ## Why the Generic Quality Agreement Template Is Incomplete for Turmeric
 
 The standard quality agreement framework exists to hold a supplier to a fixed specification over time, and it does that job the same way regardless of ingredient. What it does not address, because it is written to apply across any herbal ingredient category, is a risk that is specific to how a given commodity actually moves from field to export lot. For most standardized extracts, that mechanism is simple enough that the generic framework covers it fully. For turmeric, where two structurally different trading models dominate different origins, the generic framework leaves a gap at exactly the point where the two structures diverge.
+
+A related question is covered in [traceability standards for turmeric by trading structure](/blog/turmeric-traceability-fsma-eudr-standards-by-trading-structure/).
 
 The gap matters because a quality agreement is meant to be an audit-trail document as much as a working contract. A clause that does not exist cannot be enforced when the specific failure mode it should have covered actually occurs, and by the time a buyer discovers the gap, it is usually because a batch has already failed against an expectation the contract never actually stated.
 

@@ -27,6 +27,8 @@ Our [quality specifications by market guide](/blog/lakadong-turmeric-quality-spe
 
 The EU is the most demanding regulatory environment for Lakadong turmeric imports, with the strictest default pesticide MRLs among the nine markets and detailed contaminant testing requirements. It is also one of the strongest markets for premium, traceable, single-origin botanical ingredients. EU buyers in the nutraceutical and functional food sectors are accustomed to paying a premium for verified origin and documented quality, and the provenance narrative around Lakadong turmeric resonates with the sustainability and traceability values that drive purchasing decisions in this market.
 
+A related question is covered in [ESG due diligence for turmeric buyers](/blog/lakadong-turmeric-esg-sustainability-due-diligence-buyers/).
+
 **Competitive landscape:** Lakadong competes here primarily against standardised curcumin extract products and branded bioavailability-enhanced complexes rather than against other whole turmeric origins. The GI tag and the single-origin story differentiate it from generic curcumin extracts; the curcumin content premium differentiates it from commodity turmeric powders.
 
 **Market fit:** Strong for brands positioning around origin transparency, Ayurvedic heritage, or high-curcumin content. Weak for price-sensitive commodity turmeric procurement.
@@ -76,6 +78,8 @@ Japan represents a high-value opportunity for Lakadong turmeric given the countr
 **Opportunity type:** Health functional food formulation, curcumin-based supplements, premium ingredient supply.
 
 South Korea's MFDS regulates health functional foods with specific ingredient approval requirements and notably strict cadmium limits. The market values high-curcumin ingredients for supplement formulation, and Korean consumers are receptive to premium, origin-verified botanical ingredients. Entry requires MFDS-aligned documentation and testing, and the functional ingredient approval process is more structured than in many other markets.
+
+For more on this, see [Lakadong turmeric market entry in Japan and South Korea](/blog/lakadong-turmeric-japan-south-korea-market-entry/).
 
 **Competitive landscape:** Korean buyers have access to Southeast Asian turmeric supply chains and domestic turmeric production. Lakadong turmeric's differentiation rests on curcumin content and GI-backed origin rather than on price or logistical proximity.
 

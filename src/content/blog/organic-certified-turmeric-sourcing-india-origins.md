@@ -21,6 +21,8 @@ Organic certification and Indian turmeric origin are two separate questions that
 
 Our [origin comparison guide](/blog/indian-turmeric-origins-compared-erode-salem-nizamabad-alleppey-sangli-lakadong/) and [pricing benchmarks guide](/blog/turmeric-pricing-benchmarks-compared-indian-origins/) both cover how the six major origins differ on curcumin content, trading infrastructure, and GI status. None of those factors determines organic status. Organic certification concerns agricultural inputs and practices - the presence or absence of synthetic pesticides, chemical fertilisers, and prohibited inputs during cultivation - and this is a farm-and-cooperative-level fact, not a region-wide one. A high-curcumin, GI-tagged origin like Lakadong can have both organic-certified and conventionally-farmed production happening within the same district; the GI tag protects the origin claim, not the cultivation method.
 
+Buyers working through this point may also find [how curcumin grading tiers compare across origins](/blog/turmeric-curcumin-grading-tiers-compared-origins-forms/) useful.
+
 This distinction matters commercially because buyers sometimes assume that a premium origin name implies organic status, and pay an origin premium expecting an organic claim that the specific batch does not actually carry. As our [certification guide](/blog/gmp-iso-fssai-organic-certification-india-herbal/) explains in more general terms, organic certification must be confirmed at the batch and supplier level through NPOP, USDA NOP, or EU organic documentation - not inferred from origin, curcumin content, or any other characteristic.
 
 ## Where Certified Organic Turmeric Supply Exists

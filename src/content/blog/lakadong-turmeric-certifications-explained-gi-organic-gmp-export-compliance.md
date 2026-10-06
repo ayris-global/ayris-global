@@ -59,6 +59,8 @@ Halal certification confirms that a product's handling, processing, and any rele
 
 Halal certification is most frequently requested for UAE and GCC-bound shipments, but demand is not exclusive to that region -- Malaysia and Indonesia in Southeast Asia maintain their own significant Halal certification frameworks (JAKIM in Malaysia, MUI/BPJPH in Indonesia), and some buyers in Western markets serving Muslim consumer segments request Halal certification independent of destination region. Buyers should determine the need for Halal certification based on their own downstream market and customer base, not assume it is relevant only to one geography.
 
+Our article on [JAKIM halal and Lakadong turmeric in Malaysia and Indonesia](/blog/lakadong-turmeric-malaysia-indonesia-jakim-halal-curcumin-positioning/) goes further.
+
 ## Which Documents Are Mandatory Regardless of Certification Status?
 
 Separate from the certifications above, a defined set of export documents applies to essentially every Lakadong turmeric shipment regardless of whether any optional certification is held:

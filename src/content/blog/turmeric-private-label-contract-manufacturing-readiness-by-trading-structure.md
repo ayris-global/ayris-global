@@ -13,6 +13,8 @@ faqSchema: '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity":
 
 A brand ready to move from raw turmeric sourcing into a private-label or contract-manufactured product line faces a question neither of our existing guides answers directly. Our [contract manufacturing guide](/blog/herbal-capsule-dosage-form-contract-manufacturing-india/) covers the regulatory and MOQ landscape for finished dosage forms generically, across all Indian herbal ingredients. Our [Lakadong private-label guide](/blog/lakadong-turmeric-private-label-nutraceutical-ayurvedic/) covers brand positioning and sourcing structure for one specific origin. Neither addresses what this guide covers: how an origin's trading structure, auction-mandi or cooperative, shapes whether it can actually support a private-label or contract-manufacturing programme at the stage a given brand is at.
 
+For more on this, see [sourcing herbal tea for your own label](/blog/private-label-herbal-tea-sourcing-india-guide/).
+
 **Quick answer:** Auction-mandi origins (Erode, Salem, Nizamabad) generally offer stronger packaging-format flexibility and volume scalability for a growing private-label programme, but weaker default batch-level traceability, which matters for origin-story or provenance claims. Cooperative origins (Lakadong, increasingly Sangli) generally offer stronger traceability and a defensible origin narrative, but a bounded seasonal volume ceiling and less mature local processing infrastructure, which matters for a programme planning to scale contract-manufactured volume quickly. The right fit depends on which constraint - traceability or volume flexibility - the specific programme depends on more.
 
 ---
@@ -48,6 +50,8 @@ The tradeoff is traceability. Turmeric aggregated through open mandi auction is 
 Lakadong, and increasingly Sangli, cooperatives aggregate a defined membership's seasonal harvest, which generally supports the kind of batch-level, farm-group traceability documentation that underpins a defensible origin-story claim - the same traceability strength our trading structure guide and our Lakadong private-label guide both describe as the basis for GI-tag and single-origin marketing.
 
 The tradeoff is volume and infrastructure. A cooperative's available supply is bounded by its members' actual seasonal harvest, which means a private-label programme planning aggressive volume growth needs to confirm the cooperative's total capacity and current commitment level well before scaling, not after a successful pilot creates demand the cooperative cannot fill. Compounding this, processing infrastructure in northeast India remains less developed than the established manufacturing hubs in Uttarakhand, Himachal Pradesh, or Gujarat where most Indian contract manufacturers actually operate, which means raw material typically has to travel a meaningful distance from the Jaintia Hills to reach a WHO-GMP capsule or tablet facility, adding a logistics and lead-time step that an origin closer to those hubs does not carry.
+
+A related question is covered in [where oleoresin and standardized extract are available](/blog/turmeric-product-forms-availability-by-origin/).
 
 ## Comparing Readiness Directly
 

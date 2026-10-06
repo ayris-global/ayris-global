@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Lakadong turmeric is a Geographical Indication (GI)-tagged turmeric variety grown in the West Jaintia Hills district of Meghalaya, in India's northeast. It is referenced in Indian government sourcing and export-promotion literature for its comparatively high curcumin content, and it has become a variety of specific interest to UAE and GCC buyers sourcing turmeric for food, wellness, and nutraceutical applications where curcumin concentration is a commercial differentiator.
 
+Our article on [the difference between Lakadong and other turmeric](/blog/lakadong-turmeric-vs-regular-indian-turmeric-difference/) goes further.
+
 This guide is written for UAE and GCC import teams evaluating Lakadong turmeric as a supply option: what it is, where it comes from, how it differs from conventional Indian turmeric, what specifications to request, and how to evaluate a supplier before placing a first order.
 
 ---
@@ -85,6 +87,8 @@ Buyers should require a Certificate of Analysis generated via HPLC (high-perform
 
 A complete documentation package for a Lakadong turmeric shipment should include a batch-specific Certificate of Analysis (curcumin, moisture, microbiology, heavy metals, pesticide residues), a Certificate of Origin, a phytosanitary certificate issued by India's Plant Quarantine authority, and - where applicable - an organic certificate and transaction certificate if the shipment is being sold as certified organic.
 
+Our article on [Lakadong turmeric history and its GI tag](/blog/lakadong-turmeric-origin-history-gi-tag-story/) goes further.
+
 Buyers should request that documentation reference the same batch or lot number printed on the shipment's packaging, so the paperwork can be reconciled against the physical goods on arrival.
 
 ## Indian Export Documentation
@@ -121,6 +125,8 @@ Before committing to a Lakadong turmeric supplier, buyers should confirm: busine
 Ayris Global works with verified Indian producers and exporters across the herbal ingredient and botanical sourcing landscape, including speciality and GI-tagged categories such as Lakadong turmeric. We operate on a commission-only model with no retainer and no markup on goods, connecting international buyers with vetted Indian suppliers and supporting the sourcing, sampling, and documentation process from first inquiry through to shipment.
 
 ---
+
+See [all Lakadong turmeric guides](/topics/lakadong-turmeric/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

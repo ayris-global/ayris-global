@@ -20,6 +20,8 @@ This guide focuses on the two anchor markets, Brazil and Mexico, with a comparis
 
 Brazil and Mexico are Latin America's two largest consumer markets for nutraceuticals and dietary supplements, and they are the two countries where an Indian exporter is most likely to find an established import infrastructure, including freight forwarders, customs brokers, and regulatory consultancies who already work with botanical ingredients. Colombia, Argentina, and Chile are real markets, but they are typically a second-wave decision once a supplier has working relationships and a track record in the region.
 
+Buyers working through this point may also find [entering the USA market with herbal ingredients](/blog/usa-market-entry-herbal-ingredients-guide/) useful.
+
 The two countries could not be more different in how they get a botanical ingredient onto a shelf.
 
 ## Brazil: a positive list system with a living list
@@ -33,6 +35,8 @@ The practical path splits in two:
 If the botanical and its specific extract form already appear on the positive list, the importer's Brazilian partner files a notification with ANVISA. Notification does not involve a pre-market ANVISA assessment, and the product can be marketed once the notification is filed, though ANVISA can request additional information afterward. Notifications need renewal roughly every five years to avoid inactivation.
 
 If the ingredient is not listed, or the specific concentrate or extract form is new to the Brazilian market, it falls under the novel food framework set out in RDC 839/2023. A novel food dossier requires safety and toxicology documentation and typically takes twelve to eighteen months from submission to publication. This is the same structural pattern as the EU Novel Food framework covered in our EU market entry guide, a comprehensive dossier required for anything without a documented history of safe consumption in the destination market before a fixed reference date.
+
+For more on this, see [entering the EU market with herbal ingredients](/blog/eu-market-entry-herbal-ingredients-guide/).
 
 One detail that catches first-time exporters: foreign companies cannot deal with ANVISA directly. A Brazilian-established partner, either a distributor or a dedicated local representative, has to hold the notification or registration and bears legal responsibility for the product in Brazil.
 
@@ -83,6 +87,8 @@ For suppliers planning further into the region once Brazil or Mexico relationshi
 **Chile**, through the ISP, is generally regarded as comparatively lighter-touch for general consumer products, though Chile is also a smaller market in absolute terms than Brazil, Mexico, or Colombia.
 
 None of these three has a current Indian trade preference comparable to what exists or is being negotiated for Brazil or Mexico, so the trade-status caution that applies to Mexico is not a factor here in the same way, simply because there is no recent preferential or punitive shift to track yet.
+
+See [our market entry guides by region](/topics/market-entry-by-region/) for more guides on this subject.
 
 ## What this means for sourcing decisions
 

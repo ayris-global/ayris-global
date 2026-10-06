@@ -13,6 +13,8 @@ faqSchema: '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity":
 
 A buyer who assumes turmeric is available fresh from India whenever an order is placed is making an assumption that does not match how the crop actually grows. Turmeric is planted once a year and harvested once a year, almost everywhere in India. Every quote received outside the narrow post-harvest window is, by definition, drawn from stored inventory - and how well that inventory holds up, and for how long, differs meaningfully by origin.
 
+Buyers working through this point may also find [turmeric product forms by origin](/blog/turmeric-product-forms-availability-by-origin/) useful.
+
 This guide sets out when each of India's major turmeric origins actually harvests, how long usable stock typically lasts afterward, and what that means for planning a container-scale order or an annual supply contract rather than a one-off spot purchase.
 
 **Quick answer:** Turmeric across India follows a single annual crop cycle - planted roughly April to July, harvested roughly January to March depending on the specific origin and local rainfall - rather than a continuous or multi-harvest pattern. Larger commodity origins such as Erode, Salem, and Nizamabad carry stored stock through most of the year on the strength of production volume and warehousing infrastructure. Smaller-production origins such as Lakadong have a shorter effective supply window, and orders placed later in the crop year anywhere should be accompanied by current batch testing rather than reliance on the original at-harvest specification.

@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 An EU or UK buyer completing a supplier ESG questionnaire is usually not asking whether Lakadong turmeric is safe to import - that question is answered separately, through food safety and regulatory compliance documentation. The ESG questionnaire is asking a different question: what do you actually know about the people who grew this, the conditions they work under, and the environmental footprint of getting it from a hillside in Meghalaya to a finished product on a shelf.
 
+A related question is covered in [Lakadong versus regular Indian turmeric](/blog/lakadong-turmeric-vs-regular-indian-turmeric-difference/).
+
 This guide covers what sustainability-conscious buyers can realistically gather and document for Lakadong turmeric sourcing: the socioeconomic and GI-tag framing relevant to smallholder livelihood questions, what Meghalaya's Mission Golden Spice programme adds as a government-backed development signal, and how to build an ESG due diligence file that is evidence-based rather than aspirational.
 
 ---
@@ -27,6 +29,8 @@ A supplier can be fully compliant on the regulatory side while having thin ESG d
 ## What a GI Tag Does and Does Not Tell an ESG Questionnaire
 
 Lakadong turmeric received its Geographical Indication tag on 30 March 2024, formally recognising it as a distinct product of the West Jaintia Hills region of Meghalaya. For buyers, the GI tag is a genuinely useful and easily verifiable piece of origin documentation - it confirms the product is what it claims to be, geographically, and protects against use of the Lakadong name on turmeric grown elsewhere.
+
+Our article on [what Lakadong turmeric is and where it comes from](/blog/lakadong-turmeric-origin-history-gi-tag-story/) goes further.
 
 What a GI tag does not do is verify labour practices, farmer income, or environmental management at the point of cultivation or processing. It is an origin and intellectual-property protection, not a social or environmental audit. Buyers who cite GI status in an ESG questionnaire response should be precise about what it actually demonstrates - verified regional origin - rather than presenting it as evidence for criteria it was never designed to address.
 
@@ -63,6 +67,8 @@ Keeping these two categories distinct, and stating which is which in the due dil
 Ayris Global works with Lakadong turmeric suppliers across the FPO, processor, and export categories, and can help buyers distinguish supplier-specific ESG evidence from broader regional and programme-level context as part of the sourcing and due diligence process. We do not represent government programme targets as verified supplier outcomes, and we help buyers request the specific supplier-level documentation their own ESG questionnaire or reporting framework actually requires.
 
 ---
+
+See [all Lakadong turmeric guides](/topics/lakadong-turmeric/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

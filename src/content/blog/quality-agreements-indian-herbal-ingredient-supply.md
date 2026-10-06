@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 When international buyers invest in supplier qualification - auditing facilities, testing samples, reviewing certifications - the instinct is to treat that due diligence as a one-time event. The supplier passed. The relationship is established. Now purchasing begins.
 
+A related question is covered in [how to evaluate an Indian herbal ingredient supplier](/blog/how-to-evaluate-indian-herbal-ingredient-supplier/).
+
 This framing misses the most important phase of supply risk management: the ongoing contractual framework that governs what the supplier must do after the first order. A supplier qualification is a point-in-time assessment. A quality agreement is the mechanism that holds that standard across every subsequent batch, year after year, as production staff turn over, raw material sources shift, and the commercial relationship loses the attentiveness of a first order.
 
 The audit and qualification posts in this series cover pre-order diligence. This post covers what comes after: the quality agreement - what it is, why it is distinct from a purchase contract, and what it must contain to be genuinely protective in the Indian herbal ingredient supply context.
@@ -25,6 +27,8 @@ A quality agreement is a technical and quality framework document that defines t
 A purchase contract defines the commercial terms of a transaction: price per kilogram, payment terms, minimum order quantity, delivery Incoterm, and the legal remedy if goods do not arrive. A quality agreement defines the technical and procedural standards that govern how the product must be manufactured, tested, documented, and delivered - standards that apply to every purchase order placed under the commercial relationship, regardless of the price, the volume, or the batch number.
 
 The distinction matters in practice because the two documents govern different failure modes. A purchase contract protects you when a supplier ships at the wrong price or fails to deliver on time. A quality agreement protects you when a supplier changes their raw material source without telling you, switches extraction methods, loses a certification, or fails to notify you of a batch that narrowly passed their internal testing but would not pass yours.
+
+A related question is covered in [the quality testing to require from a supplier](/blog/quality-testing-indian-herbal-ingredients-supplier/).
 
 In regulated markets - EU novel food, US DSHEA, Japan health claim registration - the quality agreement is also an audit trail document. A regulatory inspector reviewing your ingredient supply chain wants to see that your specification is locked, that your supplier's documentation obligations are defined, and that you have a documented process for handling non-conformance. A quality agreement provides all three.
 
@@ -155,6 +159,8 @@ Build in a mandatory annual review, conducted within 60 days of the agreement's 
 Each version of the quality agreement should carry a version number and an effective date. When an amendment is agreed, a revised appendix or a formal amendment document is signed by both parties and attached to the agreement. Earlier versions should be retained as part of the supply chain audit record - regulatory inspectors in the EU and USA sometimes require evidence of the specification that was in force at the time a specific batch was manufactured, not the current specification.
 
 ---
+
+See [the quality, testing and traceability guides](/topics/quality-testing-traceability/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

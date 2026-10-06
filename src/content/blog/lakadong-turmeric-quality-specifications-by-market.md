@@ -19,6 +19,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Lakadong turmeric, grown in the Jaintia Hills of Meghalaya, is a single variety with a consistent reputation for high curcumin content. But "quality" for an import shipment is not defined by the plant -- it is defined by the regulatory framework of the country the shipment is entering. The EU, USA, Japan, Korea, ANZ, UK, UAE/GCC, SEA, and LatAm each maintain their own limits for contaminants and their own documentation expectations, developed independently and not harmonised with one another.
 
+Our article on [selling Lakadong turmeric into Japan and Korea](/blog/lakadong-turmeric-japan-south-korea-market-entry/) goes further.
+
 This means the same physical batch of Lakadong turmeric can be fully compliant for one destination and non-compliant for another, even though nothing about the turmeric itself has changed. A batch that clears Japan's Food Sanitation Act heavy metal limits may still fail the EU's default pesticide MRL if it was never screened at that sensitivity. Buyers who copy a specification from one market to a purchase order for a different market are the most common source of avoidable rejections at customs.
 
 This guide is a companion to our [curcumin content and HPLC testing guide for GCC buyers](/blog/lakadong-turmeric-curcumin-content-gcc-buyers/), which goes deep on one parameter for one market. Here, the scope is wider and shallower by design: what to specify, market by market, across the full set of regions Lakadong turmeric moves into.

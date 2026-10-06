@@ -31,6 +31,8 @@ Several issues can compromise the halal status of an otherwise plant-derived ing
 
 For a buyer sourcing ashwagandha extract, tulsi powder, or amla concentrate destined for a UAE supplement brand, the halal certificate is not a box-ticking exercise. It is the document that proves the entire production chain — from raw material through processing to final form — meets Islamic dietary law requirements as interpreted by a recognised authority.
 
+For more on this, see [Ramadan wellness gifting with Indian herbal tea](/blog/ramadan-wellness-gifting-herbal-tea-india-uae/).
+
 ## The UAE and GCC Regulatory Landscape
 
 The UAE does not have a single unified national halal standard that applies to all product categories. Instead, the Emirates Authority for Standardisation and Metrology (ESMA) administers the UAE Halal Mark scheme, and the UAE.S 2055-1:2015 standard governs halal food requirements.

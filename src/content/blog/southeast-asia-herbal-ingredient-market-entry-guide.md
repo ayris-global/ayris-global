@@ -35,6 +35,8 @@ Once a product is classified as a health supplement, BPOM uses a dual-list syste
 
 Many common Indian botanical extracts will not appear explicitly on either list. In that case, BPOM requires a formal safety assessment before the ingredient can be approved for use in a health supplement. This is structurally similar to the European Union's Novel Food gap-filling process covered in our EU market entry guide: an ingredient with no prior regulatory history in the destination market requires a dedicated assessment rather than automatic approval, and that assessment takes meaningfully longer than registering an already-listed ingredient.
 
+For more on this, see [the EU market entry guide](/blog/eu-market-entry-herbal-ingredients-guide/).
+
 ### The Local License Holder Requirement
 
 A foreign manufacturer cannot register a product with BPOM directly. An Indonesian-registered entity, holding the relevant manufacturing or import certification, must act as the license holder and the official point of contact with BPOM throughout the registration process and afterward. This is a heavier structural requirement than anything in our Latin America or USA guides, and it means the practical first step for an Indian exporter targeting Indonesia is identifying and vetting a credible local partner, not preparing a product dossier.
@@ -115,9 +117,13 @@ Based on the publicly documented sensitive and exclusion lists across Indonesia,
 
 The more consistent and better-documented barrier across all three anchor markets is not tariff treatment. It is non-tariff: sanitary and phytosanitary measures, certification requirements, and the product-registration friction detailed in the Indonesia and Malaysia sections above. Indian agricultural exports more broadly, including spices, have historically faced more friction from certification and documentation requirements than from customs duty itself. For an Indian herbal ingredient exporter, the registration regime in each destination market is where the real cost of market entry sits, not the AITIGA tariff schedule.
 
+A related question is covered in [the USA market entry guide](/blog/usa-market-entry-herbal-ingredients-guide/).
+
 ### A Live and Unresolved Process Worth Tracking
 
 AITIGA is currently the subject of a substantial review and upgrade process. ASEAN and India agreed in 2023 to undertake the first comprehensive review since the agreement entered force, originally targeting completion by 2025. As of this guide's publication in mid-2026, the review remains in active negotiation, with a recent round of talks held in Jakarta in March 2026 and both sides aiming for substantial conclusion sometime in 2026 or 2027. The outcome could change tariff-line coverage, rules of origin requirements, and non-tariff barrier provisions in ways not yet public. Given the review is active and unresolved, any Indian supplier finalizing a significant Southeast Asian export commitment should verify the current state of AITIGA negotiations and confirm specific HS code tariff treatment with a customs broker before finalizing pricing.
+
+See [our market entry guides by region](/topics/market-entry-by-region/) for more guides on this subject.
 
 ## Getting Started
 

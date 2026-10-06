@@ -14,6 +14,8 @@ The European Union is the world's largest trading bloc for food and dietary supp
 
 For EU buyers, the regulatory environment governing these imports is more complex than most markets outside of Japan. It operates across multiple intersecting frameworks - Novel Food authorization, pesticide maximum residue levels, contaminant limits, and health claims restrictions - each of which creates distinct compliance obligations. Understanding how these frameworks apply to Indian herbal ingredients, and knowing what to require from your Indian suppliers, is essential before committing to supply agreements.
 
+Buyers working through this point may also find [GB and EU pesticide residue limits compared](/blog/gb-vs-eu-pesticide-residue-limits-indian-herbal-ingredients/) useful.
+
 This guide covers the EU regulatory requirements that directly affect international buyers sourcing herbal ingredients from India: the Novel Food Regulation, pesticide MRL framework, contaminant limits, health claims restrictions, and the documentation standard EU-compliant Indian suppliers should meet.
 
 ---
@@ -119,6 +121,8 @@ Consolidating the requirements above, EU-bound Indian herbal ingredient sourcing
 ## EU Import Controls and the RASFF Database
 
 The EU operates a rapid alert system for food safety - RASFF (Rapid Alert System for Food and Feed) - which logs and publicly reports all food safety notifications including border rejections. RASFF data is publicly searchable and provides a real-time picture of compliance issues by product category and country of origin.
+
+Buyers working through this point may also find [NDI notification for herbal ingredients in the USA](/blog/ndi-notification-herbal-ingredients-usa/) useful.
 
 Before committing to a new Indian herbal ingredient supplier for EU-bound supply, search the RASFF database for notifications involving the relevant ingredient and India as the country of origin. A cluster of recent RASFF notifications for a specific product type signals elevated compliance risk in that category and should inform your supplier qualification process and COA requirements.
 

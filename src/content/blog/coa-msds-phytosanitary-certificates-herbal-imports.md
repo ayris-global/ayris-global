@@ -12,6 +12,8 @@ For international buyers sourcing herbal ingredients from India, the quality of 
 
 Understanding what documents are required, what each document should contain, and how to evaluate whether a supplier's documentation meets your market's standards is a core procurement competency. This guide covers the three most critical documents in herbal ingredient importing — the Certificate of Analysis, the Material Safety Data Sheet, and the Phytosanitary Certificate — and gives buyers a practical checklist for each.
 
+Our article on [the export documentation checklist](/blog/export-documentation-checklist-herbal-ingredients-india/) goes further.
+
 ---
 
 ## The Certificate of Analysis (CoA)
@@ -189,6 +191,8 @@ For each shipment of herbal ingredients from India, buyers should maintain a doc
 A supplier who routinely provides complete, accurate documentation without being chased is a supplier who understands regulated markets and takes compliance seriously. This is one of the most reliable indicators of supplier quality.
 
 ---
+
+A related question is covered in [GMP, ISO, FSSAI and organic certification](/blog/gmp-iso-fssai-organic-certification-india-herbal/). See [the compliance, certification and trade document guides](/topics/compliance-certifications-trade-documents/) for more guides on this subject.
 
 ## How Ayris Global Supports Documentation Compliance
 

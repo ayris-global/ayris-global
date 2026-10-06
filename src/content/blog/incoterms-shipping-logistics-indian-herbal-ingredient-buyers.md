@@ -119,6 +119,8 @@ Air freight for herbal ingredients costs approximately 8 to 15 times more than o
 
 The cases where air freight makes commercial sense: samples for regulatory submission or supplier qualification (where lead time matters and weight is small); urgent trial orders to meet a product launch deadline where the cost differential is recoverable from the commercial margin; high-value, low-weight extracts (such as highly standardised specialty extracts worth several hundred dollars per kilogram) where the freight cost as a percentage of cargo value is manageable; and corrective shipments to address a stockout where ocean freight lead time would cause production disruption.
 
+A related question is covered in [the trial shipment process for herbal ingredients](/blog/sample-shipment-process-herbal-ingredients-india/).
+
 For air freight from India, Mumbai (Chhatrapati Shivaji Maharaj International Airport) and Delhi (Indira Gandhi International Airport) are the primary cargo hubs. Transit time to major European airports is 3 to 5 days; to US East Coast airports, 5 to 7 days; to Dubai, 1 to 3 days; to Singapore, 2 to 4 days. These are airport-to-airport times -- customs clearance at destination adds 1 to 3 days for herbal botanicals subject to inspection.
 
 ---

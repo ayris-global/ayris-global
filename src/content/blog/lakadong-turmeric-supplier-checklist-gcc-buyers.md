@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Choosing a Lakadong turmeric supplier involves more diligence than a standard commodity turmeric purchase, because the variety's premium, GI-tagged positioning means buyers are paying for origin and quality claims that must be independently verified rather than taken on trust. This checklist gives GCC buyers 15 concrete checks to run before committing to a supplier relationship.
 
+Our article on [the Lakadong turmeric supplier guide for the GCC](/blog/lakadong-turmeric-supplier-india-uae-gcc/) goes further.
+
 **Quick answer:** A reliable Lakadong turmeric supplier should have verifiable export credentials (IEC, FSSAI), a documented traceability chain to West Jaintia Hills, willingness to provide a batch-specific sample and HPLC-tested Certificate of Analysis, consistent packaging and labelling practices, and a track record of export documentation to the GCC or comparable markets - buyers should verify each of these before placing a first order.
 
 ---

@@ -21,6 +21,8 @@ Two questions get conflated in turmeric sourcing conversations that should be ke
 
 A turmeric-growing region's reputation - curcumin content, color, GI status - describes the raw rhizome as harvested. It says nothing about what processing infrastructure exists in that same region, and this is where buyers most often make an unstated assumption. Grading and packing whole-herb powder requires cleaning, drying, and grinding equipment that is widely established across every significant growing origin, since it is the baseline processing step every commercial turmeric shipment goes through regardless of destination form. Producing oleoresin or standardized extract is a categorically different processing step, requiring solvent extraction equipment, purification capability, and typically a larger minimum practical batch size to justify the capital investment - infrastructure that has historically concentrated in a smaller number of established industrial processing hubs rather than distributing evenly across every growing region.
 
+Our article on [how climate sets turmeric moisture levels](/blog/turmeric-preshipment-moisture-baseline-by-origin-climate/) goes further.
+
 This means a buyer's two sourcing questions - which origin, and which product form - do not always resolve to the same answer, and treating them as a single combined decision risks assuming availability that does not actually exist.
 
 ## Powder: Available From Every Major Origin
@@ -58,6 +60,8 @@ This guide addresses where a product form can actually be produced, which sits u
 ## How Ayris Can Support Product Form Sourcing
 
 Ayris Global works with verified Indian producers and processors across multiple growing origins and can confirm which specific origin-and-form combination is actually achievable, including realistic lead times, before a buyer commits to a specification. We operate on a commission-only model - no retainer, no markup on goods.
+
+For more on this, see [turmeric lead times by origin](/blog/turmeric-sample-to-bulk-lead-times-by-origin/).
 
 ---
 

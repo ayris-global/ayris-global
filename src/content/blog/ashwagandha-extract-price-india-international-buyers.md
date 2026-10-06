@@ -13,6 +13,8 @@ Ashwagandha extract pricing from India is not a single number. It is a matrix of
 
 This guide is a transparent pricing reference for international buyers. It explains the variables that drive ashwagandha extract pricing from India, provides indicative price ranges for the most common specifications, and explains the gap between the FOB India number on a supplier's quotation and the actual landed cost in your market.
 
+A related question is covered in [curcumin 95% extract pricing from India](/blog/curcumin-95-extract-price-india/).
+
 Pricing data reflects market conditions in late 2026 and is indicative rather than contractual -- raw material markets move seasonally, and individual supplier pricing varies by relationship and volume commitment.
 
 ---

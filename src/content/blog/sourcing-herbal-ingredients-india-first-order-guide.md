@@ -15,6 +15,8 @@ This guide removes that uncertainty. It walks through the practical process of s
 
 Whether you are a supplement brand placing your first bulk order of ashwagandha extract, a functional food producer sourcing moringa powder, a tea brand looking for tulsi and ginger, or a private label wellness company building your first India supply relationship — the process follows the same framework.
 
+Buyers working through this point may also find [annual supply agreements for herbal ingredients](/blog/scaling-trial-to-annual-supply-agreement-india-herbal-ingredients/) useful.
+
 ---
 
 ## Step 1: Define Your Requirements Before You Contact Anyone
@@ -145,6 +147,8 @@ Suppliers who deliver exactly what they committed to, with complete and accurate
 For buyers who want to explore how we can support your India herbal ingredient sourcing — whether for a first order or to strengthen an existing supply chain — [contact our team](/contact/) at sourcing@ayrisglobal.in. We are happy to discuss your requirements, share relevant supplier capabilities, and outline how we can make your first India order — and every one after — as straightforward as it should be.
 
 ---
+
+Buyers working through this point may also find [the herbal tea private label guide](/blog/private-label-herbal-tea-sourcing-india-guide/) useful.
 
 ## Frequently Asked Questions
 

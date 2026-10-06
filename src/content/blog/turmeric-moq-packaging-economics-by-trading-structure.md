@@ -15,6 +15,8 @@ Two buyers requesting a quote for the same curcumin grade of turmeric, one from 
 
 Our [general MOQ guide](/blog/moq-realistic-ranges-herbal-ingredients-india/) covers minimum order economics by product type, and our [Lakadong MOQ and packaging guide](/blog/lakadong-turmeric-moq-packaging-pricing-tiers/) covers MOQ by curcumin grade for that specific origin. This guide adds the variable neither covers: how the trading structure behind a given origin, auction-mandi or cooperative, changes what MOQ and packaging flexibility is realistic, extending the structural comparison in our [trading structure guide](/blog/turmeric-trading-structure-mandi-auction-vs-cooperative-sourcing/) into order economics specifically.
 
+For more on this, see [private label readiness by turmeric trading structure](/blog/turmeric-private-label-contract-manufacturing-readiness-by-trading-structure/).
+
 **Quick answer:** Auction-mandi exporters (Erode, Salem, largely Nizamabad) typically offer more MOQ flexibility and a wider range of packaging formats, because they draw on continuously replenished blended stock from many independent sellers. Cooperative exporters (Lakadong, increasingly Sangli) offer this less reliably, because a small trial order or a custom packaging run both depend on whether the cooperative's bounded seasonal harvest currently has an uncommitted portion available to allocate.
 
 ---
@@ -22,6 +24,8 @@ Our [general MOQ guide](/blog/moq-realistic-ranges-herbal-ingredients-india/) co
 ## Why Trading Structure, Not Just Product Form, Sets the MOQ Floor
 
 The general MOQ guide explains why fixed per-batch costs, testing, changeover, certification overhead, set a floor that does not shrink proportionally with order size. That explanation holds regardless of origin. What it does not address is a separate constraint specific to turmeric's two dominant trading structures: whether the exporter has continuously replenished stock to draw a small order from, or a single bounded seasonal harvest that either has spare uncommitted volume or does not.
+
+A related question is covered in [organic-certified turmeric sourcing across Indian origins](/blog/organic-certified-turmeric-sourcing-india-origins/).
 
 An auction-mandi exporter purchasing from the mandi on a near-daily basis during the trading season is, in effect, holding a continuously refreshed pool of blended stock. Allocating a below-MOQ trial quantity from that pool does not require a dedicated production run in the way a cooperative facing a fixed seasonal harvest does. This is the mechanism behind the MOQ and packaging flexibility difference described below, and it is independent of the curcumin grade or price tier being quoted.
 

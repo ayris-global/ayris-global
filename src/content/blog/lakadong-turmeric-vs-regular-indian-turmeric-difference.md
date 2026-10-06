@@ -30,6 +30,8 @@ Lakadong turmeric holds Geographical Indication (GI) status tied specifically to
 
 For buyers, this distinction matters in two ways beyond curcumin content: a GI-tagged, single-origin product supports a defensible premium-origin marketing claim in ways commodity turmeric cannot, and it comes with a narrower, more traceable supply base - useful for buyers who want origin certainty, but also a smaller pool of legitimate suppliers than the commodity market offers. We go deeper on confirming a supplier's origin claim is genuine in our [authenticity verification guide](/blog/how-to-verify-authentic-lakadong-turmeric-before-you-buy/).
 
+Our article on [a buyer guide to Lakadong turmeric suppliers](/blog/lakadong-turmeric-supplier-india-uae-gcc/) goes further.
+
 ## Flavor, Color, and Sensory Profile
 
 Trade descriptions and buyer feedback commonly characterize Lakadong turmeric as having a deeper orange-red color and a more pronounced, somewhat bitter and earthy flavor than commodity Indian turmeric, which is generally described as milder in both respects. For retail spice buyers, private-label food brands, and beverage formulators where sensory profile is part of the product experience, this difference is a legitimate part of the buying decision independent of curcumin content or nutraceutical application.
@@ -61,6 +63,8 @@ Commodity Indian turmeric is generally the better commercial choice when:
 ## A Note on Price
 
 Lakadong turmeric commands a real, meaningful premium over commodity Indian turmeric, driven by its higher curcumin profile, GI-protected origin, and smaller production base relative to major commodity states. The exact premium moves with season, curcumin test result, and format (whole fingers command different pricing dynamics than ground powder), so buyers should request current, batch-specific quotes for both grades against the same specification rather than budgeting off a fixed percentage assumption.
+
+For more on this, see [Lakadong turmeric pricing trends](/blog/lakadong-turmeric-pricing-trends-market-rate/).
 
 ## How Ayris Can Support This Decision
 

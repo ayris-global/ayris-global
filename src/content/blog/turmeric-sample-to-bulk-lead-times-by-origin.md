@@ -15,6 +15,8 @@ A sample request from an Indian turmeric supplier follows the same process no ma
 
 What that generic process does not address is a question specific to turmeric's growing calendar and trading structure: once a sample comes back with a result the buyer is happy with, how quickly, and how reliably, can that result actually be scaled into a full bulk order. The answer depends on two origin-specific factors covered in our [harvest calendar guide](/blog/turmeric-harvest-calendar-supply-continuity-by-origin/) and [trading structure guide](/blog/turmeric-trading-structure-mandi-auction-vs-cooperative-sourcing/), not on anything about the sample process itself.
 
+A related question is covered in [turmeric quality agreement clauses by trading structure](/blog/turmeric-quality-agreement-clauses-by-trading-structure/).
+
 **Quick answer:** Sample mechanics, cost, quantity, timeline, are the same across Erode, Salem, Nizamabad, Alleppey, Sangli, and Lakadong. What differs is scaling speed and reliability. Auction-mandi origins, Erode, Salem, and largely Nizamabad, generally scale from sample to bulk fastest, since their trading structure supports assembling additional volume from a broad, continuously-trading market. Cooperative-sourced origins, Lakadong being the clearest example, scale more slowly and with less certainty, since bulk volume is bounded by the aggregating cooperative's actual seasonal harvest rather than an open, continuously replenished market.
 
 ---

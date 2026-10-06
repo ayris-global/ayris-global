@@ -16,6 +16,8 @@ The first order establishes whether the supplier can meet your specification con
 
 This guide covers the full arc from first order to annual supply agreement: how to structure the evaluation stage deliberately, how to negotiate the volume ramp, what an annual supply agreement should contain, and how to build price-lock, safety stock, and dual-sourcing strategy so that your India supply chain is genuinely resilient at scale.
 
+For more on this, see [placing a first order with an Indian supplier](/blog/sourcing-herbal-ingredients-india-first-order-guide/).
+
 ---
 
 ## What the Trial Order Is Actually Testing
@@ -41,6 +43,8 @@ The evaluation window is not binary - it is not simply pass or fail. The pattern
 A supplier who performs perfectly on order one, has a minor specification deviation on order two (promptly disclosed and corrected), and returns to spec on order three is a different risk profile from a supplier who performs perfectly on all three orders but provides documentation late on each occasion. The first is a competent supplier with normal process variation who communicates proactively. The second may have a documentation culture problem that will compound at scale.
 
 Track each order against a consistent scorecard covering specification conformance, documentation completeness and accuracy, communication responsiveness, and logistics execution. Score each attribute on a simple three-point scale: met, marginal, or missed. Before advancing to an annual supply agreement, all four attributes should be at met or marginal for at least two of the three evaluation orders, with no repeated misses in any single attribute.
+
+A related question is covered in [how to source herbal ingredients from India](/blog/how-to-source-herbal-ingredients-india-complete-guide/).
 
 A repeated miss - documentation late on all three orders, for example - should be treated as a structural issue and raised directly with the supplier before proceeding to any volume commitment.
 
@@ -131,6 +135,8 @@ Annual supply agreements are commercial documents, but their effectiveness depen
 **Annual agreement renewal as a managed process.** Begin the renewal negotiation 90 days before the agreement expiry date. Review batch performance data together, agree on any specification updates required by regulatory changes in the destination market, and set pricing for the coming year in the context of the full business review. Renewal handled as a managed process with data produces better commercial outcomes than renewal triggered by an imminent expiry.
 
 ---
+
+See [our sourcing process and commercial terms guides](/topics/sourcing-process-commercial-terms/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

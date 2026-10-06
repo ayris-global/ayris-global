@@ -112,6 +112,8 @@ Commission models are designed to be cost-neutral for the buyer - the agent's fe
 
 High. Because the buyer contracts directly with the Indian manufacturer, full traceability is maintained. Batch-specific documentation comes from the manufacturer directly. The buyer has visibility of the supply source, the certifications, and the quality documentation chain - the same visibility they would have in direct import, but with the agent managing the relationship complexity.
 
+Buyers working through this point may also find [the complete guide to sourcing herbal ingredients from India](/blog/how-to-source-herbal-ingredients-india-complete-guide/) useful.
+
 ### Risk profile
 
 Low to moderate. The agent absorbs the supplier discovery and qualification work, reducing the buyer's due diligence burden. The principal risk is choosing the wrong agent - one who recommends manufacturers based on commission rate rather than quality, or who lacks the India market depth to assess manufacturer capability accurately. This risk is mitigated by selecting an agent with verifiable relationships, transparent processes, and references from existing clients.
@@ -138,6 +140,8 @@ B2B platforms like IndiaMART, TradeIndia, Global Sources, and Alibaba India aggr
 ### Cost profile
 
 B2B marketplaces offer the theoretical lowest discovery cost - no intermediary fees, direct access to supplier pricing. In practice, marketplace pricing is often not the lowest available, because listed suppliers price for unknown buyers with no relationship leverage, and because a significant proportion of marketplace listings are from traders and aggregators rather than manufacturers, adding their own margin to the underlying manufacturer price.
+
+For more on this, see [telling a manufacturer from a trader](/blog/manufacturer-vs-trader-india-herbal-ingredient/).
 
 ### Control profile
 
@@ -196,6 +200,8 @@ The evidence-based answer for the commission model specifically: in a well-struc
 For buyers who are embedded - consistent volume, strong relationships, capable in-house QA - direct import is the efficient choice.
 
 ---
+
+See [our sourcing process and commercial terms guides](/topics/sourcing-process-commercial-terms/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

@@ -129,6 +129,8 @@ Buyers sourcing the same ingredient from multiple Indian suppliers sometimes fin
 
 This matters commercially because the HS code affects duty rates, RoDTEP incentive eligibility for the exporter, and preferential tariff eligibility for the buyer under a trade agreement such as the India-UAE CEPA - see our guide to [India-UAE CEPA duty treatment for herbal ingredients](/blog/india-uae-cepa-herbal-ingredients-gcc/) for a worked example of how classification interacts with preferential duty claims. Buyers should ask suppliers to state their HS code and briefly justify it against the product's actual processing level, rather than assuming any exporter-declared code is automatically correct.
 
+Buyers working through this point may also find [HSN code lookup for Indian herbal ingredients](/blog/hsn-code-lookup-indian-herbal-ingredients/) useful.
+
 ---
 
 ## Consequences of Misclassification

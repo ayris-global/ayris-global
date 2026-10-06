@@ -51,6 +51,8 @@ This article covers where Lakadong turmeric comes from and how it reached its cu
 
 Ayris Global works with West Jaintia Hills-based cooperatives, farmer producer organisations, and processors to connect international buyers with genuine, origin-verified Lakadong turmeric. We verify growing district and supply-chain traceability before any supplier introduction, and track programmes like Mission Golden Spice as they affect supplier readiness and capacity over time.
 
+For more on this, see [quality incident response for Lakadong turmeric](/blog/lakadong-turmeric-recall-readiness-quality-incident-response/).
+
 To discuss sourcing genuine Lakadong turmeric for your market, contact our sourcing team at [sourcing@ayrisglobal.in](mailto:sourcing@ayrisglobal.in) or on WhatsApp at [+91 97292 56621](https://wa.me/919729256621).
 
 ---

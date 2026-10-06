@@ -50,6 +50,8 @@ When sourcing Tulsi extract, buyers should request Certificates of Analysis (CoA
 
 Always request standardised extracts with verified marker compound content — not merely dried herb powder — for supplement and nutraceutical applications.
 
+Our article on [herbal extract versus botanical powder](/blog/herbal-extract-vs-botanical-powder/) goes further.
+
 ---
 
 ## Commercial Forms Available from Indian Suppliers
@@ -166,6 +168,8 @@ Ayris Global works with verified Indian producers of Tulsi and a broad range of 
 To discuss your Tulsi sourcing requirements, contact our team at **sourcing@ayrisglobal.in**.
 
 ---
+
+Buyers working through this point may also find [herbal ingredient pricing and cost drivers](/blog/herbal-ingredient-pricing-cost-drivers-india-sourcing/) useful. See [our guides to extracts, ingredients and pricing](/topics/extracts-ingredients-pricing/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

@@ -105,6 +105,8 @@ Ayris Global connects international brand owners, product developers, and contra
 
 Whether you are sourcing raw Lakadong turmeric powder for a single-origin retail product or building a multi-SKU supplement line with curcumin-forward positioning, we can match you with suppliers whose certifications, capacity, and documentation capability align with your target market requirements.
 
+Buyers working through this point may also find [Lakadong turmeric in Malaysia and Indonesia](/blog/lakadong-turmeric-malaysia-indonesia-jakim-halal-curcumin-positioning/) useful.
+
 Contact our sourcing team at [sourcing@ayrisglobal.in](mailto:sourcing@ayrisglobal.in) or on WhatsApp at [+91 97292 56621](https://wa.me/919729256621) with your product concept, target market, and projected volume.
 
 ---

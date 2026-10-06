@@ -66,6 +66,8 @@ This guide picks up from there. It covers what happens once a specification is a
 
 Ashwagandha root extract is classified under HS heading **1302.19** (vegetable saps and extracts, other), with India's 8-digit national tariff line commonly **1302.19.19**. Export requires an Import Export Code (IEC), APEDA Registration-cum-Membership Certificate (RCMC), and - for most destinations - a Phytosanitary Certificate from India's Plant Quarantine authority. Withanolide content should be verified by HPLC per the USP-NF Ashwagandha monograph where a USP claim is made, with HPTLC used separately for botanical identity confirmation. Destination countries layer their own requirements on top of this baseline - FDA Prior Notice for the US, TRACES NT for the EU, and equivalent notification systems elsewhere.
 
+For more on this, see [exporting Tulsi (holy basil) from India](/blog/tulsi-holy-basil-export-guide/).
+
 ---
 
 ## HS Classification: Getting 1302.19 Right
@@ -79,6 +81,8 @@ Beyond six digits, national tariff schedules diverge:
 - **European Union (import, CN code):** falls under the 1302.19 CN series, with the EU's own 8-digit extension
 
 A common classification error is treating finished dosage forms the same as bulk extract. Once ashwagandha extract is encapsulated, tableted, or blended into a finished supplement, it typically moves to a different chapter entirely - **2106.90** (food preparations not elsewhere specified) for dietary supplements, or **3004.90** for products positioned and licensed as Ayurvedic medicine. This distinction matters because duty rates, import permit requirements, and labeling rules differ sharply between "raw material extract" and "finished consumer product" classifications. Buyers importing bulk extract for their own formulation should confirm with their customs broker that the shipment is being declared under the extract heading, not accidentally reclassified as a finished good.
+
+Our article on [a US brand guide to Indian ashwagandha extract](/blog/sourcing-ashwagandha-extract-india-us-supplement-brands/) goes further.
 
 Getting the HS code wrong has real consequences: it can trigger the wrong duty calculation, disqualify a shipment from a trade agreement's preferential rate, and in India specifically, affect eligibility for export incentive schemes such as RoDTEP that are tied to correct tariff-line declaration.
 

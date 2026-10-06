@@ -13,6 +13,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 A buyer comparing turmeric quotes across suppliers quickly runs into a labeling problem: one supplier's "high-grade" powder and another supplier's "95 percent extract" are both described using a curcumin percentage, but they are not the same category of product, and are not priced or sourced the same way. This guide sets out how the industry actually structures curcumin grading into commercial tiers, across origins and product forms, so a buyer can read a tier claim for what it actually represents before comparing it against a different supplier's number.
 
+A related question is covered in [which turmeric product forms each origin offers](/blog/turmeric-product-forms-availability-by-origin/).
+
 **Quick answer:** The turmeric trade groups curcumin content into three broad commercial bands - commodity-tier whole-herb powder (roughly 2-5 percent, the natural range for most Indian origins), premium-tier whole-herb powder (roughly 5-10 percent, associated with high-curcumin origins), and standardized extract (typically marketed at fixed floors such as 65, 85, or 95 percent curcuminoids, a manufactured rather than natural figure). These are different product categories, not the same product at different concentrations, and a percentage figure only means something once you know which category it belongs to.
 
 ---
@@ -28,6 +30,8 @@ This distinction sits upstream of any single-origin or single-supplier compariso
 ### Commodity-Tier Whole-Herb Powder (Roughly 2-5 Percent)
 
 This is dried turmeric rhizome, cleaned and ground to a target particle size, retaining its full natural composition. Curcumin content in this band reflects the natural range of the growing origin and cultivar rather than any manufactured target, and most of India's high-volume commodity origins - Erode, Salem, and Nizamabad among them - fall into this band by default. This is the appropriate and most cost-efficient tier for culinary use, industrial coloring, and bulk blends where curcumin concentration is not the value driver a buyer is paying for.
+
+Buyers working through this point may also find [how harvest timing affects turmeric lead times](/blog/turmeric-sample-to-bulk-lead-times-by-origin/) useful.
 
 ### Premium-Tier Whole-Herb Powder (Roughly 5-10 Percent)
 

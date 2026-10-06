@@ -14,6 +14,8 @@ South Korea occupies a distinctive position in the global wellness economy. It i
 
 For Indian botanical extract suppliers, South Korea represents a high-effort, high-reward market. The barriers to entry are real, and they are procedural rather than commercial: Korea is not short of buyer demand, it is short of suppliers who can navigate its ingredient-approval system correctly on the first attempt. For suppliers who clear that bar, the commercial relationship tends to be durable, professionally managed, and capable of generating consistent long-term volume.
 
+Buyers working through this point may also find [Japan and South Korea requirements for Lakadong turmeric](/blog/lakadong-turmeric-japan-south-korea-market-entry/) useful.
+
 This guide covers what Korean buyers need to know about sourcing Indian botanical extracts: the regulatory pathway, the documentation a supplier must provide, realistic MOQ and lead time expectations, and how to initiate a sourcing conversation that moves efficiently from sample to commercial order.
 
 ---
@@ -144,6 +146,8 @@ Ashwagandha has achieved meaningful awareness in the Korean supplement market. A
 ### Functional Food and Beverage
 
 Korean food culture has a sophisticated tradition of functional ingredients integrated into everyday foods and beverages. This creates entry points for Indian botanical powders and extracts in formats beyond capsules and tablets: functional teas, beverage powders, and food-integrated formats all have real traction.
+
+A related question is covered in [LATAM market entry for Indian herbal suppliers](/blog/latam-market-entry-herbal-ingredients-guide/).
 
 ---
 

@@ -38,6 +38,8 @@ No official document we reviewed uses "ayurvedic" as a regulatory category. Auth
 
 Saudi Arabia shows how the line is drawn. SFDA's classification guidance defines a herbal product as a plant or herb manufactured in a pharmaceutical dosage form and presented with a medical claim (the definition as worded in the v7.0 text; v8.0, dated 20 November 2024, keeps the classification rule). The same guidance treats a food supplement as a pharmaceutical product if it contains medicinal herbs with medical intent, exceeds the daily limits in the technical standard, claims to treat or prevent disease, contains active pharmaceutical ingredients, or is not meant to be swallowed.
 
+For more on this, see [the Saudi SFDA route for Indian herbal ingredients](/blog/saudi-arabia-sfda-route-indian-herbal-ingredients/).
+
 Other states follow the same logic in different words. Kuwait's Ministerial Decree 101/2020, as reported by a law-firm note, covers any medicinal product containing exclusively herbal substances or herbal preparations, and separates herbal medicine from traditional herbal medicine, which needs 30 consecutive years of documented use. Bahrain, per the 2019 study, uses two pathways, a simplified one for herbal products and a stricter one for herbal medicines.
 
 For an Indian supplier the consequence is direct. The label claim and dosage form your buyer intends decide the Gulf regulator. Your Indian licence category does not. Our [AYUSH regulatory guide](/blog/ayush-regulatory-framework-indian-herbal-ingredient-buyers/) explains which Indian regulator licenses what at home, but we found nothing in the Gulf documents that treats an Indian licence category as equivalent to a Gulf one.

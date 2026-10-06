@@ -14,6 +14,8 @@ A Certificate of Analysis tells a buyer what a batch of Lakadong turmeric contai
 
 This guide covers what lot-coding and chain-of-custody documentation a buyer can realistically request to trace a Lakadong turmeric shipment back toward its originating cooperative or Farmer Producer Organisation (FPO) in West Jaintia Hills, what the practical limits of that traceability are today, and what Meghalaya's new Mission Golden Spice programme does and does not change about it.
 
+A related question is covered in [the origin and GI tag story of Lakadong turmeric](/blog/lakadong-turmeric-origin-history-gi-tag-story/).
+
 ---
 
 ## Traceability Is a Documentation Chain, Not a Single Certificate
@@ -21,6 +23,8 @@ This guide covers what lot-coding and chain-of-custody documentation a buyer can
 Batch or lot-level traceability means that a single identifying reference - a lot number, batch code, or run identifier - appears consistently across every stage of documentation for a defined quantity of goods: the raw material intake record, the processing log, the quality test result, and the shipping paperwork. When that reference is consistent end to end, a buyer receiving a container can, in principle, work backward from the packing list to the specific processing run and the aggregation point that supplied the raw material for it.
 
 This is different from a supplier simply stating that their turmeric "comes from West Jaintia Hills" or providing a Certificate of Analysis that references a generic product specification rather than a specific run. General origin claims and generic CoAs are common in the trade, and they are not worthless, but they do not constitute batch-level traceability. A buyer who needs to demonstrate origin and chain of custody for a regulatory submission, a retail partner's due diligence process, or their own quality investigation needs the lot reference to actually connect the documents, not just describe the region.
+
+A related question is covered in [how Lakadong differs from regular Indian turmeric](/blog/lakadong-turmeric-vs-regular-indian-turmeric-difference/).
 
 ## Where the Lot Code Originates
 
@@ -72,6 +76,8 @@ The practical implication for a buyer sourcing now is unchanged from the guidanc
 Ayris Global works with Lakadong turmeric suppliers across the FPO, processor, and export intermediary categories, and traceability capability is assessed as part of our supplier qualification process rather than taken on trust from a supplier's own description. For buyers with a specific traceability requirement - whether for a regulatory submission, a retail partner's due diligence process, or an origin-marketing use case - we help identify which suppliers can document the chain of custody a given use case actually requires, and which cannot, before a commercial commitment is made.
 
 ---
+
+See [all Lakadong turmeric guides](/topics/lakadong-turmeric/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

@@ -13,6 +13,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Most coverage of the UK's Border Target Operating Model (BTOM) frames it as a Brexit story - a new wall of paperwork between Great Britain and the European Union. For Indian herbal ingredient suppliers and UK buyers, that framing is only half right, and the half that gets missed is the more commercially useful half.
 
+Our article on [how GB residue limits differ from the EU](/blog/gb-vs-eu-pesticide-residue-limits-indian-herbal-ingredients/) goes further.
+
 BTOM applies to imports from every country, India included. But it was built to solve a specific problem: the UK left the EU single market and needed border controls where none had existed on EU trade before. India was already a rest-of-world (RoW) origin under the UK's pre-existing SPS and customs regime, which means several BTOM changes have actually simplified requirements for non-EU plant products rather than adding to them. Treating India-origin herbal ingredient imports as subject to the same disruption as EU-origin goods leads buyers to over-prepare for the wrong risks and under-prepare for the ones that actually apply.
 
 This guide separates what BTOM changed for RoW imports like India from what it changed for EU imports, and sets out the specific compliance points that do apply to UK-bound Indian herbal and botanical ingredient shipments today.

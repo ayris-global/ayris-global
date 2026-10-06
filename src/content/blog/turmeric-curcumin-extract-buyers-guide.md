@@ -127,6 +127,8 @@ WHO-GMP, EU-GMP, or US FDA-registered facility certification remains the baselin
 
 Organic turmeric and curcumin extract is available from India certified to NPOP, EU organic regulations, and USDA NOP standards. For buyers targeting premium positioning in EU or North American retail, certified organic supply commands a meaningful price premium and is increasingly an expected baseline rather than a differentiator.
 
+A related question is covered in [what drives curcumin 95% extract prices](/blog/curcumin-95-extract-price-india/).
+
 ### Heavy Metals Testing
 
 Turmeric cultivation has a documented industry-wide risk of lead contamination, historically linked in some growing regions to soil contamination and to the use of lead chromate as an illegal colour-enhancing additive in raw turmeric. This makes heavy metals testing - specifically lead - a non-negotiable line item on the Certificate of Analysis for any turmeric or curcumin product, and buyers should treat a CoA that omits explicit heavy metals data as a serious red flag rather than a minor documentation gap.

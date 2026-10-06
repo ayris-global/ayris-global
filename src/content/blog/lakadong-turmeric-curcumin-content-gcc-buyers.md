@@ -64,6 +64,8 @@ The Government of Meghalaya and the Government of India launched Mission Golden 
 
 Our [15-point supplier checklist for GCC buyers](/blog/lakadong-turmeric-supplier-checklist-gcc-buyers/) covers curcumin testing as one item within a broader supplier evaluation framework. Our [guide to verifying authentic Lakadong turmeric](/blog/how-to-verify-authentic-lakadong-turmeric-before-you-buy/) addresses whether the product's origin claim itself is genuine. This guide goes deeper specifically on the curcumin question: not whether the turmeric is really from West Jaintia Hills, but what percentage curcumin the actual batch you are buying contains, and exactly what documentation proves it. A buyer should expect to satisfy all three lines of diligence - supplier reliability, origin authenticity, and curcumin verification - before confirming a first order, and none of the three substitutes for the others.
 
+A related question is covered in [ESG and sustainability due diligence for Lakadong turmeric](/blog/lakadong-turmeric-esg-sustainability-due-diligence-buyers/).
+
 ## How Does Curcumin Testing Fit into the Wider Documentation Package?
 
 Curcumin testing is one part of a complete Certificate of Analysis that should also cover moisture content, microbiological limits, heavy metals, and pesticide residues. For a full walkthrough of what a complete quality documentation package for an Indian herbal ingredient shipment should contain, see our [CoA, MSDS, and phytosanitary certificate guide](/blog/coa-msds-phytosanitary-certificates-herbal-imports/) and our [quality testing guide for Indian herbal ingredient suppliers](/blog/quality-testing-indian-herbal-ingredients-supplier/).

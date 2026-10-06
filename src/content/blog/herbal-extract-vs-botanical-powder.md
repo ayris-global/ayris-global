@@ -33,6 +33,8 @@ Not all extracts are the same. Understanding extract types helps buyers specify 
 
 A standardised extract is one in which the concentration of one or more target active constituents has been adjusted to a defined specification — for example, "ashwagandha root extract standardised to 5% withanolides" or "boswellia extract standardised to 65% boswellic acids."
 
+Buyers working through this point may also find [sourcing Boswellia serrata extract from India](/blog/boswellia-serrata-buyers-guide/) useful.
+
 Standardisation is achieved through the extraction and concentration process, and in some cases through blending of batches to achieve consistent specification. The standardised constituent is verified analytically (typically by HPLC) in every production batch, and the result is documented in the Certificate of Analysis.
 
 Standardised extracts offer formulators the ability to calculate precise active ingredient doses per capsule, tablet, or serving — which matters for both regulatory compliance (where label claims must be supported by measurable ingredient levels) and for clinical reproducibility (where the product's effect is intended to be consistent with research evidence).

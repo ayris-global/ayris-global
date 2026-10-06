@@ -92,6 +92,8 @@ For Indian suppliers, this matters commercially as well as legally. A buyer who 
 
 This is the part of EU market entry that works more in India's favour than most buyers realise, and that Indian suppliers sometimes under-sell.
 
+Our article on [the Latin America market entry guide](/blog/latam-market-entry-herbal-ingredients-guide/) goes further.
+
 India's National Programme for Organic Production (NPOP), administered by APEDA, has held equivalence recognition from the European Union since 2008. In practice, this means organic plant products certified under NPOP by an EU-recognised certification body can generally be sold as organic within the EU without a separate, additional EU organic certificate. This is a meaningful structural advantage versus suppliers from countries without an equivalence agreement, who must obtain full EU Organic certification (under EU Regulation 2018/848) directly and independently.
 
 Three boundaries on this equivalence matter for buyers and suppliers alike:
@@ -151,6 +153,8 @@ For Indian suppliers preparing a first serious EU quotation, and for EU buyers e
 ## Summary: What to Get Right
 
 EU market entry for Indian herbal ingredients comes down to sequencing the right questions before price becomes the conversation. Confirm Novel Food status first, because it determines whether a sale is even legally possible. Understand that India's NPOP-EU organic equivalence is a real commercial advantage, with the UK as a clear exception to flag early. Treat the India-EU trade agreement as a real but not-yet-operative development - genuinely worth planning around for 2027, but not yet a reason to change today's duty assumptions. And remember that EU health claim rules are stricter for botanicals than many buyers expect, which makes honest positioning a competitive advantage rather than a limitation.
+
+For more on this, see [selling herbal ingredients into Southeast Asia](/blog/southeast-asia-herbal-ingredient-market-entry-guide/).
 
 India's depth of cultivation, extraction capacity, and certification infrastructure is a genuine strength in the EU market. Suppliers who pair that strength with precise regulatory honesty are the ones who convert a first EU enquiry into a repeat account.
 

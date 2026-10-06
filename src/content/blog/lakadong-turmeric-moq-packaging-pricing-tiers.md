@@ -13,6 +13,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 A buyer who has confirmed genuine demand for Lakadong turmeric - whether for nutraceutical formulation, functional food development, or private-label retail - eventually reaches the same practical question: what will an actual order cost, and how small can it realistically be. This guide sets out the MOQ, packaging, and pricing structure buyers should expect before requesting a quote, so the numbers that come back can be evaluated against a realistic baseline rather than a guess.
 
+Buyers working through this point may also find [what drives Lakadong turmeric market rates](/blog/lakadong-turmeric-pricing-trends-market-rate/) useful.
+
 **Quick answer:** Standard Lakadong turmeric orders typically start at 100kg to 300kg, packaged in HDPE drums or liner-bagged sacks in 25kg increments, with pricing set in tiers linked to verified curcumin percentage rather than a single flat rate.
 
 ---
@@ -64,6 +66,8 @@ Buyers unsure which grade their formulation actually requires should confirm thi
 ## How This Differs From Our General MOQ Guide
 
 Our [guide to realistic MOQ ranges for Indian herbal ingredients](/blog/moq-realistic-ranges-herbal-ingredients-india/) covers MOQ economics across powders, standardized extracts, and essential oils as a category. This guide addresses Lakadong turmeric specifically, where the whole-herb powder format, curcumin-tier pricing structure, and packaging considerations differ meaningfully from the general extract and powder ranges discussed there.
+
+For more on this, see [product forms of Lakadong turmeric](/blog/lakadong-turmeric-oleoresin-extract-product-forms/).
 
 ## How Ayris Can Support Your Order
 

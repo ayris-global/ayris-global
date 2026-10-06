@@ -13,6 +13,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 India is the world's largest producer and exporter of medicinal and aromatic plants, supplying botanical extracts, Ayurvedic actives, herbal powders, and nutraceutical ingredients to supplement brands, food manufacturers, contract formulators, and ingredient distributors across every major market. The country's combination of biodiversity, established extraction infrastructure, competitive pricing, and a regulatory framework built around AYUSH, FSSAI, and WHO-GMP certification makes it the primary sourcing origin for international buyers entering or scaling in the herbal ingredient category.
 
+A related question is covered in [private label ayurvedic product sourcing](/blog/private-label-ayurvedic-products-source-from-india/).
+
 This guide covers the complete sourcing process for international buyers: how to identify and qualify Indian suppliers, what certifications and documentation to require, how quality testing works, what the regulatory compliance obligations are in major destination markets, how pricing is structured, and how to manage the logistics of your first - and subsequent - orders.
 
 ---

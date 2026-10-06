@@ -57,6 +57,8 @@ The steps below assume a buyer has already confirmed, per our traceability guide
 
 Not every Lakadong turmeric supplier operates at the same level of recall preparedness, and buyers should calibrate expectations to the scale and structure of the specific supplier relationship rather than assuming uniform capability across the trade.
 
+A related question is covered in [choosing a Lakadong turmeric supplier in India for UAE and GCC buyers](/blog/lakadong-turmeric-supplier-india-uae-gcc/).
+
 A well-prepared supplier should be able to: identify, from a single lot reference, every buyer who received material from that lot; explain what internal process, if any, triggered the concern on their side if the notification originated with them rather than the buyer; and describe what corrective action - additional testing, isolation of remaining stock from the same processing run, or a review of the specific process step implicated - they are taking in response.
 
 A supplier working through a pooled aggregation model, where lot separation happens only at the processing stage rather than the cooperative or farmer level, has an inherently coarser recall capability - they may be able to identify the processing run involved but not narrow the affected raw material to a specific collection point. This is not necessarily disqualifying, but it is a real limitation buyers should understand before an incident occurs, not discover during one. Our [batch traceability guide](/blog/lakadong-turmeric-batch-traceability-cooperative-shipment/) covers how to ask a supplier which traceability model they operate under.

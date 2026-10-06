@@ -32,6 +32,8 @@ Lakadong turmeric's Geographical Indication status is referenced in Indian gover
 
 For a buyer, GI-tag verification in practice means two things: first, confirming the supplier can reference the GI registration when discussing the product, rather than treating "Lakadong" purely as a marketing descriptor; and second, understanding that GI status alone is not shipment-level proof - it establishes that a protected designation exists, not that any specific batch offered to you actually qualifies for it. That second part is where traceability documentation, not GI status alone, does the real verification work.
 
+For more on this, see [batch-level traceability for Lakadong turmeric](/blog/lakadong-turmeric-batch-traceability-cooperative-shipment/).
+
 ## What Traceability Documentation Should a Genuine Supplier Produce?
 
 A supplier genuinely sourcing from West Jaintia Hills should be able to produce, in writing, an explanation of how a specific batch moves from the growing area to the export-ready shipment. In practice this traceability chain typically looks like one of the following:
@@ -43,6 +45,8 @@ A supplier genuinely sourcing from West Jaintia Hills should be able to produce,
 **Government or trade-promotion programme association.** Buyers can also ask whether the supplier's sourcing connects to any recognised value-chain development activity in the district - a legitimate supplier working within an organised regional supply chain will typically know this context and be able to speak to it, while a supplier passing off generic turmeric will not.
 
 None of these substitute for a batch-specific Certificate of Analysis, which remains the core quality-verification document covered in depth in our [curcumin content and testing guide for GCC buyers](/blog/lakadong-turmeric-curcumin-content-gcc-buyers/) - but traceability documentation is the piece that verifies origin, which testing alone does not.
+
+Buyers working through this point may also find [recall readiness for Lakadong turmeric buyers](/blog/lakadong-turmeric-recall-readiness-quality-incident-response/) useful.
 
 ## A Note on Mission Golden Spice
 

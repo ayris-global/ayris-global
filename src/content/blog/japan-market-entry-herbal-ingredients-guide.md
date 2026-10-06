@@ -58,6 +58,8 @@ faqSchema: |
 
 Japan is the most demanding and the most rewarding market in EWI's nine-market coverage for one specific reason: its functional food consumers pay a real premium for proven, well-documented ingredients, but its regulatory and certification systems give almost no benefit of the doubt to suppliers who have not done the paperwork correctly. Generic claims that worked for an EU or UAE buyer translate poorly here, and assumptions imported from either market actively mislead.
 
+Buyers working through this point may also find [entering the Australia and New Zealand market](/blog/anz-market-entry-herbal-ingredients-guide/) useful.
+
 This guide covers the three things that determine whether an Indian botanical ingredient can be sold in Japan and on what terms: the Foods with Function Claims system, JAS organic certification, and the current state of the India-Japan trade agreement. It closes with a practical first-order checklist for buyers and suppliers new to this market.
 
 ---

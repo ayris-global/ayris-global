@@ -98,6 +98,8 @@ ESMA oversees Halal certification standards and maintains the list of approved H
 
 The UAE Health Authority Abu Dhabi (HAAD) and Dubai Health Authority (DHA) have developed regulatory frameworks for traditional and complementary medicine products, including Ayurvedic and herbal preparations. This is a developing area, and regulatory requirements for traditional medicine products differ from those for dietary supplements. Suppliers and buyers working in this space should seek current regulatory guidance.
 
+Our article on [how herbal and ayurvedic products enter the GCC](/blog/gcc-herbal-ayurvedic-products-market-regulators-import-routes/) goes further.
+
 ---
 
 ## Key Buyer Categories in the UAE Market

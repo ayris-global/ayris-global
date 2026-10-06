@@ -64,6 +64,8 @@ There is no single "tea import license," but a buyer or their importer of record
 
 India holds a meaningful position in this market already: India is among the top three source countries for herbal tea entering the United States, alongside Vietnam and China, with the three together accounting for the large majority of US herbal tea imports. That existing trade relationship is a genuine advantage for an India-origin private label brand entering the US - it means inspection and compliance infrastructure for India-origin botanicals is well established - but it does not exempt any individual shipment from the same FDA and EPA scrutiny every other importer faces. Several India-origin botanicals commonly used in wellness teas, including turmeric, ginger, and ashwagandha, have been flagged in past FDA import alerts for residue or contamination issues, which makes independent pre-export testing a sound precaution rather than an optional extra step for buyers building a US-facing tea brand.
 
+Our article on [a full sourcing walkthrough](/blog/how-to-source-herbal-ingredients-india-complete-guide/) goes further.
+
 ## Format Selection Has Real Cost and Speed Tradeoffs
 
 Buyers new to tea sourcing sometimes treat packaging format as a branding decision made late in the process. It is better treated as an early decision, because it affects manufacturer selection, MOQ, and lead time.
@@ -76,7 +78,11 @@ A buyer testing a new market or a new blend before committing to a full retail l
 
 For a buyer sourcing private label tea from India for the first time, the sequence that minimizes wasted cycles looks like this: confirm the destination market's specific labeling and residue requirements before finalizing a blend, not after; request samples in the actual intended packaging format rather than a generic sample pouch, since flavor and aroma can shift slightly once a blend is bagged versus loose; confirm the manufacturer's certifications match what the destination market and retail channel actually require, rather than what the manufacturer lists as their general certification portfolio; and build in time for at least one round of sample revision before committing to a bulk production run.
 
+A related question is covered in [the first-order sourcing guide](/blog/sourcing-herbal-ingredients-india-first-order-guide/).
+
 This mirrors the general first-order discipline covered in Ayris Global's guide to sourcing herbal ingredients from India for the first time, with the tea-specific additions above layered on top.
+
+See [our sourcing process and commercial terms guides](/topics/sourcing-process-commercial-terms/) for more guides on this subject.
 
 ## The Takeaway
 

@@ -28,6 +28,8 @@ The clearest demand signal comes from UAE-based and UAE-importing nutraceutical 
 
 This segment is also the most likely to ask the right diligence questions - batch-specific HPLC testing, Certificate of Analysis with lot traceability - because their formulation and label claims depend on an accurate, verified curcumin figure rather than a marketing number.
 
+For more on this, see [sustainability checks for Lakadong turmeric buyers](/blog/lakadong-turmeric-esg-sustainability-due-diligence-buyers/).
+
 ## Demand Signal 2: Functional Food and Beverage Brands
 
 A second identifiable segment is functional food and beverage brands building products around a turmeric or curcumin positioning - turmeric shots, functional beverages, fortified snacks, and similar categories that are visibly growing across UAE retail and food service. For these buyers, Lakadong turmeric's higher curcumin content and single-origin, GI-backed story support both the functional claim and the premium positioning of the finished product.
@@ -66,6 +68,8 @@ Our [guide to sourcing Lakadong turmeric from India for the UAE market](/blog/so
 ## How Ayris Can Support UAE Market Entry
 
 Ayris Global works with verified Indian Lakadong turmeric producers and supports UAE buyers and suppliers in identifying the right market segment, validating demand fit, and navigating UAE-specific import and labelling requirements. We operate on a commission-only model - no retainer, no markup on goods.
+
+Buyers working through this point may also find [Australian biosecurity requirements for Lakadong turmeric](/blog/lakadong-turmeric-australia-biosecurity-import-requirements/) useful.
 
 ---
 

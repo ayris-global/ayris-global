@@ -39,6 +39,8 @@ This is not a coincidence of branding. Curcumin content is the primary active-co
 
 Curcumin content sets the baseline ordering, but three additional factors widen or narrow the gap between origins beyond what curcumin percentage alone would predict.
 
+Buyers working through this point may also find [pre-shipment moisture baselines by turmeric origin](/blog/turmeric-preshipment-moisture-baseline-by-origin-climate/) useful.
+
 **GI-tagged origin status.** Lakadong and Sangli both hold Geographical Indication registration - Lakadong specific to West Jaintia Hills district, Sangli registered in 2018. A documented, legally protected origin claim supports a premium independent of curcumin content, because it gives a buyer's downstream customer a verifiable origin story that a non-GI trade name like Erode or Nizamabad cannot offer in the same way. This is part of why Sangli, despite a curcumin range similar to Erode and Salem, tends to price in a higher tier: the GI status is doing work that the curcumin number alone does not capture.
 
 **Trading infrastructure and liquidity.** Erode's position as one of Asia's largest turmeric trading and auction centers gives that origin (and the closely linked Salem trade) exceptional price transparency and consistent year-round availability. This liquidity tends to keep commodity-tier pricing tight and predictable, in contrast to lower-volume origins like Lakadong, where a smaller production base and growing but still-developing export infrastructure can produce wider quote-to-quote variation.
@@ -70,6 +72,8 @@ The most common mistake in comparing quotes across origins is comparing the head
 ## A Note on Blended Sourcing Across Origins
 
 Some buyers deliberately blend a lower-cost commodity origin with a smaller proportion of a higher-curcumin origin like Lakadong to hit a target curcumin specification at a lower blended cost than sourcing Lakadong alone. This is a legitimate strategy, but as our origin comparison guide notes, any such blend should be disclosed as a blend on the specification and Certificate of Analysis, with the blend ratio and tested result of the finished blend reported - not presented as single-origin material of either component.
+
+For more on this, see [which Indian origins offer organic turmeric](/blog/organic-certified-turmeric-sourcing-india-origins/).
 
 ## How Ayris Can Support Cross-Origin Pricing Diligence
 

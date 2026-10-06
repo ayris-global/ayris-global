@@ -23,6 +23,8 @@ Our [trading structure guide](/blog/turmeric-trading-structure-mandi-auction-vs-
 
 This is not a question of curcumin grade or price tier. Two batches of identical curcumin specification, one from a drier origin with mature mechanical drying and one from a wetter origin with less developed drying infrastructure, can carry meaningfully different starting moisture content even when both pass export testing at the same nominal threshold, simply because one has a wider genuine margin below that threshold and the other is closer to it.
 
+Our article on [setting contaminant specifications by origin](/blog/turmeric-contaminant-baseline-variance-by-origin-buyer-specifications/) goes further.
+
 > **Sourcing turmeric from a origin you have not worked with before?** Ayris Global can advise on the typical drying infrastructure and moisture-risk profile of a specific origin before you commit to a purchase order. [Contact our sourcing team](/contact/)
 
 ---

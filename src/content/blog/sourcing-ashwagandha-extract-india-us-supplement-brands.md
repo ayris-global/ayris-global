@@ -94,6 +94,8 @@ In practice, FSVP means the US importer or supplement brand must:
 
 For US supplement brands who are the importer of record, this means the Indian ashwagandha supplier must be able to provide documentation that supports the brand's FSVP file. This typically includes: facility audit reports (third-party or self-audit, depending on the verification approach), a history of CoA data showing consistent testing results, and evidence of the supplier's own hazard control processes.
 
+A related question is covered in [the supplier documentation FSVP expects](/blog/fsvp-records-us-importers-indian-botanical-suppliers/).
+
 Brands who import through a US ingredient distributor or broker who handles import-of-record will often have their FSVP obligation satisfied by the distributor - but should confirm this explicitly rather than assuming.
 
 ---

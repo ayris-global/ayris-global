@@ -69,6 +69,8 @@ For most Indian herbal extracts and Ayurvedic formulations manufactured in India
 
 For the majority of standard Indian botanical and Ayurvedic ingredient exports — ashwagandha, tulsi, triphala, neem, boswellia, amla, and similar — grown and processed in India, rules of origin compliance is not a practical barrier.
 
+Our article on [herbal tea gifting for the GCC market](/blog/ramadan-wellness-gifting-herbal-tea-india-uae/) goes further.
+
 ## Certificate of Origin: The Key Document
 
 To claim CEPA preferential tariff treatment at UAE customs, the exporter must provide a valid Certificate of Origin (CoO) issued under the CEPA framework.
@@ -117,6 +119,8 @@ It is equally important for buyers to understand the limits of CEPA's scope:
 India-UAE CEPA was the first of a new generation of Indian bilateral trade agreements and has been followed by agreements with Australia (ECTA, entered into force 2022) and ongoing negotiations with the EU, UK, Canada, and GCC as a bloc.
 
 For buyers with multi-market sourcing strategies, this trajectory is significant. India is systematically building a preferential trade agreement network that progressively improves the economics of Indian-origin goods across major wellness markets. Buyers who establish India supply chains now — and build the supplier relationships, documentation capabilities, and compliance infrastructure — will be better positioned to capture compounding tariff advantages as additional agreements come into force.
+
+For more on this, see [the UAE herbal wellness market](/blog/uae-herbal-wellness-market-2025/).
 
 The UK-India Free Trade Agreement, under negotiation as of mid-2026, is expected to include significant provisions for agricultural and processed food products including herbal ingredients. EU-India FTA negotiations, similarly active, would be transformative for Indian botanical exports to Europe if concluded. Buyers building India sourcing programmes today are positioning ahead of what is likely to become a significantly more favourable trade environment.
 

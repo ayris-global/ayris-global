@@ -59,6 +59,8 @@ Before committing to any MOQ, most experienced buyers request a sample first. In
 
 Once a sample is approved, the next step for a first-time buyer is frequently a **trial order** - a quantity below the supplier's stated commercial MOQ, often in the 25kg to 100kg range depending on ingredient category, priced at a premium that reflects the same fixed-cost dynamic driving MOQ itself. Buyers should treat this premium as the cost of qualifying a new supplier relationship on a smaller volume before scaling to a full commercial order, not as evidence of being overcharged.
 
+Buyers working through this point may also find [moving from a first order to an annual supply agreement](/blog/scaling-trial-to-annual-supply-agreement-india-herbal-ingredients/) useful.
+
 Framing a request explicitly as a trial order ahead of an anticipated recurring commitment - rather than simply asking for less than the MOQ with no further context - materially improves a supplier's willingness to accommodate it, since it signals a path to a batch-sized order later rather than a one-off request the supplier has no reason to prioritize.
 
 ---
@@ -80,6 +82,8 @@ Four approaches account for most successful below-MOQ orders in practice:
 ## When a Low MOQ Is a Red Flag - and When It Isn't
 
 A supplier willing to accept an unusually small order without any of the friction described above is not automatically suspicious, but it does warrant the same verification any quote deserves. The most common explanation is that the supplier is a trading company reselling from an existing stock lot rather than a manufacturer running a dedicated batch - a legitimate model, but one where traceability to a specific farm or production run, and consistency across future orders, is different from a manufacturer-direct relationship.
+
+A related question is covered in [choosing a sourcing model for Indian ingredients](/blog/direct-import-vs-sourcing-agent-vs-trading-company-india/).
 
 Buyers evaluating a low-MOQ offer should request the same documentation regardless of order size: a Certificate of Analysis for the specific lot being offered, GMP or equivalent certification status, and - where relevant - organic or Halal certification documents. A legitimate low-MOQ supplier will provide these without hesitation; one unable to produce lot-specific documentation for a small order is a signal to verify further before scaling any relationship.
 

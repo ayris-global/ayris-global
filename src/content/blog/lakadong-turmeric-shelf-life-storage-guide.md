@@ -13,6 +13,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Passing quality testing at the point of import is not the end of a Lakadong turmeric buyer's quality responsibility - it is the beginning of a storage period during which that same batch can degrade below specification if handled poorly. This guide covers how long Lakadong turmeric holds its quality after import and the storage practices that protect it.
 
+For more on this, see [planning for a Lakadong turmeric recall](/blog/lakadong-turmeric-recall-readiness-quality-incident-response/).
+
 **Quick answer:** Properly stored Lakadong turmeric fingers typically hold within specification for around 18-24 months and powder for around 12-18 months, provided storage stays below roughly 60% relative humidity and 25 C, away from light, in moisture-barrier packaging with minimal air exposure. Powder degrades faster than fingers due to greater surface area exposure, and poor storage can push a batch below specification well before these general windows regardless of how it tested at import.
 
 ---
@@ -20,6 +22,8 @@ Passing quality testing at the point of import is not the end of a Lakadong turm
 ## Why Does Post-Import Storage Matter as Much as Import-Time Testing?
 
 A Certificate of Analysis describes a batch's composition at a single point in time - typically at or near the point of manufacture or export. It is not a permanent guarantee. Curcuminoids, the active compounds behind Lakadong turmeric's premium positioning, are chemically sensitive to heat, light, oxygen, and moisture, and continue to degrade throughout the storage period regardless of how strong the original test results were. A buyer who tests rigorously at import but stores carelessly afterward can still end up distributing or reformulating with material that no longer meets the specification it was purchased against.
+
+Buyers working through this point may also find [halal positioning for Lakadong turmeric in Southeast Asia](/blog/lakadong-turmeric-malaysia-indonesia-jakim-halal-curcumin-positioning/) useful.
 
 This matters more for Lakadong turmeric specifically because buyers are paying a premium for a curcumin profile at the upper end of what Indian turmeric varieties typically offer - see our [curcumin content and HPLC testing guide](/blog/lakadong-turmeric-curcumin-content-gcc-buyers/) for how that content is verified at the point of purchase. Losing potency through poor storage erodes the exact value the premium price was paying for.
 

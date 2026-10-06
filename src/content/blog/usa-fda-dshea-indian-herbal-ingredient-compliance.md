@@ -17,6 +17,8 @@ For US buyers sourcing these ingredients from India, the regulatory environment 
 
 This guide covers the US regulatory requirements that directly affect international buyers sourcing herbal ingredients from India: the DSHEA framework, cGMP manufacturing standards, FDA facility registration, New Dietary Ingredient (NDI) notifications, and California Proposition 65. It is written for procurement managers, regulatory affairs teams, and brand founders making their first or ongoing India sourcing decisions.
 
+Buyers working through this point may also find [NDI requirements for US buyers of Indian ingredients](/blog/ndi-notification-herbal-ingredients-usa/) useful.
+
 ---
 
 ## The DSHEA Framework: What It Means for Ingredient Buyers
@@ -112,6 +114,8 @@ Note that Prop 65 applies to products sold in California regardless of where the
 ## FSMA Foreign Supplier Verification Program
 
 The Food Safety Modernization Act (FSMA) Foreign Supplier Verification Program (FSVP), fully effective for dietary supplement ingredients, requires US importers to perform risk-based activities to verify that their foreign suppliers are producing food and dietary supplement ingredients in a manner that meets US safety standards.
+
+Our article on [FSVP supplier records](/blog/fsvp-records-us-importers-indian-botanical-suppliers/) goes further.
 
 FSVP applies to the US importer - the person in the US who purchases or consigns the imported ingredient. It does not apply to the Indian supplier directly, but it creates documentation obligations that flow back to your supplier verification activities.
 

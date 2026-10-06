@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Sourcing Lakadong turmeric directly from India, rather than through a UAE-based intermediary or re-exporter, gives buyers more control over specification, pricing, and traceability - but it also shifts more of the diligence and process burden onto the buyer. This guide walks through the practical sequence a UAE buyer should follow, from identifying a legitimate supplier through to first shipment.
 
+Our article on [the difference between Lakadong and other turmeric](/blog/lakadong-turmeric-vs-regular-indian-turmeric-difference/) goes further.
+
 **Quick answer:** Direct sourcing of Lakadong turmeric from India for the UAE market involves identifying a supplier with verifiable export credentials and traceability to the West Jaintia Hills growing region, requesting a batch-specific sample and Certificate of Analysis, agreeing a locked specification and trial-order MOQ, and confirming export documentation (phytosanitary certificate, Certificate of Origin, commercial invoice) before shipment on agreed Incoterms.
 
 ---
@@ -80,11 +82,15 @@ FOB (Free on Board) and CIF (Cost, Insurance, Freight) are the two most common I
 
 Beyond documentation checks, buyers should ask for supplier references from other international buyers where possible, review any available export shipment history, and treat unusually low pricing relative to other quotes as a signal to increase scrutiny rather than an opportunity to move faster.
 
+A related question is covered in [Lakadong turmeric history and its GI tag](/blog/lakadong-turmeric-origin-history-gi-tag-story/).
+
 ## First-Order Process
 
 A structured first-order sequence: (1) identify and shortlist two to three candidate suppliers, (2) request samples tied to specific batches from each, (3) commission independent testing on the strongest sample(s), (4) lock a written specification with the selected supplier, (5) place a trial order sized as a qualification step, (6) verify documentation and physical goods on arrival against the agreed specification, and (7) move to a standing or annual supply arrangement only once the trial order has been verified end-to-end.
 
 ---
+
+See [all Lakadong turmeric guides](/topics/lakadong-turmeric/) for more guides on this subject.
 
 ## Frequently Asked Questions
 

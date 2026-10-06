@@ -13,7 +13,11 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 The step between a promising email exchange and a first commercial order from an Indian herbal ingredient supplier is almost always a sample. It is also the step most likely to go wrong in small, avoidable ways - an unclear cost split, a sample that does not match what the buyer actually needs to evaluate, or a customs hold that turns a five-day courier estimate into three weeks with no communication in between.
 
+A related question is covered in [scaling a trial order into annual supply](/blog/scaling-trial-to-annual-supply-agreement-india-herbal-ingredients/).
+
 This guide walks through how the sample request process actually works: what to ask for, what it costs, realistic timelines, and what to verify before treating a sample result as a green light for a bulk order.
+
+Buyers working through this point may also find [lead times from first lot to bulk by turmeric origin](/blog/turmeric-sample-to-bulk-lead-times-by-origin/) useful.
 
 ---
 

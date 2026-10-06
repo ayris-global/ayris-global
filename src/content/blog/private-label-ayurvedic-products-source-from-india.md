@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Private label Ayurvedic sourcing from India is one of the highest-margin opportunities available to wellness brands today. The combination of India's deep botanical raw material base, established extraction and formulation capabilities, competitive manufacturing costs, and improving export infrastructure makes it a compelling option for brands in the EU, UK, USA, UAE, Australia, South Korea, and beyond.
 
+For more on this, see [private label herbal tea sourcing from India](/blog/private-label-herbal-tea-sourcing-india-guide/).
+
 But the gap between the opportunity and a successful execution is significant. Brands that approach Indian private label sourcing without a structured process routinely encounter regulatory surprises, quality inconsistencies, MOQ mismatches, and lead time failures. This guide provides the framework to avoid those outcomes.
 
 ## What Private Label Ayurvedic Sourcing Actually Means

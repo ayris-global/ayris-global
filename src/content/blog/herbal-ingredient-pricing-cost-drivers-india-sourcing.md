@@ -13,6 +13,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 When international buyers compare quotes for Indian herbal ingredients, price variation between suppliers is almost always the first question that arises. The same ingredient - ashwagandha root extract, turmeric curcumin, moringa leaf powder, boswellia resin extract - can carry prices that differ substantially across suppliers responding to the same enquiry. Understanding why requires understanding the cost structure of Indian herbal ingredient manufacturing, not just the market price.
 
+A related question is covered in [what ashwagandha extract costs from India](/blog/ashwagandha-extract-price-india-international-buyers/).
+
 This guide explains the primary cost drivers that determine the price of a botanical ingredient sourced from India, the factors that cause prices to vary between suppliers and over time, and what buyers should look for when evaluating a quote to assess whether a price difference reflects genuine value or undisclosed quality trade-offs.
 
 ---

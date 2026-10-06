@@ -69,6 +69,8 @@ The term adaptogen describes a botanical traditionally believed to help the body
 
 For commercial purposes, what matters is that "adaptogen" has become a category consumers recognise and actively search for, and that regulators in most major markets treat as a legitimate functional ingredient claim area (subject to the specific health claim regulations of each market). Brands building stress, sleep, cognitive, energy, or hormonal wellness product lines now routinely lead with adaptogen positioning, and ashwagandha, shatavari, and brahmi are the three Indian botanicals most central to that positioning.
 
+Buyers working through this point may also find [sourcing ashwagandha extract for US supplement brands](/blog/sourcing-ashwagandha-extract-india-us-supplement-brands/) useful.
+
 ## Ashwagandha: The Commercial Anchor
 
 Ashwagandha (Withania somnifera) is, by a wide margin, the most commercially significant adaptogen in global trade today. Global demand has grown at double-digit annual rates for several consecutive years, driven by its position at the center of the mainstream stress and sleep supplement category - a category that has expanded well beyond the wellness-specialist consumer into general retail, pharmacy, and grocery channels across the EU, UK, USA, and increasingly UAE/GCC and ANZ.
@@ -84,6 +86,8 @@ Buyers sourcing ashwagandha should be aware of the root-versus-root-and-leaf dis
 ## Shatavari: The Fastest-Growing of the Three
 
 Shatavari (Asparagus racemosus) has a smaller current trade volume than ashwagandha, but its growth rate is currently outpacing it. The driver is concentrated and specific: a sustained increase in women's wellness and hormonal health formulation activity, particularly in the EU and US, where brands are actively seeking botanical ingredients positioned around female-specific life stages - menstrual health, perimenopause, and broader hormonal balance categories.
+
+Buyers working through this point may also find [sourcing Shatavari for women's wellness products](/blog/shatavari-womens-wellness-buyers-guide/) useful.
 
 **What buyers should know about shatavari specification:**
 

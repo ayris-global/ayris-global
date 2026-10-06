@@ -12,6 +12,8 @@ faqSchema: '{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 Exporting Lakadong turmeric from India to the UAE requires a defined set of certificates and declarations - covering plant health, origin, quality, and customs classification - that must be assembled correctly before goods leave India and that UAE import rules require on arrival. Missing or mismatched documentation is one of the most common causes of customs delay for herbal ingredient shipments, and it is entirely avoidable with a documentation checklist agreed before the first order ships.
 
+Our article on [importing Lakadong turmeric into Australia](/blog/lakadong-turmeric-australia-biosecurity-import-requirements/) goes further.
+
 **Quick answer:** Exporting Lakadong turmeric to the UAE requires an Importer Exporter Code (IEC) and FSSAI license held by the Indian exporter, a commercial invoice and packing list, a Certificate of Origin, a phytosanitary certificate from India's Plant Quarantine authority, and a batch-specific Certificate of Analysis - classified under HS code 0910 30 and labelled on arrival to meet UAE country-of-origin and Arabic-language requirements.
 
 ---
@@ -52,6 +54,8 @@ UAE food import regulation requires that imported food products, including turme
 ## Does Lakadong Turmeric Require Halal Certification for GCC Distribution?
 
 Halal certification is not universally mandatory for raw turmeric imports into the UAE, but it becomes commercially relevant where the turmeric will be incorporated into food, beverage, or nutraceutical products marketed as Halal, or where downstream GCC distribution partners require it as a condition of stocking the product. Buyers planning onward distribution into Saudi Arabia or other GCC markets with stricter Halal enforcement should review requirements in our [Halal certification guide for UAE and GCC markets](/blog/halal-certification-indian-herbal-ingredients-uae-gcc/) before finalising a supplier agreement.
+
+Our article on [importing herbal ingredients into Saudi Arabia](/blog/saudi-arabia-sfda-route-indian-herbal-ingredients/) goes further.
 
 ## What Testing Documentation Should Accompany the Shipment?
 

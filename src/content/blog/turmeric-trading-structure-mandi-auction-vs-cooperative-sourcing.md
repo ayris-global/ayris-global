@@ -23,6 +23,8 @@ This guide sets out how turmeric trading structure differs across India's major 
 
 Our origin comparison guide sets out what each of India's six best-known turmeric origins is known for - curcumin content, color, GI status. None of that describes how the raw material actually moves from a farmer's field to an exporter's warehouse, and that mechanism varies meaningfully across origins in ways that affect a buyer's negotiating position, price visibility, and traceability options, independent of which origin's curcumin profile or price tier they have chosen.
 
+For more on this, see [moisture risk in turmeric by origin](/blog/turmeric-preshipment-moisture-baseline-by-origin-climate/).
+
 Two structural models dominate Indian turmeric trade, and most origins lean clearly toward one or the other.
 
 ---
@@ -34,6 +36,8 @@ Two structural models dominate Indian turmeric trade, and most origins lean clea
 ## Model One: Auction and Mandi Trading
 
 Erode, in Tamil Nadu, is widely cited as one of Asia's largest turmeric trading and auction centers, and the closely linked Salem trade operates on a similar model. In this structure, turmeric harvested by a large number of independent farmers across the region is brought to regulated agricultural produce market committee (APMC) mandis, where it is auctioned in open lots to a large pool of competing licensed traders and commission agents on a near-daily basis during the trading season.
+
+Buyers working through this point may also find [meeting traceability rules for turmeric](/blog/turmeric-traceability-fsma-eudr-standards-by-trading-structure/) useful.
 
 **Price transparency.** Daily auction results are a matter of public trade record within the mandi system, giving buyers and their sourcing agents a continuously updated reference price that reflects real transacted volume rather than a single supplier's quoted figure. This is the mechanism behind the price liquidity our pricing benchmarks guide describes for Erode and Salem - a large number of transactions each trading day produces a tight, well-referenced price band.
 

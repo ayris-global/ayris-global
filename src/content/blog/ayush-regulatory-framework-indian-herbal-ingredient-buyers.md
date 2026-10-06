@@ -199,6 +199,8 @@ NABL-accredited lab test reports that are not batch-specific. COAs should refere
 
 The AYUSH Ministry, FSSAI, and CDSCO form a three-part regulatory architecture for Indian herbal ingredients. Understanding which regulator applies to your specific ingredient -- and which documents flow from that regulatory relationship -- is the foundation of effective supplier due diligence. GMP compliance is the manufacturing quality baseline; WHO-GMP is the international export credential. Organic certification via NPOP is recognised in the EU but requires separate USDA NOP certification for the US market. Free Sale Certificates, batch-specific COAs, and Transaction Certificates for organic shipments are non-negotiable documentation requirements for legitimate international trade.
 
+Buyers working through this point may also find [contract manufacturing of herbal capsules in India](/blog/herbal-capsule-dosage-form-contract-manufacturing-india/) useful.
+
 The Indian herbal ingredient sector has a formal, government-backed regulatory infrastructure. Buyers who understand it are better positioned to ask the right questions, verify the right documents, and identify suppliers who are genuinely compliant from those who are presenting an appearance of compliance.
 
 ---

@@ -29,6 +29,8 @@ Graded whole-herb powder is dried Lakadong turmeric rhizome, cleaned and ground 
 
 This is the product form most commonly associated with the general Lakadong turmeric MOQ, packaging, and export structure covered in our [MOQ, packaging, and pricing guide](/blog/lakadong-turmeric-moq-packaging-pricing-tiers/). It suits applications where a full-spectrum, minimally processed positioning is the commercial goal - private-label retail powder, culinary and food-color use, and capsule or tablet formulations that do not require a guaranteed curcuminoid percentage floor. Because it is not purified or concentrated, its curcumin content sits within the variety's natural range rather than at a manufactured standardization point, and confirming that range for a specific batch is exactly what HPLC testing is for.
 
+For more on this, see [Lakadong turmeric import rules for Australia](/blog/lakadong-turmeric-australia-biosecurity-import-requirements/).
+
 ## Oleoresin
 
 Oleoresin is produced by solvent extraction of the dried rhizome, pulling the curcuminoids and volatile oil into a concentrated fraction while leaving most of the starch and fiber behind. The result is a thick, dark, resinous semi-solid rather than a free-flowing powder - a materially different physical product from either whole-herb powder or a purified extract powder.
@@ -66,6 +68,8 @@ Not every supplier that grades and packs whole-herb powder is equipped to run so
 ## How This Fits With Our Other Lakadong Turmeric Guides
 
 This guide addresses which physical product form to request before a curcumin grade, MOQ, or formulation conversation begins. For curcumin percentage verification once a product form is chosen, see our [curcumin content and HPLC testing guide](/blog/lakadong-turmeric-curcumin-content-gcc-buyers/). For order volume, packaging, and pricing tiers, see our [MOQ, packaging, and pricing guide](/blog/lakadong-turmeric-moq-packaging-pricing-tiers/). For formulation behavior once a product form has entered a finished product, see our [formulating guide for functional food and beverage manufacturers](/blog/lakadong-turmeric-formulating-functional-food-beverage/).
+
+Our article on [temperature, humidity and packaging risk in transit](/blog/lakadong-turmeric-transit-temperature-humidity-packaging/) goes further.
 
 ## How Ayris Can Support Product Form Selection
 

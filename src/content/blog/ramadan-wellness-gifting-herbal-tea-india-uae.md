@@ -17,6 +17,8 @@ The date box and the generic hamper — longstanding Ramadan staples — have no
 
 For B2B buyers — corporate gifting companies, wellness brands, private label tea producers, hospitality procurement teams, and retail buyers sourcing for the GCC market — this shift creates a specific, time-sensitive sourcing opportunity. And for those who understand it, Indian herbal teas sit at its centre.
 
+For more on this, see [UAE demand for herbal wellness ingredients](/blog/uae-herbal-wellness-market-2025/).
+
 ---
 
 ## Why Wellness Gifting Is Winning Ramadan
@@ -50,6 +52,8 @@ Understanding why herbal tea resonates so strongly as a Ramadan wellness gift re
 ## Why Indian Herbal Teas Specifically
 
 India is the world's most significant source of the botanical ingredients that go into premium herbal teas. Tulsi (Holy Basil) is native to the Indian subcontinent and is cultivated extensively in Madhya Pradesh, Uttar Pradesh, and other Indian states. Ashwagandha, one of Ayurveda's most celebrated adaptogenic herbs, is grown primarily in Rajasthan and Madhya Pradesh. Ginger and turmeric — two globally popular tea ingredients with strong digestive and anti-inflammatory reputations — are produced at significant scale in Kerala, Karnataka, and Assam. Moringa, chamomile, rose petals, hibiscus (Roselle), and a wide range of other botanicals with genuine functional credentials are all sourced from Indian growing regions with the ecological conditions, traditional knowledge, and cultivation infrastructure to produce them at quality.
+
+Buyers working through this point may also find [the Tulsi sourcing guide](/blog/tulsi-holy-basil-export-guide/) useful.
 
 The combination of biodiversity, Ayurvedic heritage, and India's established organic certification infrastructure — NPOP certification recognised by the EU and USA, halal certification available from accredited Indian bodies — makes India uniquely positioned to supply premium herbal tea ingredients that are both authentically functional and compliantly documented for GCC market requirements.
 

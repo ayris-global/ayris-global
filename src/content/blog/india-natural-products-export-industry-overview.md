@@ -12,6 +12,8 @@ India has been a source of medicinal plants, spices, and botanical knowledge for
 
 For international buyers sourcing botanical extracts, herbal powders, Ayurvedic actives, nutraceutical ingredients, and essential oils, India represents one of the most strategically important sourcing destinations in the world. Understanding the structure of the Indian natural products export industry â what it produces, how it is regulated, which markets it serves, and how to navigate it as a buyer â is foundational intelligence for anyone operating in the global wellness supply chain.
 
+A related question is covered in [GCC regulators and import routes for herbal products](/blog/gcc-herbal-ayurvedic-products-market-regulators-import-routes/).
+
 This overview provides exactly that: a structured briefing on the Indian natural products export industry, written for international procurement teams, product developers, brand founders, and sourcing managers who want to make informed, confident decisions about India as a supplier country.
 
 ---
@@ -115,6 +117,8 @@ The Ministry of AYUSH is the primary regulatory body for Ayurvedic, Unani, Siddh
 ### FSSAI for Food-Category Products
 
 Products positioned as health supplements, nutraceuticals, or functional food ingredients fall under FSSAI (Food Safety and Standards Authority of India) regulation. Exporters require a Central FSSAI licence. FSSAI compliance gives international food and supplement buyers confidence that their Indian ingredient suppliers operate under a formal food safety management system.
+
+A related question is covered in [SFDA requirements for herbal ingredients](/blog/saudi-arabia-sfda-route-indian-herbal-ingredients/).
 
 ### WHO-GMP and cGMP Certification
 

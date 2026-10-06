@@ -102,6 +102,8 @@ Prepared for every shipment. Must show HS code, product description, quantity, u
 
 The batch-specific quality document. For herbal extracts this should show identity confirmation, the relevant active-constituent assay, heavy metals, pesticide residues, and microbial limits, issued by an accredited (ideally NABL) laboratory. This document is prepared by the exporter or their contracted lab, not by a government authority, but buyers in regulated markets increasingly expect it to be independently verifiable rather than self-certified.
 
+Our article on [pesticide residue limits for herbal ingredients in Great Britain and the EU](/blog/gb-vs-eu-pesticide-residue-limits-indian-herbal-ingredients/) goes further.
+
 ### Phytosanitary Certificate
 
 Issued by India's Plant Quarantine authority - the Directorate of Plant Protection, Quarantine and Storage (PQIS) - for plant-based material where the destination country requires it. Application is made through the PQIS portal (pqis.gov.in) using the exporter's IEC and GST details. An NPPO inspector visits the exporter's premises or warehouse within 24-48 hours of application to inspect the consignment. Normal processing is 3 to 5 working days after inspection; add 5 to 7 working days if the destination requires laboratory testing of a sample. The certificate is typically valid only 14 to 30 days from issue - apply against a confirmed shipment date, not an estimated one, since both applying too early (certificate expires before shipment) and too late (missing the inspection window) cause delays.

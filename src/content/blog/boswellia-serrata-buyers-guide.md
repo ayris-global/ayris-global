@@ -120,6 +120,8 @@ Boswellia serrata combines a genuinely solid and improving clinical evidence bas
 
 On sourcing, the conservation picture is more favorable than general frankincense sustainability commentary suggests, but only for the Indian species specifically. Boswellia serrata's 2024 IUCN assessment of Least Concern, with a stable population and a sustainable tapping method, is a meaningfully different position than the genuinely threatened Socotran and East African Boswellia species that some sustainability narratives conflate it with. Buyers who confirm species, country of origin, and standardization basis directly with their supplier are managing both a substantiation risk and an unnecessary reputational one.
 
+Our article on [the Shatavari buyer guide](/blog/shatavari-womens-wellness-buyers-guide/) goes further.
+
 ---
 
 ## Frequently Asked Questions
