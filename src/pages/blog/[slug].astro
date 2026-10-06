@@ -271,13 +271,17 @@ const categoryMeta: Record<string, { label: string; color: string }> = {
     color: var(--ink);
     font-weight: 600;
   }
-  .prose a {
+  /* Article body is rendered from markdown, so scoped selectors do not reach it: use :global */
+  .prose :global(a) {
     color: var(--ink);
     text-decoration: underline;
-  text-decoration-color: var(--turmeric);
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
+    text-decoration-color: var(--turmeric);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  .prose :global(a:hover) {
+    text-decoration-color: var(--ink);
+  }
   .prose blockquote {
     border-left: 3px solid var(--turmeric);
     padding-left: 20px;
